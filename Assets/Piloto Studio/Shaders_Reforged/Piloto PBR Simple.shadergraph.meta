@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a12661a1fa0c1a147a4868ab226c2468
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 323382
+  packageName: Cute Character Pack - 18 Characters + Animations
+  packageVersion: 1.0
+  assetPath: Assets/Piloto Studio/Shaders_Reforged/Piloto PBR Simple.shadergraph
+  uploadId: 783362
