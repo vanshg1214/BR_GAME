@@ -1,0 +1,1160 @@
+fileFormatVersion: 2
+guid: be6d1da9257a06d4386e278800fe6a44
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Squirrel Walk In Place
+  - first:
+      74: 1220767410887678556
+    second: Squirrel Run In Place
+  - first:
+      74: 3901951976845556090
+    second: Squirrel Roll In Place
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Squirrel Walk In Place
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel
+          L Foot
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel
+          L Foot/Squirrel L Toe0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel
+          R Foot
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel
+          R Foot/Squirrel R Toe0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand/Squirrel
+          L Finger0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Hair
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel L Lower Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel R Lower Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue/Squirrel Tongue02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02/Squirrel L Ear03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Eye
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Eyebrow
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Lower Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Upper Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Upper Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Nose
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02/Squirrel R Ear03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Eye
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Eyebrow
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Lower Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Upper Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Upper Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand/Squirrel
+          R Finger0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+          Tail04
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+          Tail04/Squirrel Tail05
+        weight: 1
+      - path: Squirrel Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: bbdb954ad2728904ab80b3c276b54028, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Squirrel Run In Place
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 25
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel
+          L Foot
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel
+          L Foot/Squirrel L Toe0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel
+          R Foot
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel
+          R Foot/Squirrel R Toe0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand/Squirrel
+          L Finger0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Hair
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel L Lower Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel R Lower Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue/Squirrel Tongue02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02/Squirrel L Ear03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Eye
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Eyebrow
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Lower Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Upper Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Upper Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Nose
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02/Squirrel R Ear03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Eye
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Eyebrow
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Lower Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Upper Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Upper Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand/Squirrel
+          R Finger0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+          Tail04
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+          Tail04/Squirrel Tail05
+        weight: 1
+      - path: Squirrel Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: bbdb954ad2728904ab80b3c276b54028, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Squirrel Roll In Place
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 50
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel
+          L Foot
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel
+          L Foot/Squirrel L Toe0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel
+          R Foot
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel
+          R Foot/Squirrel R Toe0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand/Squirrel
+          L Finger0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Hair
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel L Lower Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel R Lower Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue/Squirrel Tongue02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02/Squirrel L Ear03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Eye
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Eyebrow
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Lower Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Upper Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel L Upper Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel Nose
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02/Squirrel R Ear03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Eye
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Eyebrow
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Lower Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Upper Eyelid
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          Neck/Squirrel Head/Squirrel R Upper Mouth
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+          R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand/Squirrel
+          R Finger0
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+          Tail04
+        weight: 1
+      - path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+          Tail04/Squirrel Tail05
+        weight: 1
+      - path: Squirrel Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: bbdb954ad2728904ab80b3c276b54028, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Squirrel Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Squirrel Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Squirrel(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000052236027, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Squirrel Mesh
+      parentName: Squirrel(Clone)
+      position: {x: -0, y: 0, z: 0.000000027398254}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Squirrel
+      parentName: Squirrel(Clone)
+      position: {x: -0.0000000025276843, y: 0.15832463, z: -0.057826694}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Squirrel Pelvis
+      parentName: Squirrel
+      position: {x: -0.057826698, y: -0.000000022309012, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Squirrel Spine
+      parentName: Squirrel Pelvis
+      position: {x: -0.04796071, y: -0.000057554244, z: 0.000000066591674}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Squirrel Spine1
+      parentName: Squirrel Spine
+      position: {x: -0.07229929, y: -0.000056557656, z: -1.5686055e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: Squirrel Spine2
+      parentName: Squirrel Spine1
+      position: {x: -0.07229086, y: -0.000057516096, z: -1.5952537e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: Squirrel Neck
+      parentName: Squirrel Spine2
+      position: {x: -0.07789787, y: 0.011720896, z: 0.0000000144910155}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Squirrel Head
+      parentName: Squirrel Neck
+      position: {x: -0.07793319, y: 0.019929437, z: 0.000000024240325}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 0.9999997, z: 0.9999999}
+    - name: Squirrel Nose
+      parentName: Squirrel Head
+      position: {x: -0.074620895, y: 0.24199523, z: 0.00000032888067}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 1, z: 0.9999997}
+    - name: Squirrel L Eyebrow
+      parentName: Squirrel Head
+      position: {x: -0.19684173, y: 0.14843698, z: 0.05574825}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+    - name: Squirrel R Eyebrow
+      parentName: Squirrel Head
+      position: {x: -0.19684173, y: 0.14843728, z: -0.055747416}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1}
+    - name: Squirrel L Upper Eyelid
+      parentName: Squirrel Head
+      position: {x: -0.13667984, y: 0.11327724, z: 0.082225405}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Squirrel L Lower Eyelid
+      parentName: Squirrel Head
+      position: {x: -0.14008392, y: 0.1133528, z: 0.082046375}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Squirrel L Ear
+      parentName: Squirrel Head
+      position: {x: -0.29986244, y: -0.037202563, z: 0.08607772}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1}
+    - name: Squirrel L Ear02
+      parentName: Squirrel L Ear
+      position: {x: -0.16496807, y: -0.000082817074, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Squirrel L Ear03
+      parentName: Squirrel L Ear02
+      position: {x: -0.104019165, y: -0.000052337644, z: 0.0000024747849}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Squirrel L Mouth
+      parentName: Squirrel Head
+      position: {x: -0.052302625, y: 0.16022581, z: 0.040268525}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 1, z: 0.99999964}
+    - name: Squirrel L Upper Mouth
+      parentName: Squirrel Head
+      position: {x: -0.056429822, y: 0.22979932, z: 0.03952929}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Squirrel R Upper Mouth
+      parentName: Squirrel Head
+      position: {x: -0.056429863, y: 0.22979955, z: -0.039528016}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Squirrel Jaw
+      parentName: Squirrel Head
+      position: {x: -0.06855423, y: 0.08290274, z: 0.00000016360438}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: Squirrel L Lower Mouth
+      parentName: Squirrel Jaw
+      position: {x: -0.096067406, y: -0.02144554, z: 0.016759751}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Squirrel R Lower Mouth
+      parentName: Squirrel Jaw
+      position: {x: -0.09606743, y: -0.021445464, z: -0.016759867}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 1.0000002}
+    - name: Squirrel Tongue
+      parentName: Squirrel Jaw
+      position: {x: -0.096482374, y: -0.011434364, z: 0.00000005300375}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000001}
+    - name: Squirrel Tongue02
+      parentName: Squirrel Tongue
+      position: {x: -0.031020107, y: -0.00002040863, z: -5.660695e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Squirrel R Upper Eyelid
+      parentName: Squirrel Head
+      position: {x: -0.13667984, y: 0.1132777, z: -0.08222479}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: Squirrel R Mouth
+      parentName: Squirrel Head
+      position: {x: -0.052302625, y: 0.16022602, z: -0.04026764}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Squirrel R Lower Eyelid
+      parentName: Squirrel Head
+      position: {x: -0.14008388, y: 0.113353275, z: -0.08204573}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 0.9999998}
+    - name: Squirrel R Ear
+      parentName: Squirrel Head
+      position: {x: -0.29986244, y: -0.037202083, z: -0.086077906}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Squirrel R Ear02
+      parentName: Squirrel R Ear
+      position: {x: -0.16496807, y: -0.000082817074, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999964, z: 0.9999999}
+    - name: Squirrel R Ear03
+      parentName: Squirrel R Ear02
+      position: {x: -0.104019165, y: -0.00005241394, z: -0.0000024843216}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999976}
+    - name: Squirrel R Eye
+      parentName: Squirrel Head
+      position: {x: -0.13678806, y: 0.11318436, z: -0.082292676}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 0.99999976}
+    - name: Squirrel Hair
+      parentName: Squirrel Head
+      position: {x: -0.33248138, y: 0.055799704, z: 0.0009254079}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999976}
+    - name: Squirrel L Eye
+      parentName: Squirrel Head
+      position: {x: -0.13678806, y: 0.11318389, z: 0.08229331}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1}
+    - name: Squirrel L Clavicle
+      parentName: Squirrel Spine2
+      position: {x: -0.063745424, y: -0.013320694, z: 0.016253212}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: Squirrel L UpperArm
+      parentName: Squirrel L Clavicle
+      position: {x: -0.054216452, y: -0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000005}
+    - name: Squirrel L Forearm
+      parentName: Squirrel L UpperArm
+      position: {x: -0.09822766, y: 0.0000000047683715, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Squirrel L Hand
+      parentName: Squirrel L Forearm
+      position: {x: -0.07502808, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 0.99999994, y: 1.0000007, z: 1.0000007}
+    - name: Squirrel L Finger0
+      parentName: Squirrel L Hand
+      position: {x: -0.04064513, y: 0, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000006}
+    - name: Squirrel R Clavicle
+      parentName: Squirrel Spine2
+      position: {x: -0.063745424, y: -0.013320599, z: -0.016253287}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: Squirrel R UpperArm
+      parentName: Squirrel R Clavicle
+      position: {x: -0.054216452, y: -0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000006}
+    - name: Squirrel R Forearm
+      parentName: Squirrel R UpperArm
+      position: {x: -0.09822765, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000005}
+    - name: Squirrel R Hand
+      parentName: Squirrel R Forearm
+      position: {x: -0.075028054, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Squirrel R Finger0
+      parentName: Squirrel R Hand
+      position: {x: -0.04064515, y: 0, z: 0}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: Squirrel L Thigh
+      parentName: Squirrel Pelvis
+      position: {x: 0.00000012397766, y: 0.00000012874602, z: 0.092415705}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.9999999, y: 1, z: 0.99999976}
+    - name: Squirrel L Calf
+      parentName: Squirrel L Thigh
+      position: {x: -0.07770775, y: 0.0000000047683715, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Squirrel L Foot
+      parentName: Squirrel L Calf
+      position: {x: -0.046514597, y: -0.000000009536743, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Squirrel L Toe0
+      parentName: Squirrel L Foot
+      position: {x: -0.020369804, y: 0.14522988, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Squirrel Tail
+      parentName: Squirrel Pelvis
+      position: {x: -0.0003995037, y: -0.09817181, z: 0.0000002017563}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: Squirrel Tail02
+      parentName: Squirrel Tail
+      position: {x: -0.15485851, y: -0.00009953976, z: -2.760862e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Squirrel Tail03
+      parentName: Squirrel Tail02
+      position: {x: -0.17886986, y: -0.00015586853, z: -4.3222825e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Squirrel Tail04
+      parentName: Squirrel Tail03
+      position: {x: -0.21157596, y: -0.00012939452, z: -3.5914127e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Squirrel Tail05
+      parentName: Squirrel Tail04
+      position: {x: -0.22806899, y: -0.00013212203, z: -3.6634445e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Squirrel R Thigh
+      parentName: Squirrel Pelvis
+      position: {x: -0.00000012397766, y: -0.00000011920929, z: -0.092415705}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000005, y: 1, z: 1.0000004}
+    - name: Squirrel R Calf
+      parentName: Squirrel R Thigh
+      position: {x: -0.077707745, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Squirrel R Foot
+      parentName: Squirrel R Calf
+      position: {x: -0.04651459, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: Squirrel R Toe0
+      parentName: Squirrel R Foot
+      position: {x: -0.020369804, y: 0.1452299, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000006}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 23358b5fb1a4a5f4fbe6c64664a38724,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Squirrel/3D/Animations/Squirrel Movement In Place.FBX
+  uploadId: 739933

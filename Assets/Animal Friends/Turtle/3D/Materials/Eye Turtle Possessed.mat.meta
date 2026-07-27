@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 78bc942b53b804945ae65c19bde63f4e
+timeCreated: 1542139961
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Turtle/3D/Materials/Eye Turtle Possessed.mat
+  uploadId: 739933

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rat All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Rat
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat L Thigh
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat L Thigh/Rat L Calf
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat L Thigh/Rat L Calf/Rat L Foot
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat L Thigh/Rat L Calf/Rat L Foot/Rat L Toe0
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat R Thigh
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat R Thigh/Rat R Calf
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat R Thigh/Rat R Calf/Rat R Foot
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat R Thigh/Rat R Calf/Rat R Foot/Rat R Toe0
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat L Clavicle
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat L Clavicle/Rat L UpperArm
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat L Clavicle/Rat L UpperArm/Rat
+      L Forearm
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat L Clavicle/Rat L UpperArm/Rat
+      L Forearm/Rat L Hand
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat L Clavicle/Rat L UpperArm/Rat
+      L Forearm/Rat L Hand/Rat L Finger0
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat L Clavicle/Rat L UpperArm/Rat
+      L Forearm/Rat L Hand/Rat L Finger1
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Eye Left
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Eye Right
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw/Rat L LowerLip
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw/Rat R LowerLip
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw/Rat Tongue
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw/Rat Tongue/Rat
+      Tongue02
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw/Rat Tongue/Rat
+      Tongue02/Rat Tongue03
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw/Teeth Lower
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Jaw/Tongue
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat L Eyebrow
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat L Lip
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat L LowerEyelid
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat L UpperEyelid
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat L UpperLip
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Nose
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Ponytail1
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Ponytail1/Rat
+      Ponytail11
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Ponytail2
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat Ponytail2/Rat
+      Ponytail21
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat R Eyebrow
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat R Lip
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat R LowerEyelid
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat R UpperEyelid
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Rat R UpperLip
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat Neck/Rat Head/Teeth Upper
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat R Clavicle
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat R Clavicle/Rat R UpperArm
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat R Clavicle/Rat R UpperArm/Rat
+      R Forearm
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat R Clavicle/Rat R UpperArm/Rat
+      R Forearm/Rat R Hand
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat R Clavicle/Rat R UpperArm/Rat
+      R Forearm/Rat R Hand/Rat R Finger0
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Spine/Rat Spine1/Rat R Clavicle/Rat R UpperArm/Rat
+      R Forearm/Rat R Hand/Rat R Finger1
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Tail
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Tail/Rat Tail1
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Tail/Rat Tail1/Rat Tail2
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Tail/Rat Tail1/Rat Tail2/Rat Tail3
+    m_Weight: 1
+  - m_Path: Rat/Rat Pelvis/Rat Tail/Rat Tail1/Rat Tail2/Rat Tail3/Rat Tail4
+    m_Weight: 1
+  - m_Path: Rat Mesh
+    m_Weight: 1

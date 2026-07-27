@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f8c13d577f1df9447aefd2f78431cca1
+timeCreated: 1581608327
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Hamster/Prefabs/Hamster.prefab
+  uploadId: 739933

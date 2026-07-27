@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dog All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Dog
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog L Thigh
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog R Thigh
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+      L Forearm
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+      L Forearm/Dog L Hand
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+      L Forearm/Dog L Hand/Dog L Finger0
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+      L Forearm/Dog L Hand/Dog L Finger1
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L LowerLip
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R LowerLip
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+      Tongue02
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+      Tongue02/Dog Tongue03
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth Lower
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+      Ponytail11
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+      Ponytail11/Dog Ponytail12
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+      Ponytail21
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+      Ponytail21/Dog Ponytail22
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+      R Forearm
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+      R Forearm/Dog R Hand
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+      R Forearm/Dog R Hand/Dog R Finger0
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+      R Forearm/Dog R Hand/Dog R Finger1
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Tail
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+    m_Weight: 1
+  - m_Path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+    m_Weight: 1
+  - m_Path: Dog Mesh
+    m_Weight: 1

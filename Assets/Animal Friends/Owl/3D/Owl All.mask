@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Owl All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Owl
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl L Thigh
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl R Thigh
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+      L Forearm
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+      L Forearm/Owl L Hand
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+      L Forearm/Owl L Hand/Owl L Finger0
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+      Tongue02
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+      Tongue02/Owl Tongue03
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl L
+      LipNub
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+      R Forearm
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+      R Forearm/Owl R Hand
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+      R Forearm/Owl R Hand/Owl R Finger0
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Tail
+    m_Weight: 1
+  - m_Path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+    m_Weight: 1
+  - m_Path: Owl Mesh
+    m_Weight: 1

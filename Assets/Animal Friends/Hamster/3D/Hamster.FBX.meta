@@ -1,0 +1,844 @@
+fileFormatVersion: 2
+guid: 8e59453cd0673f44380cf077d4e2714f
+timeCreated: 1581370838
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hamster
+    100004: Hamster Head
+    100006: Hamster Jaw
+    100008: Hamster L Calf
+    100010: Hamster L Clavicle
+    100012: Hamster L Ear
+    100014: Hamster L Eye
+    100016: Hamster L Eyebrow
+    100018: Hamster L Finger0
+    100020: Hamster L Finger01
+    100022: Hamster L Finger1
+    100024: Hamster L Finger11
+    100026: Hamster L Finger2
+    100028: Hamster L Finger21
+    100030: Hamster L Finger3
+    100032: Hamster L Finger31
+    100034: Hamster L Foot
+    100036: Hamster L Forearm
+    100038: Hamster L Hand
+    100040: Hamster L Lower Eyelid
+    100042: Hamster L Lower Mouth
+    100044: Hamster L Mouth
+    100046: Hamster L Thigh
+    100048: Hamster L Toe0
+    100050: Hamster L Upper Eyelid
+    100052: Hamster L Upper Mouth
+    100054: Hamster L UpperArm
+    100056: Hamster Mesh
+    100058: Hamster Neck
+    100060: Hamster Nose
+    100062: Hamster Pelvis
+    100064: Hamster R Calf
+    100066: Hamster R Clavicle
+    100068: Hamster R Ear
+    100070: Hamster R Eye
+    100072: Hamster R Eyebrow
+    100074: Hamster R Finger0
+    100076: Hamster R Finger01
+    100078: Hamster R Finger1
+    100080: Hamster R Finger11
+    100082: Hamster R Finger2
+    100084: Hamster R Finger21
+    100086: Hamster R Finger3
+    100088: Hamster R Finger31
+    100090: Hamster R Foot
+    100092: Hamster R Forearm
+    100094: Hamster R Hand
+    100096: Hamster R Lower Eyelid
+    100098: Hamster R Lower Mouth
+    100100: Hamster R Mouth
+    100102: Hamster R Thigh
+    100104: Hamster R Toe0
+    100106: Hamster R Upper Eyelid
+    100108: Hamster R Upper Mouth
+    100110: Hamster R UpperArm
+    100112: Hamster Spine
+    100114: Hamster Spine1
+    100116: Hamster Spine2
+    100118: Hamster Tail
+    100120: Hamster Tongue
+    100122: Hamster Tongue02
+    400000: //RootNode
+    400002: Hamster
+    400004: Hamster Head
+    400006: Hamster Jaw
+    400008: Hamster L Calf
+    400010: Hamster L Clavicle
+    400012: Hamster L Ear
+    400014: Hamster L Eye
+    400016: Hamster L Eyebrow
+    400018: Hamster L Finger0
+    400020: Hamster L Finger01
+    400022: Hamster L Finger1
+    400024: Hamster L Finger11
+    400026: Hamster L Finger2
+    400028: Hamster L Finger21
+    400030: Hamster L Finger3
+    400032: Hamster L Finger31
+    400034: Hamster L Foot
+    400036: Hamster L Forearm
+    400038: Hamster L Hand
+    400040: Hamster L Lower Eyelid
+    400042: Hamster L Lower Mouth
+    400044: Hamster L Mouth
+    400046: Hamster L Thigh
+    400048: Hamster L Toe0
+    400050: Hamster L Upper Eyelid
+    400052: Hamster L Upper Mouth
+    400054: Hamster L UpperArm
+    400056: Hamster Mesh
+    400058: Hamster Neck
+    400060: Hamster Nose
+    400062: Hamster Pelvis
+    400064: Hamster R Calf
+    400066: Hamster R Clavicle
+    400068: Hamster R Ear
+    400070: Hamster R Eye
+    400072: Hamster R Eyebrow
+    400074: Hamster R Finger0
+    400076: Hamster R Finger01
+    400078: Hamster R Finger1
+    400080: Hamster R Finger11
+    400082: Hamster R Finger2
+    400084: Hamster R Finger21
+    400086: Hamster R Finger3
+    400088: Hamster R Finger31
+    400090: Hamster R Foot
+    400092: Hamster R Forearm
+    400094: Hamster R Hand
+    400096: Hamster R Lower Eyelid
+    400098: Hamster R Lower Mouth
+    400100: Hamster R Mouth
+    400102: Hamster R Thigh
+    400104: Hamster R Toe0
+    400106: Hamster R Upper Eyelid
+    400108: Hamster R Upper Mouth
+    400110: Hamster R UpperArm
+    400112: Hamster Spine
+    400114: Hamster Spine1
+    400116: Hamster Spine2
+    400118: Hamster Tail
+    400120: Hamster Tongue
+    400122: Hamster Tongue02
+    2100000: Hamster
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Hamster Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Hamster Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hamster
+    second: {fileID: 2100000, guid: f3d5e03ecf5c44e488f8d92054f5b5a3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Hamster Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hamster Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Hamster(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0000007109669, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hamster
+      parentName: Hamster(Clone)
+      position: {x: -1.5083097e-10, y: 0.14377452, z: 0}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Hamster Pelvis
+      parentName: Hamster
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Hamster L Thigh
+      parentName: Hamster Pelvis
+      position: {x: 0.00000018119812, y: 0.00000018836532, z: 0.13129558}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Hamster L Calf
+      parentName: Hamster L Thigh
+      position: {x: -0.05727887, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: Hamster L Foot
+      parentName: Hamster L Calf
+      position: {x: -0.05365626, y: 0.0000000047683715, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Hamster L Toe0
+      parentName: Hamster L Foot
+      position: {x: -0.031032743, y: 0.12144366, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hamster R Thigh
+      parentName: Hamster Pelvis
+      position: {x: -0.00000018119812, y: -0.00000017579613, z: -0.13129558}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Hamster R Calf
+      parentName: Hamster R Thigh
+      position: {x: -0.05727888, y: -0.0000000023841857, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Hamster R Foot
+      parentName: Hamster R Calf
+      position: {x: -0.053656254, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Hamster R Toe0
+      parentName: Hamster R Foot
+      position: {x: -0.031032743, y: 0.12144365, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Hamster Spine
+      parentName: Hamster Pelvis
+      position: {x: -0.026430815, y: -0.000047357462, z: 0.00000003671992}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster Spine1
+      parentName: Hamster Spine
+      position: {x: -0.05949358, y: -0.000047365425, z: -1.3140493e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Hamster Spine2
+      parentName: Hamster Spine1
+      position: {x: -0.05949358, y: -0.000047364232, z: -1.3144472e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Hamster L Clavicle
+      parentName: Hamster Spine2
+      position: {x: -0.050112113, y: 0.012058459, z: 0.09179734}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Hamster L UpperArm
+      parentName: Hamster L Clavicle
+      position: {x: -0.08913533, y: -0.0000000047683715, z: -0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Hamster L Forearm
+      parentName: Hamster L UpperArm
+      position: {x: -0.05714153, y: 0, z: -0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster L Hand
+      parentName: Hamster L Forearm
+      position: {x: -0.03886569, y: 0.0000000011920929, z: 0.000000038146972}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hamster L Finger0
+      parentName: Hamster L Hand
+      position: {x: -0.0324561, y: 0.0043871305, z: -0.020546796}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Hamster L Finger01
+      parentName: Hamster L Finger0
+      position: {x: -0.022677517, y: -0.000000019073486, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Hamster L Finger1
+      parentName: Hamster L Hand
+      position: {x: -0.059782647, y: -0.006045723, z: -0.015792208}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hamster L Finger11
+      parentName: Hamster L Finger1
+      position: {x: -0.023335751, y: -0.000000038146972, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Hamster L Finger2
+      parentName: Hamster L Hand
+      position: {x: -0.06350559, y: -0.005122871, z: 0.0032733416}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Hamster L Finger21
+      parentName: Hamster L Finger2
+      position: {x: -0.025033226, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Hamster L Finger3
+      parentName: Hamster L Hand
+      position: {x: -0.055035923, y: 0.0009951019, z: 0.019035885}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Hamster L Finger31
+      parentName: Hamster L Finger3
+      position: {x: -0.022677526, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster Neck
+      parentName: Hamster Spine2
+      position: {x: -0.059492797, y: -0.000013724565, z: -3.807145e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Hamster Head
+      parentName: Hamster Neck
+      position: {x: -0.017236939, y: -0.0000000011920929, z: 4.5474734e-15}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Hamster Jaw
+      parentName: Hamster Head
+      position: {x: -0.08280319, y: 0.14629765, z: -0.0014425832}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Hamster L Lower Mouth
+      parentName: Hamster Jaw
+      position: {x: -0.098974004, y: -0.016285667, z: 0.069740124}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Hamster R Lower Mouth
+      parentName: Hamster Jaw
+      position: {x: -0.09897403, y: -0.016285248, z: -0.069740206}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Hamster Tongue
+      parentName: Hamster Jaw
+      position: {x: -0.029647198, y: 0.014239998, z: 0.0014758998}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster Tongue02
+      parentName: Hamster Tongue
+      position: {x: -0.040330943, y: -0.000031967164, z: -9.720679e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hamster L Ear
+      parentName: Hamster Head
+      position: {x: -0.29667437, y: -0.013843505, z: 0.13389535}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster L Eye
+      parentName: Hamster Head
+      position: {x: -0.20188709, y: 0.15540269, z: 0.06877076}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Hamster L Eyebrow
+      parentName: Hamster Head
+      position: {x: -0.24692, y: 0.1278623, z: 0.071840875}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Hamster L Lower Eyelid
+      parentName: Hamster Head
+      position: {x: -0.20197196, y: 0.15540849, z: 0.06877448}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Hamster L Mouth
+      parentName: Hamster Head
+      position: {x: -0.11216606, y: 0.21458805, z: 0.10408191}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: Hamster L Upper Eyelid
+      parentName: Hamster Head
+      position: {x: -0.2019236, y: 0.15536489, z: 0.068742976}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Hamster L Upper Mouth
+      parentName: Hamster Head
+      position: {x: -0.123721235, y: 0.28060645, z: 0.06678523}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Hamster Nose
+      parentName: Hamster Head
+      position: {x: -0.1342538, y: 0.25969285, z: 0.00000036429503}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster R Ear
+      parentName: Hamster Head
+      position: {x: -0.29667437, y: -0.0138427615, z: -0.13389543}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Hamster R Eye
+      parentName: Hamster Head
+      position: {x: -0.20188709, y: 0.15540306, z: -0.068769895}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Hamster R Eyebrow
+      parentName: Hamster Head
+      position: {x: -0.24692, y: 0.1278627, z: -0.07184017}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Hamster R Lower Eyelid
+      parentName: Hamster Head
+      position: {x: -0.20197196, y: 0.15540886, z: -0.068773605}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Hamster R Mouth
+      parentName: Hamster Head
+      position: {x: -0.11216606, y: 0.21458861, z: -0.10408071}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster R Upper Eyelid
+      parentName: Hamster Head
+      position: {x: -0.2019236, y: 0.15536524, z: -0.06874211}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: Hamster R Upper Mouth
+      parentName: Hamster Head
+      position: {x: -0.123721235, y: 0.2806068, z: -0.06678367}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Hamster R Clavicle
+      parentName: Hamster Spine2
+      position: {x: -0.050112076, y: 0.012058969, z: -0.09179726}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Hamster R UpperArm
+      parentName: Hamster R Clavicle
+      position: {x: -0.08913531, y: 0, z: -0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Hamster R Forearm
+      parentName: Hamster R UpperArm
+      position: {x: -0.05714156, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Hamster R Hand
+      parentName: Hamster R Forearm
+      position: {x: -0.03886567, y: -0.0000000011920929, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Hamster R Finger0
+      parentName: Hamster R Hand
+      position: {x: -0.0324561, y: 0.0043870923, z: 0.020546794}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Hamster R Finger01
+      parentName: Hamster R Finger0
+      position: {x: -0.022677526, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hamster R Finger1
+      parentName: Hamster R Hand
+      position: {x: -0.059782617, y: -0.0060456847, z: 0.015792217}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Hamster R Finger11
+      parentName: Hamster R Finger1
+      position: {x: -0.023335751, y: -0.000000038146972, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Hamster R Finger2
+      parentName: Hamster R Hand
+      position: {x: -0.06350563, y: -0.0051229093, z: -0.0032733465}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Hamster R Finger21
+      parentName: Hamster R Finger2
+      position: {x: -0.025033226, y: 0, z: 0.0000000035762786}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Hamster R Finger3
+      parentName: Hamster R Hand
+      position: {x: -0.055035915, y: 0.0009950256, z: -0.019035885}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Hamster R Finger31
+      parentName: Hamster R Finger3
+      position: {x: -0.022677535, y: -0.000000038146972, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Hamster Tail
+      parentName: Hamster Spine1
+      position: {x: 0.07487036, y: -0.09862235, z: -0.00000013395967}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: Hamster Mesh
+      parentName: Hamster(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Hamster/3D/Hamster.FBX
+  uploadId: 739933

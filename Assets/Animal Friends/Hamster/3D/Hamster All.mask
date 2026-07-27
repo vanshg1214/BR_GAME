@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hamster All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Hamster
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster L Thigh
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster L Thigh/Hamster L Calf
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster L Thigh/Hamster L Calf/Hamster L Foot
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster L Thigh/Hamster L Calf/Hamster L Foot/Hamster
+      L Toe0
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster R Thigh
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster R Thigh/Hamster R Calf
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster R Thigh/Hamster R Calf/Hamster R Foot
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster R Thigh/Hamster R Calf/Hamster R Foot/Hamster
+      R Toe0
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger0
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger0/Hamster
+      L Finger01
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger1
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger1/Hamster
+      L Finger11
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger2
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger2/Hamster
+      L Finger21
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger3
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      L Clavicle/Hamster L UpperArm/Hamster L Forearm/Hamster L Hand/Hamster L Finger3/Hamster
+      L Finger31
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster Jaw
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster Jaw/Hamster L Lower Mouth
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster Jaw/Hamster R Lower Mouth
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster Jaw/Hamster Tongue
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster Jaw/Hamster Tongue/Hamster Tongue02
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster L Ear
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster L Eye
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster L Eyebrow
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster L Mouth
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster L Upper Mouth
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster Nose
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster R Ear
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster R Eye
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster R Eyebrow
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster R Mouth
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      Neck/Hamster Head/Hamster R Upper Mouth
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger0
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger0/Hamster
+      R Finger01
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger1
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger1/Hamster
+      R Finger11
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger2
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger2/Hamster
+      R Finger21
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger3
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Spine2/Hamster
+      R Clavicle/Hamster R UpperArm/Hamster R Forearm/Hamster R Hand/Hamster R Finger3/Hamster
+      R Finger31
+    m_Weight: 1
+  - m_Path: Hamster/Hamster Pelvis/Hamster Spine/Hamster Spine1/Hamster Tail
+    m_Weight: 1
+  - m_Path: Hamster Mesh
+    m_Weight: 1

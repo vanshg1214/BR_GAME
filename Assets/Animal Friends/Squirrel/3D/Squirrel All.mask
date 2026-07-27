@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Squirrel All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Squirrel
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel L Thigh
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel L
+      Foot
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel L Thigh/Squirrel L Calf/Squirrel L
+      Foot/Squirrel L Toe0
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel R Thigh
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel R
+      Foot
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel R Thigh/Squirrel R Calf/Squirrel R
+      Foot/Squirrel R Toe0
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      L Clavicle
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      L Clavicle/Squirrel L UpperArm
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      L Clavicle/Squirrel L UpperArm/Squirrel L Forearm
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      L Clavicle/Squirrel L UpperArm/Squirrel L Forearm/Squirrel L Hand/Squirrel
+      L Finger0
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel Hair
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel Jaw
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel Jaw/Squirrel L Lower Mouth
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel Jaw/Squirrel R Lower Mouth
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel Jaw/Squirrel Tongue/Squirrel Tongue02
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Ear
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Ear/Squirrel L Ear02/Squirrel L Ear03
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Eye
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Eyebrow
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Mouth
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel L Upper Mouth
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel Nose
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Ear
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Ear/Squirrel R Ear02/Squirrel R Ear03
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Eye
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Eyebrow
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Mouth
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      Neck/Squirrel Head/Squirrel R Upper Mouth
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      R Clavicle
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      R Clavicle/Squirrel R UpperArm
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      R Clavicle/Squirrel R UpperArm/Squirrel R Forearm
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Spine/Squirrel Spine1/Squirrel Spine2/Squirrel
+      R Clavicle/Squirrel R UpperArm/Squirrel R Forearm/Squirrel R Hand/Squirrel
+      R Finger0
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Tail
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+      Tail04
+    m_Weight: 1
+  - m_Path: Squirrel/Squirrel Pelvis/Squirrel Tail/Squirrel Tail02/Squirrel Tail03/Squirrel
+      Tail04/Squirrel Tail05
+    m_Weight: 1
+  - m_Path: Squirrel Mesh
+    m_Weight: 1

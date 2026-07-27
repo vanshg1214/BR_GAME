@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7492ee24a7dd3af46b53b02d5393a55d
+timeCreated: 1542118440
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Cat/3D/Materials/Eye Cat.mat
+  uploadId: 739933

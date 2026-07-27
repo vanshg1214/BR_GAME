@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 528ee90d6e1ee1f46b4a910f42d69aa2
+timeCreated: 1542136225
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Owl/3D/Materials/Eye Owl.mat
+  uploadId: 739933

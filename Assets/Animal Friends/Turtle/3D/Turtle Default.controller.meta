@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 01c65e7b3c27b3a47bd8e278236e89ee
+timeCreated: 1494621426
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Turtle/3D/Turtle Default.controller
+  uploadId: 739933

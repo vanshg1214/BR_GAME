@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d5fdd9ce040987d489595f86413b6d7f
+timeCreated: 1494621426
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Rat/3D/Rat Default.controller
+  uploadId: 739933

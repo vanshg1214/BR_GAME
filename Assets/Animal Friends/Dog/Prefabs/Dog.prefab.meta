@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1566e0f4a49a88f4785b8d9d24b48e81
+timeCreated: 1542145497
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Dog/Prefabs/Dog.prefab
+  uploadId: 739933

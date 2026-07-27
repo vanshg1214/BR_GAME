@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f3d5e03ecf5c44e488f8d92054f5b5a3
+timeCreated: 1580901586
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Hamster/3D/Materials/Hamster.mat
+  uploadId: 739933

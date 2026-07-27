@@ -1,0 +1,2636 @@
+fileFormatVersion: 2
+guid: 3be89afd41738f140a90e06850c728e4
+timeCreated: 1542146249
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip01
+    100004: Bip01 Head
+    100006: Bip01 Neck
+    100008: Bip01 Pelvis
+    100010: Bip01 Spine
+    100012: Bip01 Spine1
+    100014: Eye Left
+    100016: Eye Right
+    100018: Owl
+    100020: Tongue
+    100022: Bip01 Jaw
+    100024: Bip01 L Calf
+    100026: Bip01 L Clavicle
+    100028: Bip01 L Eyebrow
+    100030: Bip01 L Finger0
+    100032: Bip01 L Foot
+    100034: Bip01 L Forearm
+    100036: Bip01 L Hand
+    100038: Bip01 L Lip
+    100040: Bip01 L LowerEyelid
+    100042: Bip01 L Thigh
+    100044: Bip01 L Toe0
+    100046: Bip01 L UpperArm
+    100048: Bip01 L UpperEyelid
+    100050: Bip01 Nose
+    100052: Bip01 R Calf
+    100054: Bip01 R Clavicle
+    100056: Bip01 R Eyebrow
+    100058: Bip01 R Finger0
+    100060: Bip01 R Foot
+    100062: Bip01 R Forearm
+    100064: Bip01 R Hand
+    100066: Bip01 R Lip
+    100068: Bip01 R LowerEyelid
+    100070: Bip01 R Thigh
+    100072: Bip01 R Toe0
+    100074: Bip01 R UpperArm
+    100076: Bip01 R UpperEyelid
+    100078: Bip01 Tail
+    100080: Bip01 Tail1
+    100082: Bip01 Tongue 1
+    100084: Bip01 Tongue 2
+    100086: Bip01 Tongue 3
+    100088: Bip01 L LipNub
+    100090: Owl 1
+    100092: Owl Head
+    100094: Owl Jaw
+    100096: Owl L Calf
+    100098: Owl L Clavicle
+    100100: Owl L Eyebrow
+    100102: Owl L Finger0
+    100104: Owl L Foot
+    100106: Owl L Forearm
+    100108: Owl L Hand
+    100110: Owl L Lip
+    100112: Owl L LipNub
+    100114: Owl L LowerEyelid
+    100116: Owl L Thigh
+    100118: Owl L Toe0
+    100120: Owl L UpperArm
+    100122: Owl L UpperEyelid
+    100124: Owl Neck
+    100126: Owl Nose
+    100128: Owl Pelvis
+    100130: Owl R Calf
+    100132: Owl R Clavicle
+    100134: Owl R Eyebrow
+    100136: Owl R Finger0
+    100138: Owl R Foot
+    100140: Owl R Forearm
+    100142: Owl R Hand
+    100144: Owl R Lip
+    100146: Owl R LowerEyelid
+    100148: Owl R Thigh
+    100150: Owl R Toe0
+    100152: Owl R UpperArm
+    100154: Owl R UpperEyelid
+    100156: Owl Spine
+    100158: Owl Spine1
+    100160: Owl Tail
+    100162: Owl Tail1
+    100164: Owl Tongue
+    100166: Owl Tongue02
+    100168: Owl Tongue03
+    100170: Owl Mesh
+    400000: //RootNode
+    400002: Bip01
+    400004: Bip01 Head
+    400006: Bip01 Neck
+    400008: Bip01 Pelvis
+    400010: Bip01 Spine
+    400012: Bip01 Spine1
+    400014: Eye Left
+    400016: Eye Right
+    400018: Owl
+    400020: Tongue
+    400022: Bip01 Jaw
+    400024: Bip01 L Calf
+    400026: Bip01 L Clavicle
+    400028: Bip01 L Eyebrow
+    400030: Bip01 L Finger0
+    400032: Bip01 L Foot
+    400034: Bip01 L Forearm
+    400036: Bip01 L Hand
+    400038: Bip01 L Lip
+    400040: Bip01 L LowerEyelid
+    400042: Bip01 L Thigh
+    400044: Bip01 L Toe0
+    400046: Bip01 L UpperArm
+    400048: Bip01 L UpperEyelid
+    400050: Bip01 Nose
+    400052: Bip01 R Calf
+    400054: Bip01 R Clavicle
+    400056: Bip01 R Eyebrow
+    400058: Bip01 R Finger0
+    400060: Bip01 R Foot
+    400062: Bip01 R Forearm
+    400064: Bip01 R Hand
+    400066: Bip01 R Lip
+    400068: Bip01 R LowerEyelid
+    400070: Bip01 R Thigh
+    400072: Bip01 R Toe0
+    400074: Bip01 R UpperArm
+    400076: Bip01 R UpperEyelid
+    400078: Bip01 Tail
+    400080: Bip01 Tail1
+    400082: Bip01 Tongue 1
+    400084: Bip01 Tongue 2
+    400086: Bip01 Tongue 3
+    400088: Bip01 L LipNub
+    400090: Owl 1
+    400092: Owl Head
+    400094: Owl Jaw
+    400096: Owl L Calf
+    400098: Owl L Clavicle
+    400100: Owl L Eyebrow
+    400102: Owl L Finger0
+    400104: Owl L Foot
+    400106: Owl L Forearm
+    400108: Owl L Hand
+    400110: Owl L Lip
+    400112: Owl L LipNub
+    400114: Owl L LowerEyelid
+    400116: Owl L Thigh
+    400118: Owl L Toe0
+    400120: Owl L UpperArm
+    400122: Owl L UpperEyelid
+    400124: Owl Neck
+    400126: Owl Nose
+    400128: Owl Pelvis
+    400130: Owl R Calf
+    400132: Owl R Clavicle
+    400134: Owl R Eyebrow
+    400136: Owl R Finger0
+    400138: Owl R Foot
+    400140: Owl R Forearm
+    400142: Owl R Hand
+    400144: Owl R Lip
+    400146: Owl R LowerEyelid
+    400148: Owl R Thigh
+    400150: Owl R Toe0
+    400152: Owl R UpperArm
+    400154: Owl R UpperEyelid
+    400156: Owl Spine
+    400158: Owl Spine1
+    400160: Owl Tail
+    400162: Owl Tail1
+    400164: Owl Tongue
+    400166: Owl Tongue02
+    400168: Owl Tongue03
+    400170: Owl Mesh
+    2300000: //RootNode
+    2300002: Eye Left
+    2300004: Eye Right
+    2300006: Owl
+    2300008: Tongue
+    2300010: Owl 1
+    2300012: Owl Mesh
+    3300000: //RootNode
+    3300002: Eye Left
+    3300004: Eye Right
+    3300006: Owl
+    3300008: Tongue
+    3300010: Owl 1
+    3300012: Owl Mesh
+    4300000: Owl
+    4300002: Eye Left
+    4300004: Eye Right
+    4300006: Tongue
+    4300008: Owl Mesh
+    7400000: Owl Idle
+    7400002: Owl Run
+    7400004: Owl Walk
+    7400006: Owl Idle 2
+    7400008: Owl Talk
+    7400010: Owl Jump Up
+    7400012: Owl Fall
+    7400014: Owl Land
+    7400016: Owl Rolling
+    7400018: Owl Sleep
+    7400020: Owl Success
+    7400022: Owl Failure
+    7400024: Owl Run In Place
+    7400026: Owl Walk In Place
+    7400028: Owl Roll In Place
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Owl
+    13700002: Tongue
+    13700004: Owl 1
+    13700006: Owl Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye Shine
+    second: {fileID: 2100000, guid: 02eedbd4e2e012445b804989841c3ffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: de179fd17d128204c89ad32a4fc2f9a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Owl
+    second: {fileID: 2100000, guid: 333805cee5e9f6049b3835df34203a24, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Owl Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Run
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Walk
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Idle 2
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 190
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Talk
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 260
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Jump Up
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 300
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Fall
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 340
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Land
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 365
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Rolling
+      takeName: Take 001
+      firstFrame: 370
+      lastFrame: 390
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Sleep
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 460
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Success
+      takeName: Take 001
+      firstFrame: 470
+      lastFrame: 505
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Failure
+      takeName: Take 001
+      firstFrame: 510
+      lastFrame: 560
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Run In Place
+      takeName: Take 001
+      firstFrame: 570
+      lastFrame: 590
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Walk In Place
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 620
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Owl Roll In Place
+      takeName: Take 001
+      firstFrame: 630
+      lastFrame: 650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Owl
+        weight: 1
+      - path: Owl/Owl Pelvis
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl L Thigh/Owl L Calf/Owl L Foot/Owl L Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl R Thigh/Owl R Calf/Owl R Foot/Owl R Toe0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl L Clavicle/Owl L UpperArm/Owl
+          L Forearm/Owl L Hand/Owl L Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Left
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Eye Right
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Jaw/Owl Tongue/Owl
+          Tongue02/Owl Tongue03
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L Lip/Owl
+          L LipNub
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl L UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl Nose
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Eyebrow
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R Lip
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R LowerEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Owl R UpperEyelid
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl Neck/Owl Head/Tongue
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Spine/Owl Spine1/Owl R Clavicle/Owl R UpperArm/Owl
+          R Forearm/Owl R Hand/Owl R Finger0
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail
+        weight: 1
+      - path: Owl/Owl Pelvis/Owl Tail/Owl Tail1
+        weight: 1
+      - path: Owl Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 55c5c701e581cdd4d8f7abd9f0f27d82, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Owl Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Owl R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Owl(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Owl
+      parentName: Owl(Clone)
+      position: {x: -0, y: 0.15504609, z: -0.03190172}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Owl Pelvis
+      parentName: Owl
+      position: {x: -0.03190172, y: -0.000000043734286, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Owl L Thigh
+      parentName: Owl Pelvis
+      position: {x: 0.0000001335144, y: 0.00000014305114, z: 0.09847898}
+      rotation: {x: -0.03898266, y: 0.99923986, z: -0.00017333725, w: -0.000002565867}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Owl L Calf
+      parentName: Owl L Thigh
+      position: {x: -0.07094894, y: 0.0000000011920929, z: 0}
+      rotation: {x: 4.6779117e-12, y: -4.669327e-12, z: 0.073891565, w: 0.9972663}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Owl L Foot
+      parentName: Owl L Calf
+      position: {x: -0.035582855, y: -0.0000000023841857, z: 0}
+      rotation: {x: -0.00017219201, y: 0.00001118214, z: -0.034959245, w: 0.99938875}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Owl L Toe0
+      parentName: Owl L Foot
+      position: {x: -0.040279403, y: 0.09401285, z: 0}
+      rotation: {x: 0.000000021423922, y: -0.00000023215814, z: -0.7071068, w: 0.7071067}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Owl R Thigh
+      parentName: Owl Pelvis
+      position: {x: -0.0000001335144, y: -0.00000012874602, z: -0.09847898}
+      rotation: {x: -0.038984124, y: 0.9992398, z: -0.00017333725, w: -0.0000025656132}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Owl R Calf
+      parentName: Owl R Thigh
+      position: {x: -0.070948936, y: 0, z: 0}
+      rotation: {x: 2.2420113e-11, y: 1.6611991e-12, z: 0.07389159, w: 0.9972663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Owl R Foot
+      parentName: Owl R Calf
+      position: {x: -0.035582848, y: -0.0000000023841857, z: 0}
+      rotation: {x: -0.00017235085, y: 0.000010674916, z: -0.034957778, w: 0.9993888}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Owl R Toe0
+      parentName: Owl R Foot
+      position: {x: -0.040279396, y: 0.09401285, z: 0}
+      rotation: {x: -0.00000016296849, y: 0.00000012082161, z: -0.70710695, w: 0.70710665}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Owl Spine
+      parentName: Owl Pelvis
+      position: {x: -0.055378627, y: -0.00011493921, z: 0.00000007695846}
+      rotation: {x: -0.000002080476, y: 0.000000693676, z: -0.000398159, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Owl Spine1
+      parentName: Owl Spine
+      position: {x: -0.1443589, y: -0.00012351036, z: -3.4256573e-10}
+      rotation: {x: -3.0117673e-14, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Owl L Clavicle
+      parentName: Owl Spine1
+      position: {x: -0.20522274, y: 0.10164373, z: 0.059241585}
+      rotation: {x: -0.7058689, y: -0.007904415, z: 0.70826066, w: 0.0073156864}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Owl L UpperArm
+      parentName: Owl L Clavicle
+      position: {x: -0.17263614, y: -0.000000014305114, z: -0.000000038146972}
+      rotation: {x: 0.004327364, y: 0.008290378, z: 0.0046057855, w: 0.9999457}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Owl L Forearm
+      parentName: Owl L UpperArm
+      position: {x: -0.06659206, y: -0.000000009536743, z: 0.000000038146972}
+      rotation: {x: 1.7788122e-11, y: -0.0000000013968706, z: 0.012733233, w: 0.99991894}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Owl L Hand
+      parentName: Owl L Forearm
+      position: {x: -0.05359539, y: 0.0000000047683715, z: -0.000000038146972}
+      rotation: {x: -0.7068252, y: 0.0000000027457976, z: 0.0000000025224702, w: 0.7073883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Owl L Finger0
+      parentName: Owl L Hand
+      position: {x: -0.10463848, y: -0.00025661467, z: -0.026570529}
+      rotation: {x: -0.00039815946, y: 0.0000000010091331, z: 0.000000005588338, w: 0.99999994}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Owl Neck
+      parentName: Owl Spine1
+      position: {x: -0.13775447, y: -0.000036447047, z: -1.01085786e-10}
+      rotation: {x: -0.00000012350664, y: -0.000000111926184, z: 0.05753722, w: 0.9983434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Owl Head
+      parentName: Owl Neck
+      position: {x: -0.06316139, y: 0.043992862, z: 0.00000005978547}
+      rotation: {x: 2.3269993e-10, y: -9.586717e-10, z: 0.00039883418, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye Left
+      parentName: Owl Head
+      position: {x: -0.19440466, y: 0.21840613, z: 0.15800034}
+      rotation: {x: -0.00000023841858, y: 1.4210855e-14, z: -0.000000059604645, w: 1}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999976}
+    - name: Eye Right
+      parentName: Owl Head
+      position: {x: -0.19440463, y: 0.21840651, z: -0.1575785}
+      rotation: {x: -0.00000023841858, y: 1.4210855e-14, z: -0.000000059604645, w: 1}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999976}
+    - name: Owl Jaw
+      parentName: Owl Head
+      position: {x: -0.10797024, y: 0.27021214, z: 0.0000002788135}
+      rotation: {x: -0.0000037996908, y: 0.0000031856648, z: -0.8654375, w: 0.50101686}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: Owl Tongue
+      parentName: Owl Jaw
+      position: {x: 0.06274448, y: 0.0037760162, z: -0.00000013053707}
+      rotation: {x: 0.0000005054693, y: 0.000002476067, z: 0.0624108, w: 0.9980506}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Owl Tongue02
+      parentName: Owl Tongue
+      position: {x: -0.03347906, y: -0.00002670288, z: -0.000000002241577}
+      rotation: {x: 0.000040647417, y: -0.0000001650697, z: -0.0000018328361, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Owl Tongue03
+      parentName: Owl Tongue02
+      position: {x: -0.03347906, y: -0.00002670288, z: 0.000000001885928}
+      rotation: {x: -0.00003674628, y: -0.000000014500797, z: -0.00000002980285, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Owl L Eyebrow
+      parentName: Owl Head
+      position: {x: -0.34600514, y: 0.32587528, z: 0.17830525}
+      rotation: {x: 0.2202486, y: 0.67192954, z: 0.2202494, w: 0.67193115}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Owl L Lip
+      parentName: Owl Head
+      position: {x: -0.10596081, y: 0.3051204, z: 0.08827555}
+      rotation: {x: -0.00083564286, y: 0.7071063, z: -0.00028755536, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Owl L LipNub
+      parentName: Owl L Lip
+      position: {x: -0.050907753, y: 0, z: 0}
+      rotation: {x: 0.7073883, y: -0.7068252, z: -0.0000009810454, w: -0.0000009802645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Owl L LowerEyelid
+      parentName: Owl Head
+      position: {x: -0.12089397, y: 0.29244238, z: 0.17596573}
+      rotation: {x: -0.00000002881592, y: -0.0000042041347, z: 1, w: 0.00000066579014}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Owl L UpperEyelid
+      parentName: Owl Head
+      position: {x: -0.24950977, y: 0.30300325, z: 0.18377319}
+      rotation: {x: 0.9999998, y: 0.00039608392, z: -0.00000003856731, w: 0.00040027316}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999976}
+    - name: Owl Nose
+      parentName: Owl Head
+      position: {x: -0.14084865, y: 0.31118956, z: 0.00000032693242}
+      rotation: {x: -0.0000018085957, y: 0.0000043451055, z: -0.86369514, w: 0.50401455}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: Owl R Eyebrow
+      parentName: Owl Head
+      position: {x: -0.34600514, y: 0.32587624, z: -0.17830347}
+      rotation: {x: -0.22024854, y: -0.6719308, z: 0.22024566, w: 0.6719312}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Owl R Lip
+      parentName: Owl Head
+      position: {x: -0.10596081, y: 0.30512086, z: -0.08827386}
+      rotation: {x: 0.00083568995, y: -0.7071063, z: -0.00029136872, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Owl R LowerEyelid
+      parentName: Owl Head
+      position: {x: -0.12089397, y: 0.2924434, z: -0.17596412}
+      rotation: {x: 0.000000028811826, y: -0.0000014304887, z: 1, w: 0.0000006657903}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Owl R UpperEyelid
+      parentName: Owl Head
+      position: {x: -0.24950977, y: 0.30300426, z: -0.1837715}
+      rotation: {x: 0.9999998, y: 0.00039608194, z: -0.000004913123, w: -0.00040146962}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999976}
+    - name: Tongue
+      parentName: Owl Head
+      position: {x: -0.10098979, y: 0.28517628, z: 0.0000005340576}
+      rotation: {x: -0.6924978, y: 0.14298917, z: 0.69249827, w: 0.1429931}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: Owl R Clavicle
+      parentName: Owl Spine1
+      position: {x: -0.20522274, y: 0.10164408, z: -0.05924101}
+      rotation: {x: 0.70586896, y: 0.00790246, z: 0.7082607, w: 0.007313731}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Owl R UpperArm
+      parentName: Owl R Clavicle
+      position: {x: -0.17263617, y: 0.0000000047683715, z: 0.000000038146972}
+      rotation: {x: -0.0043273633, y: -0.008290378, z: 0.0046057855, w: 0.9999457}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Owl R Forearm
+      parentName: Owl R UpperArm
+      position: {x: -0.06659206, y: 0.0000000047683715, z: 0}
+      rotation: {x: 4.4190596e-10, y: 0.0000000018684234, z: 0.012733234, w: 0.99991894}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Owl R Hand
+      parentName: Owl R Forearm
+      position: {x: -0.05359535, y: 0, z: 0}
+      rotation: {x: 0.7068252, y: -0.0000000024217988, z: 0.0000000028467262, w: 0.7073883}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Owl R Finger0
+      parentName: Owl R Hand
+      position: {x: -0.10463848, y: -0.00025661467, z: 0.026570529}
+      rotation: {x: 0.00039815946, y: -0.0000000010165944, z: 0.0000000051226787,
+        w: 0.99999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Owl Tail
+      parentName: Owl Pelvis
+      position: {x: -0.08588121, y: -0.10850641, z: 0.00000035157174}
+      rotation: {x: 0.05177653, y: -0.017809773, z: 0.9439617, w: 0.3254818}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Owl Tail1
+      parentName: Owl Tail
+      position: {x: -0.113360144, y: -0.00009021759, z: 0}
+      rotation: {x: -0.00030462383, y: -0.054752786, z: -0.0063504307, w: 0.9984797}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Owl Mesh
+      parentName: Owl(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0.0000000026341782, z: 0.0000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Owl/3D/Owl.FBX
+  uploadId: 739933

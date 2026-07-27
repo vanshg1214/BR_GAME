@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Turtle All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Turtle
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle L Thigh
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot/Turtle
+      L Toe0
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle R Thigh
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot/Turtle
+      R Toe0
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+      L UpperArm
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+      L UpperArm/Turtle L Forearm
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+      L UpperArm/Turtle L Forearm/Turtle L Hand
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+      L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger0
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+      L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger1
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Eye
+      Left
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Eye
+      Right
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      Jaw
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      Jaw/Tongue
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      Jaw/Turtle L LowerLip
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      Jaw/Turtle R LowerLip
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      Jaw/Turtle Tongue
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      Jaw/Turtle Tongue/Turtle Tongue02
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      Jaw/Turtle Tongue/Turtle Tongue02/Turtle Tongue03
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      L Eyebrow
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      L Lip
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      L LowerEyelid
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      L UpperEyelid
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      L UpperLip
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      R Eyebrow
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      R Lip
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      R LowerEyelid
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      R UpperEyelid
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle Head/Turtle
+      R UpperLip
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+      R UpperArm
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+      R UpperArm/Turtle R Forearm
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+      R UpperArm/Turtle R Forearm/Turtle R Hand
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+      R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger0
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+      R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger1
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Tail
+    m_Weight: 1
+  - m_Path: Turtle/Turtle Pelvis/Turtle Tail/Turtle Tail1
+    m_Weight: 1
+  - m_Path: Turtle Mesh
+    m_Weight: 1

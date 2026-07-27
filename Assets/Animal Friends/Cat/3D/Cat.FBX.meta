@@ -1,0 +1,3187 @@
+fileFormatVersion: 2
+guid: f94f08974e9d37040a3a8ec759cfed05
+timeCreated: 1542146702
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cat
+    100004: Cat 1
+    100006: Cat Head
+    100008: Cat Jaw
+    100010: Cat L Calf
+    100012: Cat L Clavicle
+    100014: Cat L Eyebrow
+    100016: Cat L Finger0
+    100018: Cat L Finger1
+    100020: Cat L Foot
+    100022: Cat L Forearm
+    100024: Cat L Hand
+    100026: Cat L Lip
+    100028: Cat L LowerEyelid
+    100030: Cat L LowerLip
+    100032: Cat L Thigh
+    100034: Cat L Toe0
+    100036: Cat L UpperArm
+    100038: Cat L UpperEyelid
+    100040: Cat L UpperLip
+    100042: Cat Neck
+    100044: Cat Nose
+    100046: Cat Pelvis
+    100048: Cat Ponytail1
+    100050: Cat Ponytail11
+    100052: Cat Ponytail2
+    100054: Cat Ponytail21
+    100056: Cat R Calf
+    100058: Cat R Clavicle
+    100060: Cat R Eyebrow
+    100062: Cat R Finger0
+    100064: Cat R Finger1
+    100066: Cat R Foot
+    100068: Cat R Forearm
+    100070: Cat R Hand
+    100072: Cat R Lip
+    100074: Cat R LowerEyelid
+    100076: Cat R LowerLip
+    100078: Cat R Thigh
+    100080: Cat R Toe0
+    100082: Cat R UpperArm
+    100084: Cat R UpperEyelid
+    100086: Cat R UpperLip
+    100088: Cat Spine
+    100090: Cat Spine1
+    100092: Cat Tail
+    100094: Cat Tail1
+    100096: Cat Tail2
+    100098: Cat Tail3
+    100100: Cat Tail4
+    100102: Cat Tongue
+    100104: Cat Tongue02
+    100106: Cat Tongue03
+    100108: Eye Left
+    100110: Eye Right
+    100112: Teeth Lower
+    100114: Teeth Upper
+    100116: Tongue
+    100118: Cat Mesh
+    400000: //RootNode
+    400002: Cat
+    400004: Cat 1
+    400006: Cat Head
+    400008: Cat Jaw
+    400010: Cat L Calf
+    400012: Cat L Clavicle
+    400014: Cat L Eyebrow
+    400016: Cat L Finger0
+    400018: Cat L Finger1
+    400020: Cat L Foot
+    400022: Cat L Forearm
+    400024: Cat L Hand
+    400026: Cat L Lip
+    400028: Cat L LowerEyelid
+    400030: Cat L LowerLip
+    400032: Cat L Thigh
+    400034: Cat L Toe0
+    400036: Cat L UpperArm
+    400038: Cat L UpperEyelid
+    400040: Cat L UpperLip
+    400042: Cat Neck
+    400044: Cat Nose
+    400046: Cat Pelvis
+    400048: Cat Ponytail1
+    400050: Cat Ponytail11
+    400052: Cat Ponytail2
+    400054: Cat Ponytail21
+    400056: Cat R Calf
+    400058: Cat R Clavicle
+    400060: Cat R Eyebrow
+    400062: Cat R Finger0
+    400064: Cat R Finger1
+    400066: Cat R Foot
+    400068: Cat R Forearm
+    400070: Cat R Hand
+    400072: Cat R Lip
+    400074: Cat R LowerEyelid
+    400076: Cat R LowerLip
+    400078: Cat R Thigh
+    400080: Cat R Toe0
+    400082: Cat R UpperArm
+    400084: Cat R UpperEyelid
+    400086: Cat R UpperLip
+    400088: Cat Spine
+    400090: Cat Spine1
+    400092: Cat Tail
+    400094: Cat Tail1
+    400096: Cat Tail2
+    400098: Cat Tail3
+    400100: Cat Tail4
+    400102: Cat Tongue
+    400104: Cat Tongue02
+    400106: Cat Tongue03
+    400108: Eye Left
+    400110: Eye Right
+    400112: Teeth Lower
+    400114: Teeth Upper
+    400116: Tongue
+    400118: Cat Mesh
+    2100000: default
+    2100002: Eyes
+    2100004: Eye Shine
+    2300000: Eye Left
+    2300002: Eye Right
+    2300004: Teeth Lower
+    2300006: Teeth Upper
+    2300008: Cat Mesh
+    2300010: Tongue
+    3300000: Eye Left
+    3300002: Eye Right
+    3300004: Teeth Lower
+    3300006: Teeth Upper
+    3300008: Cat Mesh
+    3300010: Tongue
+    4300000: Teeth Lower
+    4300002: Tongue
+    4300004: Eye Left
+    4300006: Eye Right
+    4300008: Teeth Upper
+    4300010: Cat
+    4300012: Cat Mesh
+    7400000: Cat Idle
+    7400002: Cat Run
+    7400004: Cat Walk
+    7400006: Cat Idle 2
+    7400008: Cat Talk
+    7400010: Cat Jump Up
+    7400012: Cat Fall
+    7400014: Cat Land
+    7400016: Cat Rolling
+    7400018: Cat Sleep
+    7400020: Cat Success
+    7400022: Cat Failure
+    7400024: Cat Run In Place
+    7400026: Cat Walk In Place
+    7400028: Cat Rolling In Place
+    9500000: //RootNode
+    13700000: Cat 1
+    13700002: Tongue
+    13700004: Cat Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cat
+    second: {fileID: 2100000, guid: 5152c873ed7077e4da225e07bd00b697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye Shine
+    second: {fileID: 2100000, guid: 7c5a2c3ee2110d54781829f7efcc3dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 7492ee24a7dd3af46b53b02d5393a55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 5152c873ed7077e4da225e07bd00b697, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cat Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Run
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Walk
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Idle 2
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Talk
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Jump Up
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Fall
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Land
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 365
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Rolling
+      takeName: Take 001
+      firstFrame: 370
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Sleep
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Success
+      takeName: Take 001
+      firstFrame: 470
+      lastFrame: 505
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Failure
+      takeName: Take 001
+      firstFrame: 510
+      lastFrame: 560
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Run In Place
+      takeName: Take 001
+      firstFrame: 570
+      lastFrame: 590
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Walk In Place
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 620
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cat Rolling In Place
+      takeName: Take 001
+      firstFrame: 630
+      lastFrame: 650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Cat Pelvis
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat L Thigh/Cat L Calf/Cat L Foot/Cat L Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat R Thigh/Cat R Calf/Cat R Foot/Cat R Toe0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat L Clavicle/Cat L UpperArm/Cat
+          L Forearm/Cat L Hand/Cat L Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat L
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat R
+          LowerLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Cat Tongue/Cat
+          Tongue02/Cat Tongue03
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Jaw/Tongue
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat L UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Nose
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail1/Cat
+          Ponytail11
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat Ponytail2/Cat
+          Ponytail21
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Eyebrow
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R Lip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R LowerEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperEyelid
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Cat R UpperLip
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Left
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Eye Right
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat Neck/Cat Head/Teeth Upper
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger0
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Spine/Cat Spine1/Cat R Clavicle/Cat R UpperArm/Cat
+          R Forearm/Cat R Hand/Cat R Finger1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3
+        weight: 1
+      - path: Cat/Cat Pelvis/Cat Tail/Cat Tail1/Cat Tail2/Cat Tail3/Cat Tail4
+        weight: 1
+      - path: Cat Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 564272dd956297648ac650898f6cb886, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Cat Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Cat(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat
+      parentName: Cat(Clone)
+      position: {x: -0, y: 0.190668, z: -0.019595845}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Cat Pelvis
+      parentName: Cat
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Cat L Thigh
+      parentName: Cat Pelvis
+      position: {x: 0.000000095367426, y: 0.00000010371208, z: 0.068695255}
+      rotation: {x: -0.050013136, y: 0.9987486, z: -0.00000071157467, w: -0.0000008976417}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Cat L Calf
+      parentName: Cat L Thigh
+      position: {x: -0.077813245, y: 0.0000000011920929, z: 0.0000000047683715}
+      rotation: {x: -5.621125e-14, y: 8.638587e-15, z: 0.09989962, w: 0.9949975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat L Foot
+      parentName: Cat L Calf
+      position: {x: -0.07035353, y: 0, z: -0.0000000047683715}
+      rotation: {x: 0.00000009698192, y: 0.00000016372573, z: -0.050011624, w: 0.99874866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat L Toe0
+      parentName: Cat L Foot
+      position: {x: -0.040279407, y: 0.06947645, z: 0.0000000047683715}
+      rotation: {x: -0.0000005343069, y: -0.000000940833, z: -0.7071068, w: 0.7071067}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cat R Thigh
+      parentName: Cat Pelvis
+      position: {x: -0.000000095367426, y: -0.00000008702278, z: -0.06869527}
+      rotation: {x: -0.049952623, y: 0.9987516, z: -0.0000007115203, w: -0.00000089768474}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Cat R Calf
+      parentName: Cat R Thigh
+      position: {x: -0.077813245, y: -0.0000000011920929, z: 0.0000000047683715}
+      rotation: {x: 3.4934958e-16, y: 1.4317188e-14, z: 0.09979275, w: 0.9950083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat R Foot
+      parentName: Cat R Calf
+      position: {x: -0.07035354, y: 0, z: -0.0000000047683715}
+      rotation: {x: -0.00000012505315, y: 0.0000005005309, z: -0.04996467, w: 0.998751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat R Toe0
+      parentName: Cat R Foot
+      position: {x: -0.040279396, y: 0.06947643, z: 0.0000000047683715}
+      rotation: {x: -0.0000005008452, y: -0.0000016064971, z: -0.70710695, w: 0.70710665}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Cat Spine
+      parentName: Cat Pelvis
+      position: {x: -0.038630083, y: -0.000114940405, z: 0.0000000537316}
+      rotation: {x: -0.0000020805053, y: 0.00000069437357, z: -0.00039815938, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Cat Spine1
+      parentName: Cat Spine
+      position: {x: -0.14435892, y: -0.00012350916, z: -3.4256345e-10}
+      rotation: {x: 1.3785739e-14, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat L Clavicle
+      parentName: Cat Spine1
+      position: {x: -0.11723289, y: 0.0016580343, z: 0.0400649}
+      rotation: {x: -0.7058689, y: -0.007904415, z: 0.70826066, w: 0.0073156864}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Cat L UpperArm
+      parentName: Cat L Clavicle
+      position: {x: -0.056944244, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.004327365, y: 0.00829032, z: 0.004605768, w: 0.9999457}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Cat L Forearm
+      parentName: Cat L UpperArm
+      position: {x: -0.083743654, y: 0.0000000023841857, z: 0.000000038146972}
+      rotation: {x: -4.537648e-10, y: -9.371764e-10, z: 0.012733236, w: 0.99991894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat L Hand
+      parentName: Cat L Forearm
+      position: {x: -0.08107769, y: 0, z: 0}
+      rotation: {x: -0.7068252, y: 0.0000000016899441, z: -3.736766e-10, w: 0.7073883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat L Finger0
+      parentName: Cat L Hand
+      position: {x: -0.016383762, y: -0.0042174147, z: -0.030018734}
+      rotation: {x: 0.49417695, y: -0.4994719, z: 0.4832779, w: 0.5222639}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Cat L Finger1
+      parentName: Cat L Hand
+      position: {x: -0.04049118, y: 0.00009220123, z: 0.00009240627}
+      rotation: {x: -0.00039817256, y: 0.0000000039562216, z: -0.0000000135026035,
+        w: 0.99999994}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Cat Neck
+      parentName: Cat Spine1
+      position: {x: -0.13775447, y: -0.000017225742, z: -4.7773483e-11}
+      rotation: {x: -4.3042792e-14, y: 1.1642654e-10, z: -0.0000000040163286, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat Head
+      parentName: Cat Neck
+      position: {x: -0.03898617, y: 0, z: 0}
+      rotation: {x: 2.9354737e-11, y: -0.000000001918272, z: 0.00039883496, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat Jaw
+      parentName: Cat Head
+      position: {x: -0.07554218, y: 0.05878348, z: -0.000000007935037}
+      rotation: {x: -0.0000041708527, y: 0.0000023772425, z: -0.7998089, w: 0.60025465}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: Cat L LowerLip
+      parentName: Cat Jaw
+      position: {x: -0.1505512, y: -0.00398365, z: 0.063103385}
+      rotation: {x: -0.00000008021222, y: 0.000008774414, z: -0.6044399, w: 0.7966507}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Cat R LowerLip
+      parentName: Cat Jaw
+      position: {x: -0.1505512, y: -0.0039832685, z: -0.06310341}
+      rotation: {x: 0.00000047340575, y: -0.00000044382776, z: -0.6044399, w: 0.7966507}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Cat Tongue
+      parentName: Cat Jaw
+      position: {x: 0.011716528, y: -0.042967528, z: -0.00000017629179}
+      rotation: {x: 0.00000020903235, y: 0.0000043691853, z: -0.11620234, w: 0.9932256}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: Cat Tongue02
+      parentName: Cat Tongue
+      position: {x: -0.04287386, y: -0.000034065244, z: 0.0000013332435}
+      rotation: {x: -0.018594822, y: 0.045741968, z: -0.02138162, w: 0.9985513}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Cat Tongue03
+      parentName: Cat Tongue02
+      position: {x: -0.042872448, y: -0.00003414154, z: 0.0000000023841857}
+      rotation: {x: 4.6566134e-10, y: 9.313226e-10, z: -0.000000044703484, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Teeth Lower
+      parentName: Cat Jaw
+      position: {x: -0.09533699, y: 0.013683949, z: 0.00000072479247}
+      rotation: {x: -0.47331512, y: -0.5253284, z: -0.47331375, w: 0.52533513}
+      scale: {x: 1.0000002, y: 1.0000013, z: 1.0000001}
+    - name: Tongue
+      parentName: Cat Jaw
+      position: {x: -0.059668552, y: -0.016388416, z: -0.010689468}
+      rotation: {x: -0.59874904, y: -0.362999, z: 0.6054357, w: -0.3783898}
+      scale: {x: 1, y: 0.99999964, z: 1.0000001}
+    - name: Cat L Eyebrow
+      parentName: Cat Head
+      position: {x: -0.31239298, y: 0.22256874, z: 0.070645586}
+      rotation: {x: -0.0002810585, y: 0.7071067, z: -0.0002800228, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Cat L Lip
+      parentName: Cat Head
+      position: {x: -0.112358965, y: 0.19899118, z: 0.140929}
+      rotation: {x: -0.00083564286, y: 0.7071063, z: -0.00028755536, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Cat L LowerEyelid
+      parentName: Cat Head
+      position: {x: -0.17860653, y: 0.23212802, z: 0.12987041}
+      rotation: {x: -0.000000028815935, y: -0.0000042041347, z: 1, w: 0.00000066579014}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Cat L UpperEyelid
+      parentName: Cat Head
+      position: {x: -0.24702953, y: 0.2376237, z: 0.124513164}
+      rotation: {x: 0.9999998, y: 0.00039608753, z: -0.000000037285304, w: 0.00040027316}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999976}
+    - name: Cat L UpperLip
+      parentName: Cat Head
+      position: {x: -0.08186378, y: 0.23853025, z: 0.07838101}
+      rotation: {x: 0.0000055740584, y: 0.00000048722785, z: -0.0003987431, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Cat Nose
+      parentName: Cat Head
+      position: {x: -0.14526829, y: 0.2673705, z: 0.00000026730308}
+      rotation: {x: -0.0000030164013, y: 0.0000029636726, z: -0.70256907, w: 0.71161556}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: Cat Ponytail1
+      parentName: Cat Head
+      position: {x: -0.3169222, y: 0.03995686, z: 0.18180482}
+      rotation: {x: 0.9381552, y: -0.13366409, z: -0.3152786, w: 0.050972626}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Cat Ponytail11
+      parentName: Cat Ponytail1
+      position: {x: -0.09369674, y: -0.00007463455, z: -0.000000038146972}
+      rotation: {x: -0.000000014616488, y: 0.00000007456219, z: -0.0038193825, w: 0.9999927}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: Cat Ponytail2
+      parentName: Cat Head
+      position: {x: -0.3169222, y: 0.039957874, z: -0.18180461}
+      rotation: {x: 0.93815523, y: -0.13366586, z: 0.31527784, w: -0.050972503}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Cat Ponytail21
+      parentName: Cat Ponytail2
+      position: {x: -0.09369674, y: -0.00007461548, z: 0.000000038146972}
+      rotation: {x: -0.0000000074505255, y: 2.8456439e-11, z: -0.003819359, w: 0.9999927}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cat R Eyebrow
+      parentName: Cat Head
+      position: {x: -0.31239298, y: 0.2225691, z: -0.07064435}
+      rotation: {x: 0.0002810585, y: -0.7071067, z: -0.0002839774, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Cat R Lip
+      parentName: Cat Head
+      position: {x: -0.112358965, y: 0.19899194, z: -0.14092788}
+      rotation: {x: 0.00083568995, y: -0.7071063, z: -0.00029136872, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Cat R LowerEyelid
+      parentName: Cat Head
+      position: {x: -0.17860653, y: 0.23212875, z: -0.12986915}
+      rotation: {x: 0.000000028811838, y: -0.0000014304887, z: 1, w: 0.0000006657903}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Cat R UpperEyelid
+      parentName: Cat Head
+      position: {x: -0.24702953, y: 0.23762439, z: -0.12451185}
+      rotation: {x: 0.9999998, y: 0.00039608555, z: -0.000004913255, w: -0.00040146962}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999976}
+    - name: Cat R UpperLip
+      parentName: Cat Head
+      position: {x: -0.08186378, y: 0.23853071, z: -0.07837968}
+      rotation: {x: -0.000005574058, y: -0.0000004850211, z: -0.0003987431, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Eye Left
+      parentName: Cat Head
+      position: {x: -0.20948932, y: 0.16567683, z: 0.118000254}
+      rotation: {x: 0.7071072, y: -0.00000056494144, z: -0.70710635, w: -0.0000005649421}
+      scale: {x: 1.125775, y: 1.125775, z: 1.125775}
+    - name: Eye Right
+      parentName: Cat Head
+      position: {x: -0.20948936, y: 0.16567717, z: -0.11828781}
+      rotation: {x: 0.7071072, y: -0.00000056494144, z: -0.70710635, w: -0.0000005649421}
+      scale: {x: 1.125775, y: 1.125775, z: 1.125775}
+    - name: Teeth Upper
+      parentName: Cat Head
+      position: {x: -0.12288007, y: 0.16527204, z: 0.0000002670288}
+      rotation: {x: 0.7044164, y: -0.06162899, z: -0.70441556, w: -0.061629064}
+      scale: {x: 1.0000001, y: 1.0000006, z: 0.9999999}
+    - name: Cat R Clavicle
+      parentName: Cat Spine1
+      position: {x: -0.11723289, y: 0.0016582572, z: -0.040064894}
+      rotation: {x: 0.70586896, y: 0.00790246, z: 0.7082607, w: 0.007313731}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Cat R UpperArm
+      parentName: Cat R Clavicle
+      position: {x: -0.05694424, y: 0.0000000011920929, z: -0.000000038146972}
+      rotation: {x: -0.0043273047, y: -0.008290079, z: 0.004605685, w: 0.9999457}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Cat R Forearm
+      parentName: Cat R UpperArm
+      position: {x: -0.08374368, y: 0, z: -0.000000038146972}
+      rotation: {x: 4.537648e-10, y: 9.371764e-10, z: 0.012733235, w: 0.99991894}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Cat R Hand
+      parentName: Cat R Forearm
+      position: {x: -0.08107767, y: 0.0000000023841857, z: 0.000000038146972}
+      rotation: {x: 0.7068252, y: -0.0000000012090893, z: 1.07561085e-10, w: 0.7073883}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Cat R Finger0
+      parentName: Cat R Hand
+      position: {x: -0.01638378, y: -0.0042173765, z: 0.03001874}
+      rotation: {x: -0.49417695, y: 0.4994719, z: 0.4832779, w: 0.5222639}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Cat R Finger1
+      parentName: Cat R Hand
+      position: {x: -0.040491197, y: 0.00009220123, z: -0.000092408656}
+      rotation: {x: 0.00039817297, y: -0.0000000040287955, z: -0.000000013036911,
+        w: 0.99999994}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cat Tail
+      parentName: Cat Pelvis
+      position: {x: -0.0620467, y: -0.081375584, z: 0.0000002669224}
+      rotation: {x: -0.0000037393488, y: -0.00000090628987, z: 0.7127686, w: 0.70139927}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cat Tail1
+      parentName: Cat Tail
+      position: {x: -0.11336019, y: -0.00009027481, z: -2.5058397e-10}
+      rotation: {x: 1.6266431e-11, y: 0.000000020433472, z: -0.0063598063, w: 0.9999798}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cat Tail2
+      parentName: Cat Tail1
+      position: {x: -0.11335876, y: -0.00009025574, z: -2.5116606e-10}
+      rotation: {x: 0.0000000065065393, y: 0.0000000024036446, z: 0.0013209113, w: 0.99999917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cat Tail3
+      parentName: Cat Tail2
+      position: {x: -0.11336288, y: -0.00009021759, z: -2.4971086e-10}
+      rotation: {x: -0.0000000037052967, y: 0.00000005994161, z: -0.021248333, w: 0.9997742}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Cat Tail4
+      parentName: Cat Tail3
+      position: {x: -0.11335834, y: -0.00009023666, z: -2.4519978e-10}
+      rotation: {x: -0.000000027734067, y: -0.00000020778769, z: 0.003577187, w: 0.9999936}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cat Mesh
+      parentName: Cat(Clone)
+      position: {x: -0, y: 0.0013548279, z: 0}
+      rotation: {x: -0.7071068, y: -0.0000000026341782, z: 0.0000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Cat/3D/Cat.FBX
+  uploadId: 739933

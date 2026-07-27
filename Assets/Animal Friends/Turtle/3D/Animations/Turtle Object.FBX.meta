@@ -1,0 +1,1890 @@
+fileFormatVersion: 2
+guid: 11bfc9453f947634caac239d9790a3b7
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Eye Left
+  - first:
+      1: 100004
+    second: Eye Right
+  - first:
+      1: 100006
+    second: Tongue
+  - first:
+      1: 100008
+    second: Turtle
+  - first:
+      1: 100010
+    second: Bip01
+  - first:
+      1: 100012
+    second: Bip01 Head
+  - first:
+      1: 100014
+    second: Bip01 Neck
+  - first:
+      1: 100016
+    second: Bip01 Pelvis
+  - first:
+      1: 100018
+    second: Bip01 Spine
+  - first:
+      1: 100020
+    second: Bip01 Spine1
+  - first:
+      1: 100022
+    second: Bip01 Jaw
+  - first:
+      1: 100024
+    second: Bip01 L Calf
+  - first:
+      1: 100026
+    second: Bip01 L Clavicle
+  - first:
+      1: 100028
+    second: Bip01 L Eyebrow
+  - first:
+      1: 100030
+    second: Bip01 L Finger0
+  - first:
+      1: 100032
+    second: Bip01 L Finger1
+  - first:
+      1: 100034
+    second: Bip01 L Foot
+  - first:
+      1: 100036
+    second: Bip01 L Forearm
+  - first:
+      1: 100038
+    second: Bip01 L Hand
+  - first:
+      1: 100040
+    second: Bip01 L Lip
+  - first:
+      1: 100042
+    second: Bip01 L LowerEyelid
+  - first:
+      1: 100044
+    second: Bip01 L LowerLip
+  - first:
+      1: 100046
+    second: Bip01 L Thigh
+  - first:
+      1: 100048
+    second: Bip01 L Toe0
+  - first:
+      1: 100050
+    second: Bip01 L UpperArm
+  - first:
+      1: 100052
+    second: Bip01 L UpperEyelid
+  - first:
+      1: 100054
+    second: Bip01 L UpperLip
+  - first:
+      1: 100056
+    second: Bip01 R Calf
+  - first:
+      1: 100058
+    second: Bip01 R Clavicle
+  - first:
+      1: 100060
+    second: Bip01 R Eyebrow
+  - first:
+      1: 100062
+    second: Bip01 R Finger0
+  - first:
+      1: 100064
+    second: Bip01 R Finger1
+  - first:
+      1: 100066
+    second: Bip01 R Foot
+  - first:
+      1: 100068
+    second: Bip01 R Forearm
+  - first:
+      1: 100070
+    second: Bip01 R Hand
+  - first:
+      1: 100072
+    second: Bip01 R Lip
+  - first:
+      1: 100074
+    second: Bip01 R LowerEyelid
+  - first:
+      1: 100076
+    second: Bip01 R LowerLip
+  - first:
+      1: 100078
+    second: Bip01 R Thigh
+  - first:
+      1: 100080
+    second: Bip01 R Toe0
+  - first:
+      1: 100082
+    second: Bip01 R UpperArm
+  - first:
+      1: 100084
+    second: Bip01 R UpperEyelid
+  - first:
+      1: 100086
+    second: Bip01 R UpperLip
+  - first:
+      1: 100088
+    second: Bip01 Tail
+  - first:
+      1: 100090
+    second: Bip01 Tail1
+  - first:
+      1: 100092
+    second: Bip01 Tongue 1
+  - first:
+      1: 100094
+    second: Bip01 Tongue 2
+  - first:
+      1: 100096
+    second: Bip01 Tongue 3
+  - first:
+      1: 100098
+    second: Turtle 1
+  - first:
+      1: 100100
+    second: Turtle Head
+  - first:
+      1: 100102
+    second: Turtle Jaw
+  - first:
+      1: 100104
+    second: Turtle L Calf
+  - first:
+      1: 100106
+    second: Turtle L Clavicle
+  - first:
+      1: 100108
+    second: Turtle L Eyebrow
+  - first:
+      1: 100110
+    second: Turtle L Finger0
+  - first:
+      1: 100112
+    second: Turtle L Finger1
+  - first:
+      1: 100114
+    second: Turtle L Foot
+  - first:
+      1: 100116
+    second: Turtle L Forearm
+  - first:
+      1: 100118
+    second: Turtle L Hand
+  - first:
+      1: 100120
+    second: Turtle L Lip
+  - first:
+      1: 100122
+    second: Turtle L LowerEyelid
+  - first:
+      1: 100124
+    second: Turtle L LowerLip
+  - first:
+      1: 100126
+    second: Turtle L Thigh
+  - first:
+      1: 100128
+    second: Turtle L Toe0
+  - first:
+      1: 100130
+    second: Turtle L UpperArm
+  - first:
+      1: 100132
+    second: Turtle L UpperEyelid
+  - first:
+      1: 100134
+    second: Turtle L UpperLip
+  - first:
+      1: 100136
+    second: Turtle Neck
+  - first:
+      1: 100138
+    second: Turtle Pelvis
+  - first:
+      1: 100140
+    second: Turtle R Calf
+  - first:
+      1: 100142
+    second: Turtle R Clavicle
+  - first:
+      1: 100144
+    second: Turtle R Eyebrow
+  - first:
+      1: 100146
+    second: Turtle R Finger0
+  - first:
+      1: 100148
+    second: Turtle R Finger1
+  - first:
+      1: 100150
+    second: Turtle R Foot
+  - first:
+      1: 100152
+    second: Turtle R Forearm
+  - first:
+      1: 100154
+    second: Turtle R Hand
+  - first:
+      1: 100156
+    second: Turtle R Lip
+  - first:
+      1: 100158
+    second: Turtle R LowerEyelid
+  - first:
+      1: 100160
+    second: Turtle R LowerLip
+  - first:
+      1: 100162
+    second: Turtle R Thigh
+  - first:
+      1: 100164
+    second: Turtle R Toe0
+  - first:
+      1: 100166
+    second: Turtle R UpperArm
+  - first:
+      1: 100168
+    second: Turtle R UpperEyelid
+  - first:
+      1: 100170
+    second: Turtle R UpperLip
+  - first:
+      1: 100172
+    second: Turtle Spine
+  - first:
+      1: 100174
+    second: Turtle Spine1
+  - first:
+      1: 100176
+    second: Turtle Tail
+  - first:
+      1: 100178
+    second: Turtle Tail1
+  - first:
+      1: 100180
+    second: Turtle Tongue
+  - first:
+      1: 100182
+    second: Turtle Tongue02
+  - first:
+      1: 100184
+    second: Turtle Tongue03
+  - first:
+      1: 100186
+    second: Turtle Mesh
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Eye Left
+  - first:
+      4: 400004
+    second: Eye Right
+  - first:
+      4: 400006
+    second: Tongue
+  - first:
+      4: 400008
+    second: Turtle
+  - first:
+      4: 400010
+    second: Bip01
+  - first:
+      4: 400012
+    second: Bip01 Head
+  - first:
+      4: 400014
+    second: Bip01 Neck
+  - first:
+      4: 400016
+    second: Bip01 Pelvis
+  - first:
+      4: 400018
+    second: Bip01 Spine
+  - first:
+      4: 400020
+    second: Bip01 Spine1
+  - first:
+      4: 400022
+    second: Bip01 Jaw
+  - first:
+      4: 400024
+    second: Bip01 L Calf
+  - first:
+      4: 400026
+    second: Bip01 L Clavicle
+  - first:
+      4: 400028
+    second: Bip01 L Eyebrow
+  - first:
+      4: 400030
+    second: Bip01 L Finger0
+  - first:
+      4: 400032
+    second: Bip01 L Finger1
+  - first:
+      4: 400034
+    second: Bip01 L Foot
+  - first:
+      4: 400036
+    second: Bip01 L Forearm
+  - first:
+      4: 400038
+    second: Bip01 L Hand
+  - first:
+      4: 400040
+    second: Bip01 L Lip
+  - first:
+      4: 400042
+    second: Bip01 L LowerEyelid
+  - first:
+      4: 400044
+    second: Bip01 L LowerLip
+  - first:
+      4: 400046
+    second: Bip01 L Thigh
+  - first:
+      4: 400048
+    second: Bip01 L Toe0
+  - first:
+      4: 400050
+    second: Bip01 L UpperArm
+  - first:
+      4: 400052
+    second: Bip01 L UpperEyelid
+  - first:
+      4: 400054
+    second: Bip01 L UpperLip
+  - first:
+      4: 400056
+    second: Bip01 R Calf
+  - first:
+      4: 400058
+    second: Bip01 R Clavicle
+  - first:
+      4: 400060
+    second: Bip01 R Eyebrow
+  - first:
+      4: 400062
+    second: Bip01 R Finger0
+  - first:
+      4: 400064
+    second: Bip01 R Finger1
+  - first:
+      4: 400066
+    second: Bip01 R Foot
+  - first:
+      4: 400068
+    second: Bip01 R Forearm
+  - first:
+      4: 400070
+    second: Bip01 R Hand
+  - first:
+      4: 400072
+    second: Bip01 R Lip
+  - first:
+      4: 400074
+    second: Bip01 R LowerEyelid
+  - first:
+      4: 400076
+    second: Bip01 R LowerLip
+  - first:
+      4: 400078
+    second: Bip01 R Thigh
+  - first:
+      4: 400080
+    second: Bip01 R Toe0
+  - first:
+      4: 400082
+    second: Bip01 R UpperArm
+  - first:
+      4: 400084
+    second: Bip01 R UpperEyelid
+  - first:
+      4: 400086
+    second: Bip01 R UpperLip
+  - first:
+      4: 400088
+    second: Bip01 Tail
+  - first:
+      4: 400090
+    second: Bip01 Tail1
+  - first:
+      4: 400092
+    second: Bip01 Tongue 1
+  - first:
+      4: 400094
+    second: Bip01 Tongue 2
+  - first:
+      4: 400096
+    second: Bip01 Tongue 3
+  - first:
+      4: 400098
+    second: Turtle 1
+  - first:
+      4: 400100
+    second: Turtle Head
+  - first:
+      4: 400102
+    second: Turtle Jaw
+  - first:
+      4: 400104
+    second: Turtle L Calf
+  - first:
+      4: 400106
+    second: Turtle L Clavicle
+  - first:
+      4: 400108
+    second: Turtle L Eyebrow
+  - first:
+      4: 400110
+    second: Turtle L Finger0
+  - first:
+      4: 400112
+    second: Turtle L Finger1
+  - first:
+      4: 400114
+    second: Turtle L Foot
+  - first:
+      4: 400116
+    second: Turtle L Forearm
+  - first:
+      4: 400118
+    second: Turtle L Hand
+  - first:
+      4: 400120
+    second: Turtle L Lip
+  - first:
+      4: 400122
+    second: Turtle L LowerEyelid
+  - first:
+      4: 400124
+    second: Turtle L LowerLip
+  - first:
+      4: 400126
+    second: Turtle L Thigh
+  - first:
+      4: 400128
+    second: Turtle L Toe0
+  - first:
+      4: 400130
+    second: Turtle L UpperArm
+  - first:
+      4: 400132
+    second: Turtle L UpperEyelid
+  - first:
+      4: 400134
+    second: Turtle L UpperLip
+  - first:
+      4: 400136
+    second: Turtle Neck
+  - first:
+      4: 400138
+    second: Turtle Pelvis
+  - first:
+      4: 400140
+    second: Turtle R Calf
+  - first:
+      4: 400142
+    second: Turtle R Clavicle
+  - first:
+      4: 400144
+    second: Turtle R Eyebrow
+  - first:
+      4: 400146
+    second: Turtle R Finger0
+  - first:
+      4: 400148
+    second: Turtle R Finger1
+  - first:
+      4: 400150
+    second: Turtle R Foot
+  - first:
+      4: 400152
+    second: Turtle R Forearm
+  - first:
+      4: 400154
+    second: Turtle R Hand
+  - first:
+      4: 400156
+    second: Turtle R Lip
+  - first:
+      4: 400158
+    second: Turtle R LowerEyelid
+  - first:
+      4: 400160
+    second: Turtle R LowerLip
+  - first:
+      4: 400162
+    second: Turtle R Thigh
+  - first:
+      4: 400164
+    second: Turtle R Toe0
+  - first:
+      4: 400166
+    second: Turtle R UpperArm
+  - first:
+      4: 400168
+    second: Turtle R UpperEyelid
+  - first:
+      4: 400170
+    second: Turtle R UpperLip
+  - first:
+      4: 400172
+    second: Turtle Spine
+  - first:
+      4: 400174
+    second: Turtle Spine1
+  - first:
+      4: 400176
+    second: Turtle Tail
+  - first:
+      4: 400178
+    second: Turtle Tail1
+  - first:
+      4: 400180
+    second: Turtle Tongue
+  - first:
+      4: 400182
+    second: Turtle Tongue02
+  - first:
+      4: 400184
+    second: Turtle Tongue03
+  - first:
+      4: 400186
+    second: Turtle Mesh
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: Eye Left
+  - first:
+      23: 2300004
+    second: Eye Right
+  - first:
+      23: 2300006
+    second: Tongue
+  - first:
+      23: 2300008
+    second: Turtle
+  - first:
+      23: 2300010
+    second: Turtle Mesh
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: Eye Left
+  - first:
+      33: 3300004
+    second: Eye Right
+  - first:
+      33: 3300006
+    second: Tongue
+  - first:
+      33: 3300008
+    second: Turtle
+  - first:
+      33: 3300010
+    second: Turtle Mesh
+  - first:
+      43: 4300000
+    second: Turtle
+  - first:
+      43: 4300002
+    second: Tongue
+  - first:
+      43: 4300004
+    second: Eye Left
+  - first:
+      43: 4300006
+    second: Eye Right
+  - first:
+      43: 4300008
+    second: Turtle Mesh
+  - first:
+      74: 7400000
+    second: Turtle Pick Up
+  - first:
+      74: 7400002
+    second: Turtle Damage
+  - first:
+      74: 7400004
+    second: Turtle Walk
+  - first:
+      74: 7400006
+    second: Turtle Idle 2
+  - first:
+      74: 7400008
+    second: Turtle Talk
+  - first:
+      74: 7400010
+    second: Turtle Jump Up
+  - first:
+      74: 7400012
+    second: Turtle Fall
+  - first:
+      74: 7400014
+    second: Turtle Land
+  - first:
+      74: 7400016
+    second: Turtle Rolling
+  - first:
+      74: 7400018
+    second: Turtle Sleep
+  - first:
+      74: 7400020
+    second: Turtle Success
+  - first:
+      74: 7400022
+    second: Turtle Failure
+  - first:
+      74: 7400024
+    second: Turtle Run In Place
+  - first:
+      74: 7400026
+    second: Turtle Walk In Place
+  - first:
+      74: 7400028
+    second: Turtle Rolling In Place
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Turtle
+  - first:
+      137: 13700002
+    second: Tongue
+  - first:
+      137: 13700004
+    second: Turtle Mesh
+  - first:
+      74: -521833205427300727
+    second: Turtle Carry Idle
+  - first:
+      74: -4760462684315319343
+    second: Turtle Carry Move
+  - first:
+      74: -5798788422407551151
+    second: Turtle Throw
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye Shine
+    second: {fileID: 2100000, guid: 94c939498911336438260d4498eb847b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: ae10cf5ccb3faa047ab44c66b383e22b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Turtle
+    second: {fileID: 2100000, guid: b959e7b2e155de7448e378461596ff6c, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Turtle Pick Up
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Turtle
+        weight: 1
+      - path: Turtle/Turtle Pelvis
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot/Turtle
+          L Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot/Turtle
+          R Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Left
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Right
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle L LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle R LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02/Turtle Tongue03
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail/Turtle Tail1
+        weight: 1
+      - path: Turtle Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: a803d5e130063584db84ac4914cc255e, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turtle Carry Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 40
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Turtle
+        weight: 1
+      - path: Turtle/Turtle Pelvis
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot/Turtle
+          L Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot/Turtle
+          R Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Left
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Right
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle L LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle R LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02/Turtle Tongue03
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail/Turtle Tail1
+        weight: 1
+      - path: Turtle Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: a803d5e130063584db84ac4914cc255e, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turtle Carry Move
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 90
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Turtle
+        weight: 1
+      - path: Turtle/Turtle Pelvis
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot/Turtle
+          L Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot/Turtle
+          R Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Left
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Right
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle L LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle R LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02/Turtle Tongue03
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail/Turtle Tail1
+        weight: 1
+      - path: Turtle Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: a803d5e130063584db84ac4914cc255e, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turtle Throw
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 120
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Turtle
+        weight: 1
+      - path: Turtle/Turtle Pelvis
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle L Thigh/Turtle L Calf/Turtle L Foot/Turtle
+          L Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle R Thigh/Turtle R Calf/Turtle R Foot/Turtle
+          R Toe0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle L Clavicle/Turtle
+          L UpperArm/Turtle L Forearm/Turtle L Hand/Turtle L Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Left
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Eye Right
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle L LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle R LowerLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle Jaw/Turtle Tongue/Turtle Tongue02/Turtle Tongue03
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle L UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Eyebrow
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R Lip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R LowerEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperEyelid
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle Neck/Turtle
+          Head/Turtle R UpperLip
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger0
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Spine/Turtle Spine1/Turtle R Clavicle/Turtle
+          R UpperArm/Turtle R Forearm/Turtle R Hand/Turtle R Finger1
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail
+        weight: 1
+      - path: Turtle/Turtle Pelvis/Turtle Tail/Turtle Tail1
+        weight: 1
+      - path: Turtle Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: a803d5e130063584db84ac4914cc255e, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Turtle Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Turtle R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Turtle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Turtle
+      parentName: Turtle(Clone)
+      position: {x: -0, y: 0.20923208, z: -0.019999998}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Turtle Pelvis
+      parentName: Turtle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle L Thigh
+      parentName: Turtle Pelvis
+      position: {x: 0.000000095367426, y: 0.00000011086464, z: 0.07334765}
+      rotation: {x: -0.025028173, y: 0.9996868, z: -0.00000057912325, w: -0.0000018502981}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Turtle L Calf
+      parentName: Turtle L Thigh
+      position: {x: -0.09013534, y: -5.9604643e-10, z: -0.0000000047683715}
+      rotation: {x: -4.8411555e-14, y: -1.1752527e-13, z: 0.072839305, w: 0.9973437}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Turtle L Foot
+      parentName: Turtle L Calf
+      position: {x: -0.07035352, y: 0.0000000023841857, z: 0.0000000047683715}
+      rotation: {x: 0.00000037084374, y: -0.0000007024077, z: -0.047854707, w: 0.99885434}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Turtle L Toe0
+      parentName: Turtle L Foot
+      position: {x: -0.040279403, y: 0.06947644, z: 0}
+      rotation: {x: 0.00000008991076, y: -0.0000006799665, z: -0.70710707, w: 0.7071066}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle R Thigh
+      parentName: Turtle Pelvis
+      position: {x: -0.000000095367426, y: -0.00000009179115, z: -0.073347636}
+      rotation: {x: -0.02502045, y: 0.99968696, z: -0.0000007853715, w: 0.0000005524555}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle R Calf
+      parentName: Turtle R Thigh
+      position: {x: -0.09013534, y: -0.0000000017881393, z: 0.0000000047683715}
+      rotation: {x: 8.503867e-14, y: 6.210075e-15, z: 0.07283253, w: 0.9973442}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Turtle R Foot
+      parentName: Turtle R Calf
+      position: {x: -0.07035353, y: 0.0000000023841857, z: 0}
+      rotation: {x: -0.00000007478163, y: 0.000001943264, z: -0.0478554, w: 0.9988543}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Turtle R Toe0
+      parentName: Turtle R Foot
+      position: {x: -0.040279403, y: 0.06947643, z: 0.0000000047683715}
+      rotation: {x: 0.0000006581934, y: -0.0000007424869, z: -0.70710707, w: 0.7071065}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle Spine
+      parentName: Turtle Pelvis
+      position: {x: -0.0412463, y: -0.00014274001, z: 0.00000005739828}
+      rotation: {x: -0.000002080476, y: 0.0000006936178, z: -0.00039816223, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle Spine1
+      parentName: Turtle Spine
+      position: {x: -0.1792757, y: -0.00015338659, z: -4.2371312e-10}
+      rotation: {x: -0.000000005587955, y: -4.4760285e-12, z: 0.000000009546056, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Turtle L Clavicle
+      parentName: Turtle Spine1
+      position: {x: -0.11417896, y: 0.008607975, z: 0.02496534}
+      rotation: {x: -0.7058689, y: -0.007904415, z: 0.70826066, w: 0.0073156864}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Turtle L UpperArm
+      parentName: Turtle L Clavicle
+      position: {x: -0.0705404, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.004378084, y: -0.002777839, z: 0.0045575853, w: 0.99997616}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Turtle L Forearm
+      parentName: Turtle L UpperArm
+      position: {x: -0.057096146, y: 0, z: -0.000000038146972}
+      rotation: {x: 4.8341164e-10, y: -0.0000000013909411, z: 0.012733232, w: 0.99991894}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Turtle L Hand
+      parentName: Turtle L Forearm
+      position: {x: -0.06145627, y: 0, z: 0}
+      rotation: {x: -0.7068252, y: -0.0000000032559355, z: 0.0000000019409157, w: 0.7073883}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Turtle L Finger0
+      parentName: Turtle L Hand
+      position: {x: -0.04940458, y: -0.0006160354, z: -0.0330174}
+      rotation: {x: 0.49417695, y: -0.49947184, z: 0.4832779, w: 0.5222638}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Turtle L Finger1
+      parentName: Turtle L Hand
+      position: {x: -0.08598553, y: 0.00015892029, z: -0.0037211906}
+      rotation: {x: -0.000398153, y: -0.0000000014912954, z: 0.000000035855326, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle Neck
+      parentName: Turtle Spine1
+      position: {x: -0.17529659, y: -0.000027406215, z: -7.2159306e-11}
+      rotation: {x: 0.000000016549086, y: 0.00000094226664, z: -0.24542658, w: 0.9694152}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Turtle Head
+      parentName: Turtle Neck
+      position: {x: -0.06057304, y: 0, z: 0}
+      rotation: {x: -0.000000057233805, y: -0.000001119344, z: 0.27009067, w: 0.96283495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye Left
+      parentName: Turtle Head
+      position: {x: -0.3072549, y: 0.14377448, z: 0.1320002}
+      rotation: {x: 0.7071072, y: -0.000000517863, z: -0.70710635, w: -0.0000005178636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye Right
+      parentName: Turtle Head
+      position: {x: -0.3072549, y: 0.14377488, z: -0.13229881}
+      rotation: {x: 0.7071072, y: -0.000000517863, z: -0.70710635, w: -0.0000005178636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Turtle Jaw
+      parentName: Turtle Head
+      position: {x: -0.18134552, y: 0.056419466, z: -0.000000010804952}
+      rotation: {x: 0.0000031950792, y: -0.00000396721, z: 0.92577535, w: -0.3780741}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Tongue
+      parentName: Turtle Jaw
+      position: {x: -0.10259906, y: 0.050019987, z: 0.0000007629394}
+      rotation: {x: 0.000004585638, y: 0.00000083215474, z: 0.1785536, w: 0.9839302}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: Turtle L LowerLip
+      parentName: Turtle Jaw
+      position: {x: -0.19648623, y: -0.0051929853, z: 0.08236711}
+      rotation: {x: -0.00000008077295, y: 0.000008773671, z: -0.60443985, w: 0.79665077}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: Turtle R LowerLip
+      parentName: Turtle Jaw
+      position: {x: -0.19648628, y: -0.0051925275, z: -0.082367145}
+      rotation: {x: 0.00000047453588, y: -0.00000044233678, z: -0.60443985, w: 0.79665077}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: Turtle Tongue
+      parentName: Turtle Jaw
+      position: {x: -0.018544158, y: 0.088146515, z: 0.0000011472404}
+      rotation: {x: 0.0000023756486, y: 0.0000036477286, z: 0.21628655, w: 0.9763299}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: Turtle Tongue02
+      parentName: Turtle Tongue
+      position: {x: -0.06568598, y: -0.000052337644, z: -0.0000000040833763}
+      rotation: {x: 0.000037650054, y: -0.0000026112443, z: -0.0000021158664, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Turtle Tongue03
+      parentName: Turtle Tongue02
+      position: {x: -0.06568596, y: -0.000052337644, z: 0.0000000036368146}
+      rotation: {x: -0.00003613527, y: -0.00000010343431, z: -0.00000004470722, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Turtle L Eyebrow
+      parentName: Turtle Head
+      position: {x: -0.45942298, y: 0.16340089, z: 0.11393237}
+      rotation: {x: 0.18229999, y: 0.68312794, z: 0.34996212, w: 0.6145157}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+    - name: Turtle L Lip
+      parentName: Turtle Head
+      position: {x: -0.1606327, y: 0.11580999, z: 0.21470976}
+      rotation: {x: -0.00083564286, y: 0.7071063, z: -0.00028755536, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Turtle L LowerEyelid
+      parentName: Turtle Head
+      position: {x: -0.2530719, y: 0.23424037, z: 0.14600171}
+      rotation: {x: -0.000000028815927, y: -0.0000042041347, z: 1, w: 0.00000066579014}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Turtle L UpperEyelid
+      parentName: Turtle Head
+      position: {x: -0.36205253, y: 0.22649711, z: 0.1477718}
+      rotation: {x: 0.9999998, y: 0.00039608753, z: -0.00000003965726, w: 0.00040027316}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999976}
+    - name: Turtle L UpperLip
+      parentName: Turtle Head
+      position: {x: -0.13575867, y: 0.24734744, z: 0.112718545}
+      rotation: {x: 0.0000055740584, y: 0.0000004872278, z: -0.0003987431, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle R Eyebrow
+      parentName: Turtle Head
+      position: {x: -0.45942292, y: 0.1634015, z: -0.11393147}
+      rotation: {x: -0.18229963, y: -0.68312985, z: 0.3499579, w: 0.61451596}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Turtle R Lip
+      parentName: Turtle Head
+      position: {x: -0.1606327, y: 0.11581119, z: -0.2147091}
+      rotation: {x: 0.00083568995, y: -0.7071063, z: -0.00029136872, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Turtle R LowerEyelid
+      parentName: Turtle Head
+      position: {x: -0.2530719, y: 0.23424117, z: -0.14600042}
+      rotation: {x: 0.000000028811824, y: -0.0000014304887, z: 1, w: 0.0000006657903}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Turtle R UpperEyelid
+      parentName: Turtle Head
+      position: {x: -0.36205253, y: 0.22649795, z: -0.14777054}
+      rotation: {x: 0.9999998, y: 0.00039608555, z: -0.000004912353, w: -0.00040146962}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999976}
+    - name: Turtle R UpperLip
+      parentName: Turtle Head
+      position: {x: -0.13575867, y: 0.24734806, z: -0.11271717}
+      rotation: {x: -0.000005574058, y: -0.00000048501977, z: -0.0003987431, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Turtle R Clavicle
+      parentName: Turtle Spine1
+      position: {x: -0.11417896, y: 0.008608113, z: -0.024965294}
+      rotation: {x: 0.70586896, y: 0.00790246, z: 0.7082607, w: 0.007313731}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Turtle R UpperArm
+      parentName: Turtle R Clavicle
+      position: {x: -0.070540406, y: -0.0000000023841857, z: -0.000000038146972}
+      rotation: {x: -0.0043781283, y: 0.0027778684, z: 0.0045575933, w: 0.99997616}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Turtle R Forearm
+      parentName: Turtle R UpperArm
+      position: {x: -0.057096146, y: 0, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0.012733231, w: 0.99991894}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Turtle R Hand
+      parentName: Turtle R Forearm
+      position: {x: -0.06145627, y: 0, z: 0}
+      rotation: {x: 0.7068252, y: 0.0000000033896495, z: 0.000000002074736, w: 0.7073883}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Turtle R Finger0
+      parentName: Turtle R Hand
+      position: {x: -0.049404602, y: -0.0006160736, z: 0.033017397}
+      rotation: {x: -0.49417692, y: 0.4994719, z: 0.48327783, w: 0.5222639}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Turtle R Finger1
+      parentName: Turtle R Hand
+      position: {x: -0.085985504, y: 0.00015888213, z: 0.0037211895}
+      rotation: {x: 0.00039814514, y: 0.000000003967024, z: 0.000000095459, w: 0.99999994}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Turtle Tail
+      parentName: Turtle Pelvis
+      position: {x: 0.013922481, y: -0.08858865, z: 0.00000017823098}
+      rotation: {x: -0.000003078662, y: -0.00000017379614, z: 0.92172503, w: 0.38784397}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Turtle Tail1
+      parentName: Turtle Tail
+      position: {x: -0.06348062, y: -0.00005054474, z: -1.4013495e-10}
+      rotation: {x: 3.1686155e-13, y: 0.000000017639548, z: -0.00635984, w: 0.9999798}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Turtle Mesh
+      parentName: Turtle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 1437fd62d5de5944e9cdc0ecb2bbe357,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Turtle/3D/Animations/Turtle Object.FBX
+  uploadId: 739933

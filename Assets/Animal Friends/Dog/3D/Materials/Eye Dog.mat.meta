@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 225d14123fa732141acf8ecd27401643
+timeCreated: 1542132922
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 14415
+  packageName: Animal Friends (7 characters)
+  packageVersion: 1.3
+  assetPath: Assets/Animal Friends/Dog/3D/Materials/Eye Dog.mat
+  uploadId: 739933
