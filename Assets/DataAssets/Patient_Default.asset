@@ -17,5 +17,5 @@ MonoBehaviour:
   isLeftArm: 0
   armLength: 0.6
   maxFlexion: 150
-  maxAbduction: 150
-  shoulderHorizontalAdductionMax: 90
+  maxAbduction: 90
+  shoulderHorizontalAdductionMax: 60
