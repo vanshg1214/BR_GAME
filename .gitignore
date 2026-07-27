@@ -114,3 +114,5 @@ InitTestScene*.unity*
 *.hdr.meta
 
 *_BurstDebugInformation_DoNotShip/
+
+.vscode/
