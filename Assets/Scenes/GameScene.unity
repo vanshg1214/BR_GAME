@@ -4956,7 +4956,7 @@ MonoBehaviour:
   playerShoulderOffset: 0.45
   heightMultiplier: 0.6
   chairPrefab: {fileID: 5707592021626935628, guid: fc619d191f73d194fb7356aea6dc3ded, type: 3}
-  chairYOffset: -0.75
+  chairYOffset: -0.6
   chairZOffset: -0.4
 --- !u!1 &675707894
 GameObject:
