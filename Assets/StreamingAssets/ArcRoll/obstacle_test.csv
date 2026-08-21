@@ -1,0 +1,6 @@
+Row,Col,TargetType,Obstacle
+0,0,pins,gate
+0,1,pins,speedbump
+0,2,pins,rumble
+0,3,pins,swinging
+0,4,pins,sliding
