@@ -7,7 +7,7 @@ using PopstrikeVR.Gameplay;
 namespace PopstrikeVR.Core
 {
     /// <summary>
-    /// The main Game Loop manager. Reads the parsed CSV level and orchestrates the spawning of balloons over time.
+    /// The main Game Loop manager. Reads the parsed JSON level and orchestrates the spawning of balloons over time.
     /// </summary>
     public class PopstrikeLevelDirector : MonoBehaviour
     {
@@ -25,8 +25,8 @@ namespace PopstrikeVR.Core
         [Tooltip("The subdirectory path under StreamingAssets (e.g. PopStrikeVR/Easy)")]
         public string levelSubFolder = "PopStrikeVR/Easy";
         
-        [Tooltip("Name of the CSV file located in the subdirectory")]
-        public string csvFileName = "level1.csv";
+        [Tooltip("Name of the JSON file located in the subdirectory")]
+        public string jsonFileName = "level1.json";
 
         [Header("Timing")]
         [Tooltip("How much time the player has to figure out the puzzle before it times out.")]
@@ -42,12 +42,6 @@ namespace PopstrikeVR.Core
         [Tooltip("How many mistakes the player can make on Trace/Trail balloons before the task fails.")]
         public int maxAttemptsAllowed = 3;
 
-        [Header("UI Spawn Settings")]
-        [Tooltip("How far in front of the player (in meters) to spawn the results screen.")]
-        public float resultsUIDistance = 1.2f;
-        [Tooltip("Height offset of the results UI relative to the player's head height. Positive is higher, negative is lower.")]
-        public float resultsUIHeightOffset = 0f;
-        
         [Header("UI Announcements & Canvas Sequences")]
         [Tooltip("The root GameObject of the HUD Canvas (Score, Timer)")]
         public GameObject hudCanvasRoot;
@@ -56,25 +50,11 @@ namespace PopstrikeVR.Core
         [Tooltip("Text element used to flash 'Level-X' on the screen before the game starts.")]
         public TMPro.TextMeshProUGUI levelAnnouncementText;
 
-        [Header("Session & Fail Thresholds")]
+        [Header("Session Settings")]
         [Tooltip("Select whether this is a 3-minute or 5-minute session. This determines which minimum wave thresholds apply.")]
         public SessionDuration sessionDuration = SessionDuration.ThreeMinutes;
 
-        [Tooltip("Minimum waves the player must clear in a 3-min EASY session to pass.")]
-        public int minWaves_Easy_3min   = 18;
-        [Tooltip("Minimum waves the player must clear in a 3-min MEDIUM session to pass.")]
-        public int minWaves_Medium_3min = 25;
-        [Tooltip("Minimum waves the player must clear in a 3-min HARD session to pass.")]
-        public int minWaves_Hard_3min   = 35;
-
-        [Tooltip("Minimum waves the player must clear in a 5-min EASY session to pass.")]
-        public int minWaves_Easy_5min   = 30;
-        [Tooltip("Minimum waves the player must clear in a 5-min MEDIUM session to pass.")]
-        public int minWaves_Medium_5min = 42;
-        [Tooltip("Minimum waves the player must clear in a 5-min HARD session to pass.")]
-        public int minWaves_Hard_5min   = 50;
-
-        private List<TaskRow> parsedTasks;
+        private PopstrikeLevelJSON currentLevelConfig;
         private int currentTaskIndex = 0;
         
         private int totalWavesSpawned = 0;
@@ -82,6 +62,11 @@ namespace PopstrikeVR.Core
         private int totalErrors = 0; // Counts individual in-wave errors (wrong TMT node, failed trace, broken slash)
 
         // --- Timer Variables ---
+        public int TotalErrors => totalErrors;
+        
+        public int TheoreticalMaxScore { get; private set; } = 0;
+        private int theoreticalMaxCombo = 0;
+
         private float gameStartTime = 0f;
         private float sessionDurationSeconds = 180f;
         private bool isGameActive = false;
@@ -105,16 +90,38 @@ namespace PopstrikeVR.Core
                 if (timeRemaining <= 0f)
                 {
                     timeRemaining = 0f;
-                    isGameActive = false;
-                    StopAllCoroutines(); // Force stop GameLoop and all nested yield waits
-                    PopstrikePooler.DespawnAllBalloons(); // Clear any remaining balloons immediately
-                    CalculateAndShowResults();
+                    EndSession();
                 }
 
                 if (PopstrikeVR.UI.PopstrikeHUDController.Instance != null)
                 {
                     PopstrikeVR.UI.PopstrikeHUDController.Instance.UpdateTimerUI(timeRemaining);
                 }
+            }
+        }
+
+        private void EndSession()
+        {
+            if (!isGameActive) return; // Prevent double-firing
+            
+            Debug.Log("[LevelDirector] Timer hit 00:00! Ending Session...");
+            isGameActive = false;
+            
+            StopAllCoroutines(); // Force stop GameLoop and all nested yield waits
+            PopstrikePooler.DespawnAllBalloons(); // Clear any remaining balloons immediately
+            
+            // Explicitly hide the Gameplay HUD so it doesn't overlap the Results Canvas
+            if (hudCanvasRoot != null) hudCanvasRoot.SetActive(false);
+            if (levelIndicatorRoot != null) levelIndicatorRoot.SetActive(false);
+            if (levelAnnouncementText != null) levelAnnouncementText.gameObject.SetActive(false);
+
+            if (TryGetComponent<PopstrikeResultsCalculator>(out var calc))
+            {
+                calc.CalculateAndShowResults(levelSubFolder, sessionDuration, totalWavesSpawned, totalWavesMissed, totalErrors, TheoreticalMaxScore);
+            }
+            else
+            {
+                Debug.LogError("[LevelDirector] Missing PopstrikeResultsCalculator on Manager object! Cannot show end results.");
             }
         }
 
@@ -175,35 +182,43 @@ namespace PopstrikeVR.Core
             if (!TemporarySessionData.IsConfigured)
             {
                 // DEVELOPER FALLBACK: Played directly from the scene without the Menu
-                csvFileName = "try_level.csv";
-                levelSubFolder = "PopStrikeVR"; // try_level.csv is NOT inside the Easy/Medium folders!
+                jsonFileName = "try_level.json";
+                levelSubFolder = "PopStrikeVR"; // try_level.json is NOT inside the Easy/Medium folders!
                 randomizeTaskOrder = false;
-                TemporarySessionData.CsvFileName = csvFileName;
-                Debug.Log($"[LevelDirector] DEVELOPER MODE: Bypassed Menu, loading {csvFileName} from {levelSubFolder}");
+                TemporarySessionData.JsonFileName = jsonFileName;
+                TemporarySessionData.LevelSubFolder = levelSubFolder; // Save so Next Level works
+                Debug.Log($"[LevelDirector] DEVELOPER MODE: Bypassed Menu, loading {jsonFileName} from {levelSubFolder}");
             }
             else if (TemporarySessionData.IsRetry)
             {
-                csvFileName = TemporarySessionData.CsvFileName;
+                jsonFileName = TemporarySessionData.JsonFileName;
+                levelSubFolder = TemporarySessionData.LevelSubFolder; // Restore exact path
                 randomizeTaskOrder = (TemporarySessionData.CurrentLevelIndex > 1);
-                Debug.Log($"[LevelDirector] RETRY TRIGGERED. Reloading exactly {csvFileName} for Level {TemporarySessionData.CurrentLevelIndex}");
+                Debug.Log($"[LevelDirector] RETRY TRIGGERED. Reloading exactly {jsonFileName} for Level {TemporarySessionData.CurrentLevelIndex}");
                 TemporarySessionData.IsRetry = false; // Reset the flag after consuming it
             }
             else if (TemporarySessionData.CurrentLevelIndex == 1)
             {
-                // Level 1 is always exactly level1.csv and never shuffled.
-                csvFileName = "level1.csv";
+                // Level 1 is always exactly level1.json and never shuffled.
+                jsonFileName = "level1.json";
                 randomizeTaskOrder = false; 
-                TemporarySessionData.CsvFileName = csvFileName; // Cache it
-                Debug.Log($"[LevelDirector] Selected {csvFileName} for Level 1 (Strict Authored Order)");
+                TemporarySessionData.JsonFileName = jsonFileName; // Cache it
+                TemporarySessionData.LevelSubFolder = levelSubFolder; // Save the subfolder too
+                Debug.Log($"[LevelDirector] Selected {jsonFileName} for Level 1 (Strict Authored Order)");
             }
             else
             {
-                // Level 2+ pulls randomly from the remaining levels and shuffles their waves
-                int randomNum = UnityEngine.Random.Range(2, 7); // Random from 2 to 6 inclusive
-                csvFileName = $"level{randomNum}.csv";
-                randomizeTaskOrder = true;
-                TemporarySessionData.CsvFileName = csvFileName; // Cache it
-                Debug.Log($"[LevelDirector] Selected {csvFileName} randomly for Level {TemporarySessionData.CurrentLevelIndex} (Randomized Waves)");
+                // Level 2+ reuses the exact same JSON configuration indefinitely.
+                // Because the coordinates are procedurally generated, the same JSON produces infinite unique levels!
+                jsonFileName = TemporarySessionData.JsonFileName;
+                levelSubFolder = TemporarySessionData.LevelSubFolder; // CRITICAL: Restore the exact folder so path is correct
+                
+                // Safety fallback if it was somehow lost
+                if (string.IsNullOrEmpty(jsonFileName)) jsonFileName = "try_level.json";
+                if (string.IsNullOrEmpty(levelSubFolder)) levelSubFolder = "PopStrikeVR";
+
+                randomizeTaskOrder = true; // Always randomize tasks for subsequent levels
+                Debug.Log($"[LevelDirector] Reusing {levelSubFolder}/{jsonFileName} for Level {TemporarySessionData.CurrentLevelIndex} (Procedurally Shuffled for infinite levels)");
             }
 
             StartCoroutine(InitSessionSequence());
@@ -277,8 +292,8 @@ namespace PopstrikeVR.Core
                 PopstrikeVR.Interaction.GestureDetector.Instance.SetPatientProfile(patientProfile);
             }
 
-            string path = System.IO.Path.Combine(Application.streamingAssetsPath, levelSubFolder, csvFileName);
-            string csvContent = "";
+            string path = System.IO.Path.Combine(Application.streamingAssetsPath, levelSubFolder, jsonFileName);
+            string jsonContent = "";
 
 #if UNITY_ANDROID && !UNITY_EDITOR
             // On Android, StreamingAssets are locked inside the APK, so we MUST use UnityWebRequest
@@ -287,18 +302,18 @@ namespace PopstrikeVR.Core
                 yield return www.SendWebRequest();
                 if (www.result == UnityEngine.Networking.UnityWebRequest.Result.Success)
                 {
-                    csvContent = www.downloadHandler.text;
+                    jsonContent = www.downloadHandler.text;
                 }
                 else
                 {
-                    Debug.LogError($"[LevelDirector] Failed to load CSV from StreamingAssets: {www.error}");
+                    Debug.LogError($"[LevelDirector] Failed to load JSON from StreamingAssets: {www.error}");
                 }
             }
 #else
             // In the Editor, standard System.IO works fine
             if (System.IO.File.Exists(path))
             {
-                csvContent = System.IO.File.ReadAllText(path);
+                jsonContent = System.IO.File.ReadAllText(path);
             }
             else
             {
@@ -307,30 +322,39 @@ namespace PopstrikeVR.Core
             yield return null; // Yield one frame just to be safe
 #endif
 
-            parsedTasks = CSVLevelParser.ParseSessionCSVText(csvContent, patientProfile);
+            currentLevelConfig = JSONLevelParser.ParseLevelJSON(jsonContent);
             
-            if (randomizeTaskOrder && parsedTasks != null && parsedTasks.Count > 0)
+            if (currentLevelConfig != null && currentLevelConfig.spawnChances != null)
             {
-                // Fisher-Yates Shuffle to randomize task order
-                for (int i = 0; i < parsedTasks.Count; i++)
+                Debug.Log($"[LevelDirector] Successfully loaded procedural config. Starting Game Loop...");
+                
+                // Calculate total duration from JSON rounds/breaks to pre-populate the HUD timer
+                if (currentLevelConfig.rounds != null && currentLevelConfig.rounds.Count > 0)
                 {
-                    int randomIndex = UnityEngine.Random.Range(i, parsedTasks.Count);
-                    TaskRow temp = parsedTasks[i];
-                    parsedTasks[i] = parsedTasks[randomIndex];
-                    parsedTasks[randomIndex] = temp;
+                    float totalMinutes = 0f;
+                    foreach (var r in currentLevelConfig.rounds) totalMinutes += r.durationInMinutes;
+                    if (currentLevelConfig.breaks != null)
+                    {
+                        foreach (var b in currentLevelConfig.breaks) totalMinutes += b.durationInMinutes;
+                    }
+                    sessionDurationSeconds = totalMinutes * 60f;
                 }
-                Debug.Log("[LevelDirector] Task order has been randomized!");
-            }
-            
-            if (parsedTasks.Count > 0)
-            {
-                currentTaskIndex = 0; // Reset index to start from the beginning
-                Debug.Log($"[LevelDirector] Successfully loaded {parsedTasks.Count} tasks. Starting Game Loop...");
+                else
+                {
+                    // Fallback to menu configuration
+                    sessionDurationSeconds = (TemporarySessionData.Duration == SessionDuration.ThreeMinutes) ? 180f : 300f;
+                }
+                
+                if (PopstrikeVR.UI.PopstrikeHUDController.Instance != null)
+                {
+                    PopstrikeVR.UI.PopstrikeHUDController.Instance.UpdateTimerUI(sessionDurationSeconds);
+                }
+
                 StartCoroutine(GameLoop());
             }
             else
             {
-                Debug.LogWarning("[LevelDirector] No valid tasks found in the CSV.");
+                Debug.LogWarning("[LevelDirector] Invalid or missing JSON procedural configuration.");
             }
         }
 
@@ -402,9 +426,11 @@ namespace PopstrikeVR.Core
             totalWavesSpawned = 0;
             totalWavesMissed = 0;
             totalErrors = 0;
+            TheoreticalMaxScore = 0;
+            theoreticalMaxCombo = 0;
             
-            // Sync with Menu Configuration!
-            sessionDurationSeconds = (TemporarySessionData.Duration == SessionDuration.ThreeMinutes) ? 180f : 300f;
+            // sessionDurationSeconds is now calculated in InitSessionSequence
+
             gameStartTime = Time.time;
             isGameActive = true;
 
@@ -414,463 +440,258 @@ namespace PopstrikeVR.Core
             // The balloons spawn relative to the CenterEyeAnchor, which depends on where the player is physically looking.
             // If they manually built a table/plants in the editor, we need to snap that environment's rotation 
             // to match the player's initial view, otherwise the table will be beside or behind them!
-            GameObject envRoot = GameObject.Find("Environment_Root");
-            if (envRoot != null && PopstrikeVR.Gameplay.WorkspaceMapper.Instance != null && PopstrikeVR.Gameplay.WorkspaceMapper.Instance.HeadOrigin != null)
-            {
-                Vector3 euler = PopstrikeVR.Gameplay.WorkspaceMapper.Instance.HeadOrigin.rotation.eulerAngles;
-                envRoot.transform.rotation = Quaternion.Euler(0, euler.y, 0);
-            }
+            // 
 
             yield return new WaitForSeconds(2.0f);
 
-            while (isGameActive)
+            if (currentLevelConfig != null && currentLevelConfig.rounds != null && currentLevelConfig.rounds.Count > 0)
             {
-                if (parsedTasks == null || parsedTasks.Count == 0) break;
+                for (int roundIndex = 0; roundIndex < currentLevelConfig.rounds.Count; roundIndex++)
+                {
+                    if (!isGameActive) break;
 
-                // Fallback: If CSV has ended, start looping again from start until time reaches
-                if (currentTaskIndex >= parsedTasks.Count)
-                {
-                    Debug.Log("[LevelDirector] CSV ended. Looping back to start to fill remaining time.");
-                    currentTaskIndex = 0;
-                }
+                    float roundDurationSeconds = currentLevelConfig.rounds[roundIndex].durationInMinutes * 60f;
+                    float roundStartTime = Time.time; // Local timer for this specific round
 
-                errorsInCurrentWave = 0; // Reset error tracker for the new wave
-                TaskRow currentTask = parsedTasks[currentTaskIndex];
-                CurrentTaskType = currentTask.TaskType;
-                
-                totalWavesSpawned++;
-                
-                // --- ACCESSIBILITY: Auto-Lock Gesture for Easy/Medium ---
-                Coroutine autoLockRoutine = null;
-                if (PopstrikeVR.Core.TemporarySessionData.Difficulty != "Hard")
-                {
-                    autoLockRoutine = StartCoroutine(AutoLockGestureRoutine(GetRequiredGesture(CurrentTaskType)));
-                }
-                
-                List<GameObject> spawnedBalloons = SpawnTask(currentTask);
-                
-                // Trigger the spawn animation so they scale up from zero
-                foreach(var balloon in spawnedBalloons)
-                {
-                    if (balloon != null && balloon.TryGetComponent<PopstrikeVR.Gameplay.BaseBalloon>(out var baseBalloon))
+                    while (isGameActive && Time.time - roundStartTime < roundDurationSeconds)
                     {
-                        baseBalloon.AnimateSpawn(0.5f);
-                    }
-                }
-                
-                // DYNAMIC YIELDING with timeout limit (timeBetweenTasks) for all types!
-                float elapsed = 0f;
-                if (CurrentTaskType == BalloonTaskType.TMTA || CurrentTaskType == BalloonTaskType.TMTB)
-                {
-                    SetTMTTrailMode(true);
-                    if (TMTSolverScript.Instance != null)
-                    {
-                        while (TMTSolverScript.Instance.IsSequenceActive && elapsed < timeBetweenTasks)
+                        if (currentLevelConfig.spawnChances == null) break;
+
+                        errorsInCurrentWave = 0; // Reset error tracker for the new wave
+                        
+                        // --- PROCEDURAL GENERATION ---
+                        float safeRadius = patientProfile != null ? patientProfile.GetSafeRadius() : 0.6f;
+                        TaskRow currentTask = ProceduralTaskGenerator.GenerateNextTask(currentLevelConfig.spawnChances, safeRadius);
+                        
+                        CurrentTaskType = currentTask.TaskType;
+                        
+                        totalWavesSpawned++;
+                        
+                        // --- ACCESSIBILITY: Auto-Lock Gesture for Easy/Medium ---
+                        Coroutine autoLockRoutine = null;
+                        if (PopstrikeVR.Core.TemporarySessionData.Difficulty != "Hard")
                         {
-                            // If they have started connecting the trail, PAUSE the global timer!
-                            // TMTSolverScript has its own 3-second connection timeout, so they can't wait forever.
-                            if (!TMTSolverScript.Instance.HasSequenceStarted())
-                            {
-                                elapsed += Time.deltaTime;
-                            }
-                            yield return null;
+                            autoLockRoutine = StartCoroutine(AutoLockGestureRoutine(GetRequiredGesture(CurrentTaskType)));
                         }
-                    }
-                    else
-                    {
-                        yield return new WaitForSeconds(timeBetweenTasks);
-                    }
-                    SetTMTTrailMode(false);
-                }
-                else if (CurrentTaskType == BalloonTaskType.Green_Trace)
-                {
-                    if (TracePathManager.Instance != null)
-                    {
-                        bool wasTracking = false;
-                        while (TracePathManager.Instance.IsSequenceActive && elapsed < timeBetweenTasks)
+                        
+                        List<GameObject> spawnedBalloons = PopstrikeWaveSpawner.SpawnTask(currentTask, patientProfile);
+                        
+                        // --- DYNAMIC MAX SCORE SIMULATION ---
+                        int simulatedHits = (CurrentTaskType == BalloonTaskType.Orange_Punch) ? spawnedBalloons.Count : 1;
+                        int basePoints = ProceduralTaskGenerator.GetBaseScoreForTask(CurrentTaskType);
+                        
+                        for (int i = 0; i < simulatedHits; i++)
                         {
-                            // If they are actively tracing the corridor, PAUSE the global timer!
-                            if (!TracePathManager.Instance.IsTracking)
+                            theoreticalMaxCombo++;
+                            // Hardcode the Ghost Player to exactly 1.5x multiplier for the entire game
+                            float simulatedMultiplier = 1.5f;
+                            TheoreticalMaxScore += Mathf.RoundToInt(basePoints * simulatedMultiplier);
+                        }
+                        
+                        // Trigger the spawn animation so they scale up from zero
+                        foreach(var balloon in spawnedBalloons)
+                        {
+                            if (balloon != null && balloon.TryGetComponent<PopstrikeVR.Gameplay.BaseBalloon>(out var baseBalloon))
                             {
-                                if (wasTracking)
+                                baseBalloon.AnimateSpawn(0.5f);
+                            }
+                        }
+                        
+                        // DYNAMIC YIELDING with timeout limit (timeBetweenTasks) for all types!
+                        float elapsed = 0f;
+                        if (CurrentTaskType == BalloonTaskType.TMTA || CurrentTaskType == BalloonTaskType.TMTB)
+                        {
+                            SetTMTTrailMode(true);
+                            if (TMTSolverScript.Instance != null)
+                            {
+                                while (TMTSolverScript.Instance.IsSequenceActive && elapsed < timeBetweenTasks)
                                 {
-                                    // They just failed the trace! Add a 1 sec extra timer to let them try again.
-                                    elapsed = Mathf.Min(elapsed, timeBetweenTasks - 1.0f);
-                                    wasTracking = false;
+                                    if (!TMTSolverScript.Instance.HasSequenceStarted())
+                                    {
+                                        elapsed += Time.deltaTime;
+                                    }
+                                    yield return null;
                                 }
-                                elapsed += Time.deltaTime;
                             }
                             else
                             {
-                                wasTracking = true;
+                                yield return new WaitForSeconds(timeBetweenTasks);
                             }
-                            yield return null;
+                            SetTMTTrailMode(false);
                         }
-                    }
-                    else
-                    {
-                        yield return new WaitForSeconds(timeBetweenTasks);
-                    }
-                }
-                else if (CurrentTaskType == BalloonTaskType.Blue_Slash)
-                {
-                    if (PopstrikeVR.Gameplay.BladeSlashManager.Instance != null)
-                    {
-                        while (PopstrikeVR.Gameplay.BladeSlashManager.Instance.IsSequenceActive() && elapsed < timeBetweenTasks)
+                        else if (CurrentTaskType == BalloonTaskType.Green_Trace)
                         {
-                            if (!PopstrikeVR.Gameplay.BladeSlashManager.Instance.IsTracking)
+                            if (TracePathManager.Instance != null)
                             {
-                                elapsed += Time.deltaTime;
+                                bool wasTracking = false;
+                                while (TracePathManager.Instance.IsSequenceActive && elapsed < timeBetweenTasks)
+                                {
+                                    if (!TracePathManager.Instance.IsTracking)
+                                    {
+                                        if (wasTracking)
+                                        {
+                                            elapsed = Mathf.Min(elapsed, timeBetweenTasks - 1.0f);
+                                            wasTracking = false;
+                                        }
+                                        elapsed += Time.deltaTime;
+                                    }
+                                    else
+                                    {
+                                        wasTracking = true;
+                                    }
+                                    yield return null;
+                                }
                             }
-                            yield return null;
+                            else
+                            {
+                                yield return new WaitForSeconds(timeBetweenTasks);
+                            }
                         }
-                    }
-                    else
-                    {
-                        yield return new WaitForSeconds(timeBetweenTasks);
-                    }
-                }
-                else
-                {
-                    // For regular Orange Punch balloons, give them the standard time limit
-                    // BUT allow early exit if they pop all balloons quickly!
-                    while (elapsed < timeBetweenTasks)
-                    {
-                        bool allPopped = true;
+                        else if (CurrentTaskType == BalloonTaskType.Blue_Slash)
+                        {
+                            if (PopstrikeVR.Gameplay.BladeSlashManager.Instance != null)
+                            {
+                                while (PopstrikeVR.Gameplay.BladeSlashManager.Instance.IsSequenceActive() && elapsed < timeBetweenTasks)
+                                {
+                                    if (!PopstrikeVR.Gameplay.BladeSlashManager.Instance.IsTracking)
+                                    {
+                                        elapsed += Time.deltaTime;
+                                    }
+                                    yield return null;
+                                }
+                            }
+                            else
+                            {
+                                yield return new WaitForSeconds(timeBetweenTasks);
+                            }
+                        }
+                        else
+                        {
+                            while (elapsed < timeBetweenTasks)
+                            {
+                                bool allPopped = true;
+                                foreach(var balloon in spawnedBalloons)
+                                {
+                                    if (balloon != null && balloon.activeInHierarchy)
+                                    {
+                                        if (balloon.TryGetComponent<PopstrikeVR.Gameplay.BaseBalloon>(out var baseBalloon))
+                                        {
+                                            if (!baseBalloon.IsPopped) 
+                                            {
+                                                allPopped = false;
+                                                break;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            allPopped = false;
+                                            break;
+                                        }
+                                    }
+                                }
+                                
+                                if (allPopped)
+                                {
+                                    break; 
+                                }
+                                
+                                elapsed += Time.deltaTime;
+                                yield return null;
+                            }
+                        }
+                        
+                        // --- ACCESSIBILITY: Unlock Gesture at end of wave ---
+                        if (autoLockRoutine != null) StopCoroutine(autoLockRoutine);
+                        if (PopstrikeVR.Interaction.GestureDetector.Instance != null)
+                        {
+                            PopstrikeVR.Interaction.GestureDetector.Instance.UnlockGesture(true);
+                            PopstrikeVR.Interaction.GestureDetector.Instance.UnlockGesture(false);
+                        }
+
+                        bool missedAny = false;
                         foreach(var balloon in spawnedBalloons)
                         {
                             if (balloon != null && balloon.activeInHierarchy)
                             {
                                 if (balloon.TryGetComponent<PopstrikeVR.Gameplay.BaseBalloon>(out var baseBalloon))
                                 {
-                                    if (!baseBalloon.IsPopped) 
-                                    {
-                                        allPopped = false;
-                                        break;
-                                    }
+                                    if (baseBalloon.IsPopped) continue; 
+                                    if (baseBalloon is PopstrikeVR.Gameplay.BladeBalloon blade && blade.IsSliced) continue; 
                                 }
-                                else
+
+                                missedAny = true;
+                                if (PopstrikeVR.Gameplay.ComboManager.Instance != null) 
+                                    PopstrikeVR.Gameplay.ComboManager.Instance.BreakCombo();
+                                
+                                if (baseBalloon != null)
                                 {
-                                    allPopped = false;
-                                    break;
+                                    baseBalloon.AnimateDespawn(0.5f);
                                 }
+
+                                PopstrikePooler.DespawnBalloon(balloon, 0.5f);
                             }
                         }
-                        
-                        if (allPopped)
+
+                        if (missedAny)
                         {
-                            break; // Skip the rest of the task timer!
-                        }
-                        
-                        elapsed += Time.deltaTime;
-                        yield return null;
-                    }
-                }
-                
-                // --- ACCESSIBILITY: Unlock Gesture at end of wave ---
-                if (autoLockRoutine != null) StopCoroutine(autoLockRoutine);
-                if (PopstrikeVR.Interaction.GestureDetector.Instance != null)
-                {
-                    PopstrikeVR.Interaction.GestureDetector.Instance.UnlockGesture(true);
-                    PopstrikeVR.Interaction.GestureDetector.Instance.UnlockGesture(false);
-                }
-
-                // GDD Rule: Miss/Timeout
-                // If balloons are still active after the timer AND they are not currently popping, they were missed!
-                bool missedAny = false;
-                foreach(var balloon in spawnedBalloons)
-                {
-                    if (balloon != null && balloon.activeInHierarchy)
-                    {
-                        // Check if it's already popped/dissolving
-                        if (balloon.TryGetComponent<PopstrikeVR.Gameplay.BaseBalloon>(out var baseBalloon))
-                        {
-                            if (baseBalloon.IsPopped) continue; // It's just playing its pop animation, don't count as a miss!
-                            if (baseBalloon is PopstrikeVR.Gameplay.BladeBalloon blade && blade.IsSliced) continue; // It's waiting for its cascade pop!
-                        }
-
-                        missedAny = true;
-                        if (PopstrikeVR.Gameplay.ComboManager.Instance != null) 
-                            PopstrikeVR.Gameplay.ComboManager.Instance.BreakCombo();
-                        
-                        // Tell the balloon to smoothly shrink away instead of popping
-                        if (baseBalloon != null)
-                        {
-                            baseBalloon.AnimateDespawn(0.5f);
-                        }
-
-                        // Delay the actual despawn so the shrink animation has time to play
-                        PopstrikePooler.DespawnBalloon(balloon, 0.5f);
-                    }
-                }
-
-                if (missedAny)
-                {
-                    totalWavesMissed++;
-                    if (PopstrikeFeedbackManager.Instance != null)
-                        PopstrikeFeedbackManager.Instance.PlayErrorTone();
-                    
-                    // Wait for the deflate animations to finish before spawning the next wave
-                    yield return new WaitForSeconds(0.5f);
-                }
-                else
-                {
-                    // Give the player a breather between successful waves so they don't instantly overlap!
-                    yield return new WaitForSeconds(delayBetweenWaves);
-                }
-
-                currentTaskIndex++;
-            }
-            
-            CalculateAndShowResults();
-        }
-
-        private void CalculateAndShowResults()
-        {
-            Debug.Log("[LevelDirector] Session Complete! Showing Results UI...");
-            
-            // --- Determine minimum waves required based on difficulty + session mode ---
-            string difficulty = levelSubFolder.Contains("Medium") ? "Medium" : levelSubFolder.Contains("Hard") ? "Hard" : "Easy";
-
-            // --- Accuracy (includes both missed waves AND in-wave errors for clinical precision) ---
-            // Weight the errors based on difficulty to make it more forgiving
-            float weightedErrors = totalErrors;
-            if (difficulty == "Easy") weightedErrors = totalErrors / 3.0f;
-            else if (difficulty == "Medium") weightedErrors = totalErrors / 2.0f;
-            else if (difficulty == "Hard") weightedErrors = totalErrors / 1.5f;
-
-            // Total correct actions = spawned waves cleared, penalised by any in-wave errors.
-            int totalCorrectActions = totalWavesSpawned - totalWavesMissed;
-            float totalActions = totalWavesSpawned + weightedErrors;
-            float accuracy = totalActions > 0 ? (float)totalCorrectActions / totalActions * 100f : 0f;
-            accuracy = Mathf.Clamp(accuracy, 0f, 100f);
-            
-            int maxCombo = PopstrikeVR.Gameplay.ComboManager.Instance != null ? 
-                PopstrikeVR.Gameplay.ComboManager.Instance.HighestCombo : 0;
-            int minWavesRequired;
-
-            if (sessionDuration == SessionDuration.ThreeMinutes)
-            {
-                if (difficulty == "Medium")     minWavesRequired = minWaves_Medium_3min;
-                else if (difficulty == "Hard")  minWavesRequired = minWaves_Hard_3min;
-                else                            minWavesRequired = minWaves_Easy_3min;
-            }
-            else // FiveMinutes
-            {
-                if (difficulty == "Medium")     minWavesRequired = minWaves_Medium_5min;
-                else if (difficulty == "Hard")  minWavesRequired = minWaves_Hard_5min;
-                else                            minWavesRequired = minWaves_Easy_5min;
-            }
-
-            int wavesCleared = totalWavesSpawned - totalWavesMissed;
-            bool levelPassed = wavesCleared >= minWavesRequired;
-
-            // --- Star & Accuracy thresholds based on difficulty ---
-            float targetAccuracy = 75f; // Easy default
-            int star3ErrorThreshold = 5; // Easy default
-
-            if (difficulty == "Medium")
-            {
-                targetAccuracy = 80f;
-                star3ErrorThreshold = 4;
-            }
-            else if (difficulty == "Hard")
-            {
-                targetAccuracy = 85f;
-                star3ErrorThreshold = 2;
-            }
-
-            // Star 0: Level FAILED — not enough waves cleared.
-            // Star 1: Level PASSED — cleared the minimum wave threshold.
-            // Star 2: Accuracy >= targetAccuracy.
-            // Star 3: Star 2 earned + errors within the difficulty threshold.
-            // Strict Left → Center → Right hierarchical sequence.
-            int starCount = 0;
-            if (levelPassed)
-            {
-                starCount = 1;
-                if (accuracy >= targetAccuracy) starCount = 2;
-                if (starCount == 2 && totalErrors <= star3ErrorThreshold) starCount = 3;
-            }
-
-            // --- Read Final Score from HUD ---
-            int finalScore = PopstrikeVR.UI.PopstrikeHUDController.Instance != null ?
-                PopstrikeVR.UI.PopstrikeHUDController.Instance.CurrentScore : 0;
-
-            Debug.Log($"[LevelDirector] Final -> Difficulty: {difficulty} | Session: {sessionDuration} | Waves Cleared: {wavesCleared}/{minWavesRequired} | Passed: {levelPassed} | Accuracy: {accuracy:0.0}% (Target: {targetAccuracy}%) | Errors: {totalErrors} (Threshold: {star3ErrorThreshold}) | Streak: {maxCombo} | Score: {finalScore} | Stars: {starCount}");
-
-            // --- Spawn UI ---
-            if (PopstrikeVR.UI.LevelResultsUI.Instance != null && WorkspaceMapper.Instance != null && WorkspaceMapper.Instance.HeadOrigin != null)
-            {
-                Transform head = WorkspaceMapper.Instance.HeadOrigin;
-                Vector3 forwardLevel = Vector3.ProjectOnPlane(head.forward, Vector3.up).normalized;
-                if (forwardLevel == Vector3.zero) forwardLevel = head.up;
-                
-                Vector3 spawnPos = head.position + (forwardLevel * resultsUIDistance);
-                spawnPos.y = head.position.y + resultsUIHeightOffset;
-                
-                PopstrikeVR.UI.LevelResultsUI.Instance.transform.position = spawnPos;
-                PopstrikeVR.UI.LevelResultsUI.Instance.transform.rotation = Quaternion.LookRotation(forwardLevel, Vector3.up);
-                
-                PopstrikeVR.UI.LevelResultsUI.Instance.DisplayResults(accuracy, maxCombo, starCount, finalScore, targetAccuracy, star3ErrorThreshold);
-            }
-        }
-        private List<Vector3> ExpandAuthoredCoordinates(List<Vector3> coords, float expansionMultiplier)
-        {
-            if (coords == null || coords.Count <= 1) return new List<Vector3>(coords);
-
-            Vector3 center = Vector3.zero;
-            foreach (var c in coords) center += c;
-            center /= coords.Count;
-
-            List<Vector3> expanded = new List<Vector3>();
-            foreach (var c in coords)
-            {
-                float newAz = center.x + (c.x - center.x) * expansionMultiplier;
-                float newEl = center.y + (c.y - center.y) * expansionMultiplier;
-                expanded.Add(new Vector3(newAz, newEl, c.z));
-            }
-            return expanded;
-        }
-        
-        private List<GameObject> SpawnTask(TaskRow task)
-        {
-            List<GameObject> spawned = new List<GameObject>();
-            List<Vector3> mappedPositions = new List<Vector3>();
-            float shapeExpansionMultiplier = 2.2f; // Scales authored shapes out to fit large balloons without overlapping
-
-            switch (task.TaskType)
-            {
-                case BalloonTaskType.Orange_Punch:
-                    foreach(var spherical in task.SphericalCoordinates)
-                    {
-                        // True for relaxation: Push these apart if they overlap!
-                        Vector3 pos = WorkspaceMapper.Instance.GetWorldPositionSafely(spherical, patientProfile, mappedPositions, true);
-                        mappedPositions.Add(pos);
-                        GameObject obj = PopstrikePooler.SpawnBalloon("BlazeBalloon", pos, Quaternion.identity);
-                        if (obj != null)
-                        {
-                            if (obj.TryGetComponent<PopstrikeVR.Gameplay.BlazeBalloon>(out var blaze))
-                            {
-                                blaze.Setup(pos);
-                                blaze.Initialize(patientProfile);
-                            }
-                            spawned.Add(obj);
-                        }
-                    }
-                    break;
-
-                case BalloonTaskType.Blue_Slash:
-                    {
-                        var expandedCoords = ExpandAuthoredCoordinates(task.SphericalCoordinates, shapeExpansionMultiplier);
-                        foreach(var spherical in expandedCoords)
-                        {
-                            // True for relaxation: Prevent overlap using the new MinSafeDistance
-                            Vector3 pos = WorkspaceMapper.Instance.GetWorldPositionSafely(spherical, patientProfile, mappedPositions, true);
-                            mappedPositions.Add(pos);
-                            GameObject obj = PopstrikePooler.SpawnBalloon("BladeBalloon", pos, Quaternion.identity);
-                            if (obj != null) 
-                            {
-                                if (obj.TryGetComponent<PopstrikeVR.Gameplay.BaseBalloon>(out var baseB)) baseB.Setup(pos);
-                                spawned.Add(obj);
-                            }
-                        }
-                    }
-                    
-                    if (PopstrikeVR.Gameplay.BladeSlashManager.Instance == null)
-                    {
-                        var go = new GameObject("BladeSlashManager");
-                        go.AddComponent<PopstrikeVR.Gameplay.BladeSlashManager>();
-                    }
-                    PopstrikeVR.Gameplay.BladeSlashManager.Instance.RegisterSequence(spawned);
-                    break;
-
-                case BalloonTaskType.Green_Trace:
-                    {
-                        var expandedCoords = ExpandAuthoredCoordinates(task.SphericalCoordinates, shapeExpansionMultiplier);
-                        foreach(var spherical in expandedCoords)
-                        {
-                            // Pull the Green Trace task 15cm closer to the patient for easier depth perception!
-                            float traceDepthOffset = 0.15f; 
+                            totalWavesMissed++;
+                            if (PopstrikeFeedbackManager.Instance != null)
+                                PopstrikeFeedbackManager.Instance.PlayErrorTone();
                             
-                            // True for relaxation: Prevent overlap using the new MinSafeDistance
-                            Vector3 pos = WorkspaceMapper.Instance.GetWorldPositionSafely(spherical, patientProfile, mappedPositions, true, traceDepthOffset);
-                            mappedPositions.Add(pos);
-                            GameObject obj = PopstrikePooler.SpawnBalloon("TraceBalloon", pos, Quaternion.identity);
-                            if (obj != null) 
-                            {
-                                if (obj.TryGetComponent<PopstrikeVR.Gameplay.BaseBalloon>(out var baseB)) baseB.Setup(pos);
-                                spawned.Add(obj);
-                            }
+                            yield return new WaitForSeconds(0.5f);
                         }
-                    }
-                    
-                    if (PopstrikeVR.Gameplay.TracePathManager.Instance == null)
-                    {
-                        var go = new GameObject("TracePathManager");
-                        go.AddComponent<PopstrikeVR.Gameplay.TracePathManager>();
-                    }
-                    PopstrikeVR.Gameplay.TracePathManager.Instance.RegisterSequence(spawned);
-                    break;
-
-                case BalloonTaskType.TMTA:
-                case BalloonTaskType.TMTB:
-                    {
-                        // Spawn Transparent balloons for the Trail Making Test
-                        List<GameObject> tmtSequence = new List<GameObject>();
-                        var expandedCoords = ExpandAuthoredCoordinates(task.SphericalCoordinates, shapeExpansionMultiplier);
-                        foreach(var spherical in expandedCoords)
+                        else
                         {
-                            // True for relaxation: Prevent overlap using the new MinSafeDistance
-                            Vector3 pos = WorkspaceMapper.Instance.GetWorldPositionSafely(spherical, patientProfile, mappedPositions, true);
-                            mappedPositions.Add(pos);
-                            GameObject obj = PopstrikePooler.SpawnBalloon("TrailBalloon", pos, Quaternion.identity);
-                            if (obj != null) 
-                            {
-                                Debug.Log($"<color=cyan>[LevelDirector] SUCCESSFULLY SPAWNED TrailBalloon at Pos: {pos}, Scale: {obj.transform.localScale}, Active: {obj.activeInHierarchy}</color>");
-                                tmtSequence.Add(obj);
-                                spawned.Add(obj);
-                            }
-                            else
-                            {
-                                Debug.LogError($"<color=red>[LevelDirector] FAILED TO SPAWN TrailBalloon at Pos: {pos}. SpawnBalloon returned null!</color>");
-                            }
+                            yield return new WaitForSeconds(delayBetweenWaves);
                         }
-                    // Assign Labels based on Task Type
-                    int number = 1;
-                    char letter = 'A';
-                    for(int i = 0; i < tmtSequence.Count; i++)
-                    {
-                        var obj = tmtSequence[i];
-                        if(obj.TryGetComponent<PopstrikeVR.Gameplay.TrailBalloon>(out var trail))
-                        {
-                            if (task.TaskType == BalloonTaskType.TMTA)
-                            {
-                                trail.SetupTMT(obj.transform.position, number.ToString());
-                                number++;
-                            }
-                            else if (task.TaskType == BalloonTaskType.TMTB)
-                            {
-                                if (i % 2 == 0)
-                                {
-                                    trail.SetupTMT(obj.transform.position, number.ToString());
-                                    number++;
-                                }
-                                else
-                                {
-                                    trail.SetupTMT(obj.transform.position, letter.ToString());
-                                    letter++;
-                                }
-                            }
-                        }
-                    }
+                    } // End of Inner Round Loop
 
-                    if (TMTSolverScript.Instance != null && tmtSequence.Count > 0)
-                        TMTSolverScript.Instance.RegisterSequence(tmtSequence, task.TaskType == BalloonTaskType.TMTB);
+                    if (!isGameActive) break;
+
+                    // --- HANDLE BREAK TIME ---
+                    if (currentLevelConfig.breaks != null && roundIndex < currentLevelConfig.breaks.Count)
+                    {
+                        float breakDurationSeconds = currentLevelConfig.breaks[roundIndex].durationInMinutes * 60f;
+                        if (breakDurationSeconds > 0f)
+                        {
+                            float breakStartTime = Time.time;
+                            
+                            if (levelIndicatorRoot != null)
+                            {
+                                levelIndicatorRoot.SetActive(true);
+                                TriggerHUDPositioner(levelIndicatorRoot);
+                            }
+                            if (levelAnnouncementText != null)
+                            {
+                                levelAnnouncementText.gameObject.SetActive(true);
+                                levelAnnouncementText.text = "BREAK";
+                            }
+
+                            while (isGameActive && Time.time - breakStartTime < breakDurationSeconds)
+                            {
+                                float remainingSeconds = breakDurationSeconds - (Time.time - breakStartTime);
+                                
+                                if (levelAnnouncementText != null)
+                                {
+                                    if (remainingSeconds <= 3.0f)
+                                        levelAnnouncementText.text = Mathf.CeilToInt(remainingSeconds).ToString();
+                                    else
+                                        levelAnnouncementText.text = "BREAK";
+                                }
+
+                                // Global Update() handles the HUD Timer now, so we just wait!
+                                yield return null;
+                            }
+
+                            if (levelIndicatorRoot != null) levelIndicatorRoot.SetActive(false);
+                            if (levelAnnouncementText != null) levelAnnouncementText.gameObject.SetActive(false);
+                        }
                     }
-                    break;
+                } // End of Outer Rounds Loop
             }
-            return spawned;
+            
+            // If we naturally exit the loop without the Update timer catching it, end the session safely.
+            EndSession();
         }
 
         private PopstrikeVR.Interaction.GestureState GetRequiredGesture(BalloonTaskType taskType)

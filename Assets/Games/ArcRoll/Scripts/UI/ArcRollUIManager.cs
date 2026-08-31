@@ -34,6 +34,15 @@ namespace ArcRoll.UI
         private int lastScore = 0;
         private float lastCombo = 1f;
 
+        public static ArcRollUIManager Instance { get; private set; }
+        private bool isBreakActive = false;
+
+        private void Awake()
+        {
+            if (Instance != null && Instance != this) { Destroy(gameObject); return; }
+            Instance = this;
+        }
+
         private void Start()
         {
             if (ArcRollScoreManager.Instance != null)
@@ -205,7 +214,22 @@ namespace ArcRoll.UI
 
         private void UpdateStreakText(int streak)
         {
+            if (isBreakActive) return;
             if (streakText != null) streakText.text = streak.ToString();
+        }
+
+        public void SetBreakText(string text)
+        {
+            isBreakActive = true;
+            if (streakText != null) 
+                streakText.text = text;
+        }
+
+        public void EndBreakText()
+        {
+            isBreakActive = false;
+            if (ArcRollScoreManager.Instance != null)
+                UpdateStreakText(ArcRollScoreManager.Instance.currentStreak);
         }
 
         private IEnumerator PunchTextScale(TextMeshProUGUI tmpText, Vector3 targetScale, float duration)

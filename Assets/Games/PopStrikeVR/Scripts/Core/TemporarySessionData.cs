@@ -25,7 +25,8 @@ namespace PopstrikeVR.Core
         public static HandTrackingMode HandMode = HandTrackingMode.BothHands;
         public static string Difficulty = "Easy"; // "Easy", "Medium", "Hard"
         public static SessionDuration Duration = SessionDuration.ThreeMinutes;
-        public static string CsvFileName = "level1.csv"; // Used as fallback or single-level mode
+        public static string JsonFileName = "level1.json"; // Used as fallback or single-level mode
+        public static string LevelSubFolder = "PopStrikeVR"; // The exact StreamingAssets subfolder — preserved across scene reloads
         
         // Settings for accessibility
         public static bool DisableGestures = false;
@@ -53,11 +54,11 @@ namespace PopstrikeVR.Core
         {
             CurrentLevelSequence.Clear();
 
-            List<string> phase1 = new List<string> { "level1.csv", "level2.csv", "level3.csv" };
-            List<string> phase2 = new List<string> { "level4.csv", "level5.csv", "level6.csv" };
+            List<string> phase1 = new List<string> { "level1.json", "level2.json", "level3.json" };
+            List<string> phase2 = new List<string> { "level4.json", "level5.json", "level6.json" };
 
             // Remove random shuffling so the progression is linear!
-            // This guarantees Level 1 is always level1.csv, Level 4 is always level4.csv, etc.
+            // This guarantees Level 1 is always level1.json, Level 4 is always level4.json, etc.
 
             CurrentLevelSequence.AddRange(phase1);
             CurrentLevelSequence.AddRange(phase2);

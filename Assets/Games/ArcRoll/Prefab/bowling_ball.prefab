@@ -417,6 +417,12 @@ PrefabInstance:
       addedObject: {fileID: 8140568334334397860}
     - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 703874904205437795}
+    - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 839556846388928719}
+    - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1460820157504119373}
     - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
       insertIndex: -1
@@ -426,16 +432,10 @@ PrefabInstance:
       addedObject: {fileID: 8327255523149766663}
     - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 839556846388928719}
-    - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
-      insertIndex: -1
       addedObject: {fileID: -7403494225641427536}
     - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1456912532557755108}
-    - targetCorrespondingSourceObject: {fileID: -6689036041284674117, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 703874904205437795}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 0c3ed1308c6281b459ecf3798e4ff0f2, type: 3}
 --- !u!4 &4801981857484737941 stripped
 Transform:
@@ -520,6 +520,42 @@ MonoBehaviour:
   magneticPullStrength: 8
   magneticPullRadius: 1.5
   hasScored: 0
+--- !u!114 &703874904205437795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120547231431395294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7dea36e23b2cf4e943ab5637b0027f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.Helpers.AutoGrabInteractable
+  enableAutoGrab: 0
+  grabDistance: 0.2
+  snapPoint: {fileID: 6632830498543031828}
+  throwThresholdSpeed: 1.2
+  releaseDropRatio: 0.8
+  minHoldFrames: 10
+--- !u!114 &839556846388928719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120547231431395294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e5a9d96ca448e40a7d33463460a08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.ArcRollBallAudio
+  impactSounds:
+  - {fileID: 8300000, guid: d9eb5e691713a054e978f572a8b32863, type: 3}
+  minImpactVelocity: 0.5
+  maxImpactVelocity: 10
+  rollingSound: {fileID: 8300000, guid: edc2071518e146d428a3b344b10b2cf0, type: 3}
+  maxRollingVelocity: 8
 --- !u!114 &1460820157504119373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,24 +716,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &839556846388928719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120547231431395294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28e5a9d96ca448e40a7d33463460a08f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.ArcRollBallAudio
-  impactSounds:
-  - {fileID: 8300000, guid: d9eb5e691713a054e978f572a8b32863, type: 3}
-  minImpactVelocity: 0.5
-  maxImpactVelocity: 10
-  rollingSound: {fileID: 8300000, guid: edc2071518e146d428a3b344b10b2cf0, type: 3}
-  maxRollingVelocity: 8
 --- !u!96 &-7403494225641427536
 TrailRenderer:
   serializedVersion: 4
@@ -829,21 +847,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49b155834fee14b40804dd0dee10a883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.ArcRollBallTrail
---- !u!114 &703874904205437795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120547231431395294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac7dea36e23b2cf4e943ab5637b0027f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.Helpers.AutoGrabInteractable
-  enableAutoGrab: 1
-  grabDistance: 0.2
-  snapPoint: {fileID: 6632830498543031828}
-  throwThresholdSpeed: 1.2
-  releaseDropRatio: 0.8
-  minHoldFrames: 10

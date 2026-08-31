@@ -205,17 +205,24 @@ namespace ArcRoll.UI
             int totalThrows = successful + errors;
             float accuracyPercent = totalThrows > 0 ? ((float)successful / totalThrows) * 100f : 0f;
 
+            // Calculate dynamic streak goal based on difficulty
+            int targetStreak = 5; // Default Medium
+            string diff = ArcRoll.UI.ArcRollMenuManager.Difficulty;
+            if (diff == "Easy") targetStreak = 3;
+            else if (diff == "Hard") targetStreak = 8;
+
             // Calculate Independent Star Conditions
             bool star1Earned = true; // Level Complete
             bool star2Earned = accuracyPercent >= targetAccuracy;
-            bool star3Earned = errors <= targetMaxErrors;
+            bool star3Earned = bestStreak >= targetStreak;
 
             // Sort conditions so earned ones appear first (from left to right)
+            // NOTE: Always generate labels at runtime so reshuffled order always shows the correct label.
             var conditions = new System.Collections.Generic.List<StarCondition>()
             {
-                new StarCondition { labelText = string.IsNullOrEmpty(originalStar1Text) ? "Level\nComplete" : originalStar1Text, isEarned = star1Earned },
-                new StarCondition { labelText = string.IsNullOrEmpty(originalStar2Text) ? $"≥ {Mathf.RoundToInt(targetAccuracy)}%\nAccuracy" : originalStar2Text, isEarned = star2Earned },
-                new StarCondition { labelText = string.IsNullOrEmpty(originalStar3Text) ? $"≤ {targetMaxErrors}\nErrors" : originalStar3Text, isEarned = star3Earned }
+                new StarCondition { labelText = "Level\nComplete", isEarned = star1Earned },
+                new StarCondition { labelText = $"≥ {Mathf.RoundToInt(targetAccuracy)}%\nAccuracy", isEarned = star2Earned },
+                new StarCondition { labelText = $"≥ {targetStreak}\nBest Streak", isEarned = star3Earned }
             };
 
             var orderedConditions = new System.Collections.Generic.List<StarCondition>();

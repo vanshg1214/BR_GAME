@@ -197,12 +197,49 @@ namespace ArcRoll.Gameplay
             // (a) A ball/frisbee is already sitting at the rest position waiting to be grabbed
             // (b) We're already at the max ball cap
             // (c) No shots are queued
+            // (d) The previous target is still visible/cleaning up
             if (isWaitingForGrab) return;
             if (activeBalls.Count + activeFrisbees.Count >= maxBallsInScene) return;
             if (shotQueue.Count == 0) return;
+            if (levelDirector != null && !levelDirector.IsTargetDestroyed) return;
 
             var fireAction = shotQueue.Dequeue();
             fireAction?.Invoke();
+        }
+
+        /// <summary>
+        /// Clears pending shots and destroys any balls/frisbees that have not been grabbed yet.
+        /// Returns true if at least one ungrabbed ball/frisbee was destroyed.
+        /// </summary>
+        public bool ClearUngrabbedShots()
+        {
+            shotQueue.Clear();
+            bool didClear = false;
+
+            for (int i = activeBalls.Count - 1; i >= 0; i--)
+            {
+                var b = activeBalls[i];
+                if (b != null && (b.State == Ball.BallState.InRack || b.State == Ball.BallState.AtRestPosition || b.State == Ball.BallState.TravelingToTarget))
+                {
+                    activeBalls.RemoveAt(i);
+                    Destroy(b.gameObject);
+                    didClear = true;
+                }
+            }
+
+            for (int i = activeFrisbees.Count - 1; i >= 0; i--)
+            {
+                var f = activeFrisbees[i];
+                if (f != null && (f.State == ArcRoll.Gameplay.Frisbee.Frisbee.FrisbeeState.InRack || f.State == ArcRoll.Gameplay.Frisbee.Frisbee.FrisbeeState.AtRestPosition || f.State == ArcRoll.Gameplay.Frisbee.Frisbee.FrisbeeState.TravelingToTarget))
+                {
+                    activeFrisbees.RemoveAt(i);
+                    Destroy(f.gameObject);
+                    didClear = true;
+                }
+            }
+
+            if (didClear) isWaitingForGrab = false;
+            return didClear;
         }
 
         // ── Helpers ───────────────────────────────────────────────────────────

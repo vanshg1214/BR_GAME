@@ -53,81 +53,92 @@ namespace PopstrikeVR.UI
 
         private System.Collections.IEnumerator DelayedPositionUI()
         {
+            // Step 1: Always wait a minimum of 0.5s first to let WorkspaceMapper and 
+            // EnvironmentAutoPositioner finish their recenter routines.
             yield return new WaitForSeconds(0.5f);
+
+            // Step 2: Poll until the camera position has STOPPED MOVING between frames.
+            // This is 100% reliable regardless of device load or tracking speed.
+            // We wait until the position delta is less than 0.001m (1mm) for 3 consecutive frames.
+            if (playerCamera == null && Camera.main != null) playerCamera = Camera.main.transform;
+            
+            if (playerCamera != null)
+            {
+                int stableFrames = 0;
+                Vector3 lastPos = playerCamera.position;
+                Quaternion lastRot = playerCamera.rotation;
+                
+                while (stableFrames < 3)
+                {
+                    yield return null; // Wait one frame
+                    
+                    float posDelta = Vector3.Distance(playerCamera.position, lastPos);
+                    float rotDelta = Quaternion.Angle(playerCamera.rotation, lastRot);
+                    
+                    if (posDelta < 0.001f && rotDelta < 0.1f)
+                    {
+                        stableFrames++;
+                    }
+                    else
+                    {
+                        stableFrames = 0; // Still moving — reset counter
+                    }
+                    
+                    lastPos = playerCamera.position;
+                    lastRot = playerCamera.rotation;
+                }
+                
+                Debug.Log("[HUDStaticPositioner] Camera tracking stable. Positioning UI now.");
+            }
+            
             PositionUI();
         }
 
         private System.Collections.IEnumerator Start()
         {
-            // Wait for half a second to allow the Meta Quest headset to find its tracking position
-            // (In Editor it's instant, but on device it takes a few frames)
-            yield return new WaitForSeconds(0.5f);
-            
-            // Position the UI once tracking is stable
+            // Wait 1.5s on device to allow Meta Quest tracking to fully stabilize across scene loads.
+            // 0.5s was too short and caused the UI to snap to an untracked position.
+            yield return new WaitForSeconds(1.5f);
             PositionUI();
         }
 
         /// <summary>
-        /// Calculates and sets the final position of the Canvas. 
-        /// Can be called manually if you need to re-center the UI during gameplay.
+        /// Positions the canvas in front of the player based on their current head direction.
+        /// IMPORTANT: This method ONLY sets position. It never changes rotation — the canvas
+        /// rotation is left exactly as authored in the scene.
         /// </summary>
         public void PositionUI()
         {
             // Auto-find main camera if none was assigned
             if (playerCamera == null)
             {
-                if (Camera.main != null)
-                {
-                    playerCamera = Camera.main.transform;
-                }
+                if (Camera.main != null) playerCamera = Camera.main.transform;
                 else
                 {
-                    Debug.LogWarning("[HUDStaticPositioner] No player camera assigned or found! Cannot position UI.");
+                    Debug.LogWarning("[HUDStaticPositioner] No player camera found!");
                     return;
                 }
             }
 
-            // 1. Determine "True Forward" (The direction balloons are spawning)
-            // If the user has a specific play-space root, use its forward. Otherwise use world Z-forward.
-            Vector3 trueForward = roomForwardReference != null ? roomForwardReference.forward : Vector3.forward;
+            // Use the player's current live head direction (where they are looking RIGHT NOW).
+            // We flatten the Y so the canvas never tilts up/down — it always stays perfectly upright.
+            Vector3 forward = playerCamera.forward;
+            forward.y = 0f;
+            if (forward.sqrMagnitude < 0.001f) forward = Vector3.forward;
+            forward.Normalize();
+
+            // Place the canvas: The user specifically requested to ONLY use Z (depth) and Y (height)
+            // from the headset, and leave X and Rotation EXACTLY as authored in the Unity Scene.
+            Vector3 targetPosition = transform.position; // Keep current authored X
             
-            // Flatten the forward vector on the Y axis so the UI doesn't accidentally spawn tilted into the floor or ceiling
-            trueForward.y = 0;
-            if (trueForward.sqrMagnitude > 0.001f)
-            {
-                trueForward.Normalize();
-            }
-            else
-            {
-                trueForward = Vector3.forward;
-            }
-
-            // 2. Calculate Position
-            // Start exactly at the head, move out by True Forward (room forward), then adjust the height.
-            Vector3 targetPosition = playerCamera.position + (trueForward * distance);
             targetPosition.y = playerCamera.position.y + heightOffset;
+            targetPosition.z = playerCamera.position.z + distance; // Use headset Z + distance
 
+            // ONLY set the position — never change the rotation.
+            // The canvas is authored with a fixed world-space rotation in the scene.
             transform.position = targetPosition;
 
-            // 3. Calculate Rotation
-            if (lookAtCamera)
-            {
-                // Make the canvas perfectly face the player's head, but keep it strictly vertical (no tilting backward)
-                Vector3 lookDirection = transform.position - playerCamera.position;
-                lookDirection.y = 0; 
-                
-                if (lookDirection != Vector3.zero)
-                {
-                    transform.rotation = Quaternion.LookRotation(lookDirection);
-                }
-            }
-            else
-            {
-                // Just face the room forward exactly
-                transform.rotation = Quaternion.LookRotation(trueForward);
-            }
-
-            Debug.Log($"[HUDStaticPositioner] UI Locked into position at {transform.position} based on player head height and room forward.");
+            Debug.Log($"[HUDStaticPositioner] '{gameObject.name}' moved to {targetPosition} | head={playerCamera.position} | forward={forward} | dist={distance}m | yOffset={heightOffset}m");
         }
     }
 }

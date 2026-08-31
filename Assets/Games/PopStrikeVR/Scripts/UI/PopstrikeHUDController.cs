@@ -106,7 +106,7 @@ namespace PopstrikeVR.UI
             UpdateComboMeter(currentCombo);
         }
 
-        private void UpdateScoreUI()
+        public void UpdateScoreUI()
         {
             if (scoreText != null)
             {

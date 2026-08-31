@@ -137,18 +137,17 @@ namespace PopstrikeVR.UI
 
             if (centerEye != null)
             {
-                // Force the UI to spawn in the room's forward direction (where the HUD is)
-                // INSTEAD of wherever the player happens to be looking
-                Vector3 trueForward = roomForwardReference != null ? roomForwardReference.forward : Vector3.forward;
+                // The user requested that we ONLY adjust the Y (Height) and Z (Depth) of the canvas
+                // based on the headset, but leave X perfectly locked (e.g. 0) and NEVER touch rotation.
+                // This ensures it stays perfectly centered on the physical room/table layout.
+                Vector3 targetPosition = transform.position;
                 
-                // Flatten the Y to keep the menu upright but at eye level
-                Vector3 forwardFlat = trueForward;
-                forwardFlat.y = 0;
-                if (forwardFlat.sqrMagnitude < 0.01f) forwardFlat = Vector3.forward; // edge case
-                forwardFlat.Normalize();
+                // X is intentionally left alone (authored X, usually 0)
+                targetPosition.y = centerEye.position.y; // At eye height
+                targetPosition.z = centerEye.position.z + 1.5f; // 1.5 meters away in Z depth
 
-                transform.position = centerEye.position + forwardFlat * 1.5f; // 1.5 meters away
-                transform.rotation = Quaternion.LookRotation(forwardFlat);
+                transform.position = targetPosition;
+                // We do NOT modify transform.rotation, it stays exactly as authored in the scene.
             }
         }
 
@@ -163,7 +162,7 @@ namespace PopstrikeVR.UI
         /// Displays the results dashboard and animates all UI elements.
         /// Best Streak = highest consecutive waves cleared with ZERO errors (errors reset the streak).
         /// </summary>
-        public void DisplayResults(float accuracyPercent, int highestStreak, int starCount, int finalScore, float targetAccuracy, int targetErrors)
+        public void DisplayResults(float scorePercentage, float accuracyPercent, int highestStreak, int starCount, int finalScore, float targetAccuracyPercent, int targetErrors)
         {
             // Show the panel — root object is already active; only the panel was hidden
             if (resultsPanel != null)
@@ -179,7 +178,7 @@ namespace PopstrikeVR.UI
 
             // Update Star Condition Labels dynamically based on difficulty
             if (star1LabelText != null) star1LabelText.text = "Level Complete";
-            if (star2LabelText != null) star2LabelText.text = $"≥ {Mathf.RoundToInt(targetAccuracy)}% Accuracy";
+            if (star2LabelText != null) star2LabelText.text = $"≥ {Mathf.RoundToInt(targetAccuracyPercent)}% Accuracy";
             if (star3LabelText != null) star3LabelText.text = $"≤ {targetErrors} Errors";
 
             // 1. Title (Color is left alone so it uses the user's authored prefab color)
@@ -234,18 +233,19 @@ namespace PopstrikeVR.UI
             }
 
             // 6. Run all animations in sequence
-            StartCoroutine(RunResultsAnimation(accuracyPercent, highestStreak, starCount, finalScore));
+            StartCoroutine(RunResultsAnimation(scorePercentage, accuracyPercent, highestStreak, starCount));
         }
 
-        private IEnumerator RunResultsAnimation(float accuracy, int streak, int starCount, int score)
+        private IEnumerator RunResultsAnimation(float scorePercent, float accuracyPercent, int streak, int starCount)
         {
             // Small delay on entry
             yield return new WaitForSeconds(0.3f);
 
             // Phase 1: Animate the three rings filling simultaneously
             float elapsed = 0f;
-            float scoreFillTarget    = Mathf.Clamp01((float)score  / scoreTargetGoal);
-            float accuracyFillTarget = Mathf.Clamp01(accuracy / 100f);
+            // The score fill target is now based on the score percentage (score / theoretical max)
+            float scoreFillTarget    = Mathf.Clamp01(scorePercent / 100f);
+            float accuracyFillTarget = Mathf.Clamp01(accuracyPercent / 100f);
             float streakFillTarget   = Mathf.Clamp01((float)streak / streakTargetGoal);
 
             while (elapsed < ringAnimDuration)

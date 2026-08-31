@@ -47,18 +47,8 @@ namespace ArcRoll.Gameplay
             get
             {
                 string diff = ArcRoll.UI.ArcRollMenuManager.Difficulty;
-                if (type == BallType.Basketball)
-                {
-                    if (diff == "Easy") return 1.0f;
-                    if (diff == "Hard") return 0.8f;
-                    return 0.9f; // Medium
-                }
-                else if (type == BallType.BowlingBall)
-                {
-                    if (diff == "Easy") return 0.5f;
-                    if (diff == "Hard") return 0.3f;
-                    return 0.4f; // Medium
-                }
+                if (type == BallType.Basketball) return diff switch { "Easy" => 1.0f, "Hard" => 0.8f, _ => 0.9f };
+                if (type == BallType.BowlingBall) return diff switch { "Easy" => 0.5f, "Hard" => 0.3f, _ => 0.4f };
                 return ArcRoll.UI.ArcRollMenuManager.AimAssistStrength;
             }
         }
@@ -145,54 +135,27 @@ namespace ArcRoll.Gameplay
             autoGrabHelper.Initialize(transform.position);
             
             // Look for ALL manual grab interactables on this object or any of its children
-            System.Collections.Generic.List<MonoBehaviour> grabInteractables = new System.Collections.Generic.List<MonoBehaviour>();
-            MonoBehaviour[] allBehaviors = GetComponentsInChildren<MonoBehaviour>(true);
-            
-            string allScriptsLog = $"[Ball Debug] ({gameObject.name} - {type}) Scripts found: ";
-            
-            foreach (var mb in allBehaviors)
+            var grabInteractables = new System.Collections.Generic.List<MonoBehaviour>();
+            foreach (var mb in GetComponentsInChildren<MonoBehaviour>(true))
             {
-                if (mb != null)
+                if (mb == null) continue;
+                string tName = mb.GetType().Name;
+                if (tName != "AutoGrabInteractable" && (tName.Contains("Interactable") || tName.Contains("Grabbable") || tName.Contains("Grabber")))
                 {
-                    string tName = mb.GetType().Name;
-                    allScriptsLog += tName + ", ";
-                    
-                    if (tName.Contains("Interactable") || tName.Contains("Grabbable") || tName.Contains("Grabber"))
-                    {
-                        // Ignore our own custom AutoGrab script
-                        if (tName != "AutoGrabInteractable")
-                        {
-                            grabInteractables.Add(mb);
-                        }
-                    }
+                    grabInteractables.Add(mb);
                 }
             }
-            
-            Debug.Log(allScriptsLog);
-            Debug.Log($"[Ball Debug] ({gameObject.name} - {type}) Found {grabInteractables.Count} grab interactables.");
-            
             interactionHelper.Initialize(grabInteractables, transform.position);
             
             // Prevent the ball from physically bouncing off the player's head or body when they wind up a throw!
             if (Camera.main != null)
             {
-                Collider[] playerColliders = Camera.main.transform.root.GetComponentsInChildren<Collider>();
-                int ignoredCount = 0;
-                foreach (Collider pc in playerColliders)
+                foreach (Collider pc in Camera.main.transform.root.GetComponentsInChildren<Collider>())
                 {
-                    // Ignore physical colliders (like a head sphere) but leave triggers alone so grabbing still works!
-                    if (pc != null && !pc.isTrigger && pc != ballCollider)
-                    {
-                        Physics.IgnoreCollision(ballCollider, pc, true);
-                        ignoredCount++;
-                    }
+                    if (pc != null && !pc.isTrigger && pc != ballCollider) Physics.IgnoreCollision(ballCollider, pc, true);
                 }
-                Debug.Log($"[Ball] Successfully ignored {ignoredCount} physical colliders on the player's Camera rig.");
             }
-            else
-            {
-                Debug.LogWarning("[Ball] Camera.main is NULL! Cannot automatically ignore player collisions (The VR camera might not be tagged as MainCamera).");
-            }
+            else Debug.LogWarning("[Ball] Camera.main is NULL! Cannot automatically ignore player collisions.");
         }
 
         private void FixedUpdate()
@@ -347,22 +310,11 @@ namespace ArcRoll.Gameplay
                     if (interactionHelper.HasUserReleasedBall())
                     {
                         Vector3 bestVelocity = interactionHelper.GetAverageThrowVelocity();
-
-                        // SPEED FIX: Maximize hand tracking speed with the fast (but random-direction) physics joint snap
                         float handSpeed = bestVelocity.magnitude;
                         float physicsSpeed = rb.linearVelocity.magnitude;
-                        float rawSpeed = Mathf.Max(handSpeed, physicsSpeed);
                         
-                        if (handSpeed > 0.05f)
-                        {
-                            // Keep the clean direction from the swing, but use the maximum possible speed
-                            bestVelocity = bestVelocity.normalized * rawSpeed;
-                        }
-                        else if (physicsSpeed > 0.3f)
-                        {
-                            // Absolute fallback if hand tracking completely failed (e.g. dropped)
-                            bestVelocity = rb.linearVelocity;
-                        }
+                        if (handSpeed > 0.05f) bestVelocity = bestVelocity.normalized * Mathf.Max(handSpeed, physicsSpeed);
+                        else if (physicsSpeed > 0.3f) bestVelocity = rb.linearVelocity;
 
                         Debug.Log($"[Ball Debug] Normal Grab Released! Raw throw velocity from InteractionHelper: {bestVelocity} (Magnitude: {bestVelocity.magnitude})");
                         ApplyThrowVelocity(bestVelocity);

@@ -100,16 +100,13 @@ namespace ArcRoll.Gameplay.Helpers
             {
                 foreach (var interactable in interactables)
                 {
-                    try
-                    {
-                        System.Reflection.PropertyInfo stateProp = interactable.GetType().GetProperty("State");
-                        if (stateProp != null && stateProp.GetValue(interactable).ToString() == "Select")
+                    try {
+                        if (interactable.GetType().GetProperty("State")?.GetValue(interactable)?.ToString() == "Select")
                         {
                             _isdkGrabWasConfirmed = true;
                             break;
                         }
-                    }
-                    catch { /* ISDK native library unavailable */ }
+                    } catch { }
                 }
             }
 
@@ -142,74 +139,35 @@ namespace ArcRoll.Gameplay.Helpers
 
         public bool HasUserGrabbedBall()
         {
-            // PRIMARY: ISDK state — trust this completely when available.
             if (interactables != null && interactables.Count > 0)
             {
                 foreach (var interactable in interactables)
                 {
-                    try
-                    {
-                        System.Reflection.PropertyInfo stateProp = interactable.GetType().GetProperty("State");
-                        if (stateProp != null && stateProp.GetValue(interactable).ToString() == "Select")
-                        {
-                            return true;
-                        }
-                    }
-                    catch { /* Fall through to next */ }
+                    try { if (interactable.GetType().GetProperty("State")?.GetValue(interactable)?.ToString() == "Select") return true; }
+                    catch { }
                 }
-                
-                // If we found ISDK components and none of them are selected, trust the ISDK and do NOT fallback!
                 return false;
             }
-
-            // FALLBACK: No ISDK interactable on this prefab (pure OVRGrabber-only setup).
-            if (rawHandTracker != null && _lastKnownObjectPosition != Vector3.zero)
-            {
-                return Vector3.Distance(rawHandTracker.position, _lastKnownObjectPosition) < 0.20f;
-            }
-
-            return false;
+            return (rawHandTracker != null && _lastKnownObjectPosition != Vector3.zero) && Vector3.Distance(rawHandTracker.position, _lastKnownObjectPosition) < 0.20f;
         }
 
         public bool HasUserReleasedBall()
         {
-            // Never release before minimum hold time — prevents immediate-throw-with-zero-velocity bug.
             if (_framesHeld < MinGrabFrames) return false;
 
-            if (_isdkGrabWasConfirmed)
+            if (_isdkGrabWasConfirmed && interactables != null)
             {
-                // ISDK was properly active: trust it completely for release detection.
-                if (interactables != null)
+                foreach (var interactable in interactables)
                 {
-                    bool anySelected = false;
-                    foreach (var interactable in interactables)
-                    {
-                        try
-                        {
-                            System.Reflection.PropertyInfo stateProp = interactable.GetType().GetProperty("State");
-                            if (stateProp != null && stateProp.GetValue(interactable).ToString() == "Select")
-                            {
-                                anySelected = true;
-                                break;
-                            }
-                        }
-                        catch { }
-                    }
-                    if (!anySelected) return true; // None are selected, meaning released
+                    try { if (interactable.GetType().GetProperty("State")?.GetValue(interactable)?.ToString() == "Select") return false; }
+                    catch { }
                 }
+                return true; 
             }
 
-            // FALLBACK: ISDK was never confirmed (DllNotFoundException broke state transitions).
-            // FALLBACK: No ISDK interactable on this prefab (pure OVRGrabber-only setup).
             if (rawHandTracker != null && _lastKnownObjectPosition != Vector3.zero)
-            {
-                // Note: We use 35cm (0.35f) instead of 20cm (0.20f) for releasing to create a "hysteresis" buffer.
-                // This prevents large objects from constantly detaching and re-attaching
-                // just because the player's hand naturally rests around 21cm from the object's center.
                 return Vector3.Distance(rawHandTracker.position, _lastKnownObjectPosition) > 0.35f;
-            }
 
-            // No tracker and no ISDK — assume released after minimum frames.
             return true;
         }
 

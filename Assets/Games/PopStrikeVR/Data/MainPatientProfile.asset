@@ -17,7 +17,7 @@ MonoBehaviour:
   MaxElevation: 60
   MinAzimuth: -60
   MaxAzimuth: 60
-  SafetyMargin: 0.85
+  SafetyMargin: 0.15
   FistConfidenceThreshold: 0.7
   BladeConfidenceThreshold: 0.7
   PointConfidenceThreshold: 0.7

@@ -25,9 +25,9 @@ namespace PopstrikeVR.Data
         [Tooltip("Maximum horizontal angle (shoulder abduction/adduction) the patient can reach safely outward.")]
         public float MaxAzimuth = 60f;
 
-        [Tooltip("Safety margin scalar (default 0.85). Target spawns will be multiplied by this to prevent over-extension.")]
-        [Range(0.5f, 1.0f)]
-        public float SafetyMargin = 0.85f;
+        [Tooltip("Safety margin percentage (default 0.15 for 15%). Target spawns will be reduced by this amount to prevent over-extension.")]
+        [Range(0.0f, 0.5f)]
+        public float SafetyMargin = 0.15f;
 
         [Header("Gesture Thresholds")]
         [Tooltip("Minimum confidence required for the CLOSED_FIST gesture to register.")]
@@ -51,7 +51,7 @@ namespace PopstrikeVR.Data
         /// </summary>
         public float GetSafeRadius()
         {
-            return ReachRadius * SafetyMargin;
+            return ReachRadius * (1.0f - SafetyMargin);
         }
     }
 }

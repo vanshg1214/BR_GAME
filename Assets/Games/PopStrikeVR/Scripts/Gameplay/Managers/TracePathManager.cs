@@ -9,11 +9,9 @@ namespace PopstrikeVR.Gameplay
     {
         public static TracePathManager Instance { get; private set; }
 
-        [Header("Visual References")]
-        [Tooltip("The LineRenderer representing the tube. If not assigned, will be created/found automatically.")]
-        public LineRenderer vineRenderer;
-        [Tooltip("The ParticleSystem for flowing leaves. If not assigned, will be created/found automatically.")]
-        public ParticleSystem flowParticleSystem;
+        // Auto-generated references, hidden from inspector
+        private LineRenderer vineRenderer;
+        private ParticleSystem flowParticleSystem;
 
         [Header("Leaf Configurations")]
         [Tooltip("The 3D Leaf Mesh to flow inside the tube.")]

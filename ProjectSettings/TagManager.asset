@@ -8,6 +8,8 @@ TagManager:
   - Basketball
   - BowlingBall
   - Floor
+  - Frisbee
+  - Net
   layers:
   - Default
   - TransparentFX
@@ -25,9 +27,9 @@ TagManager:
   - Floor
   - BasketBall
   - BG_Arch
-  - 
-  - 
-  - 
+  - BPin_Covering
+  - Canon
+  - Net
   - 
   - 
   - 

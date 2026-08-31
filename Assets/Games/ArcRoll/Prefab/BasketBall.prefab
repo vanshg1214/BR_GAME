@@ -397,6 +397,15 @@ PrefabInstance:
       addedObject: {fileID: 6627074308734149819}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 6539040774369771452}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3071348115565535633}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5138384621766980160}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1228600518680402836}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
       insertIndex: -1
@@ -406,16 +415,7 @@ PrefabInstance:
       addedObject: {fileID: 2200486909382905754}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6539040774369771452}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2860755698287993405}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5138384621766980160}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3071348115565535633}
   m_SourcePrefab: {fileID: 100100000, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
 --- !u!4 &5156682360095432580 stripped
 Transform:
@@ -500,6 +500,54 @@ MonoBehaviour:
   magneticPullStrength: 8
   magneticPullRadius: 0.5
   hasScored: 0
+--- !u!114 &6539040774369771452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5538275140194960702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e5a9d96ca448e40a7d33463460a08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.ArcRollBallAudio
+  impactSounds:
+  - {fileID: 8300000, guid: c404a67293a6e5449b6e23eabce50be3, type: 3}
+  minImpactVelocity: 0.1
+  maxImpactVelocity: 10
+  rollingSound: {fileID: 0}
+  maxRollingVelocity: 8
+--- !u!114 &3071348115565535633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5538275140194960702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7dea36e23b2cf4e943ab5637b0027f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.Helpers.AutoGrabInteractable
+  enableAutoGrab: 0
+  grabDistance: 0.2
+  snapPoint: {fileID: 4909176833266608011}
+  throwThresholdSpeed: 1.7
+  releaseDropRatio: 0.7
+  minHoldFrames: 10
+--- !u!114 &5138384621766980160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5538275140194960702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b155834fee14b40804dd0dee10a883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.ArcRollBallTrail
 --- !u!114 &1228600518680402836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,24 +708,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6539040774369771452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5538275140194960702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28e5a9d96ca448e40a7d33463460a08f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.ArcRollBallAudio
-  impactSounds:
-  - {fileID: 8300000, guid: c404a67293a6e5449b6e23eabce50be3, type: 3}
-  minImpactVelocity: 0.1
-  maxImpactVelocity: 10
-  rollingSound: {fileID: 0}
-  maxRollingVelocity: 8
 --- !u!96 &2860755698287993405
 TrailRenderer:
   serializedVersion: 4
@@ -797,33 +827,3 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
---- !u!114 &5138384621766980160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5538275140194960702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49b155834fee14b40804dd0dee10a883, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.ArcRollBallTrail
---- !u!114 &3071348115565535633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5538275140194960702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac7dea36e23b2cf4e943ab5637b0027f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.Helpers.AutoGrabInteractable
-  enableAutoGrab: 1
-  grabDistance: 0.2
-  snapPoint: {fileID: 4909176833266608011}
-  throwThresholdSpeed: 1.7
-  releaseDropRatio: 0.7
-  minHoldFrames: 10

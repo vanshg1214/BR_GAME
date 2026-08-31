@@ -63,6 +63,16 @@ namespace PopstrikeVR.Gameplay
             }
         }
 
+        public static float GetMultiplierForCombo(int combo, float maxMultiplier)
+        {
+            if (combo >= 20) return Mathf.Min(5f, maxMultiplier);
+            if (combo >= 15) return Mathf.Min(4f, maxMultiplier);
+            if (combo >= 10) return Mathf.Min(3f, maxMultiplier);
+            if (combo >= 5)  return Mathf.Min(2f, maxMultiplier);
+            if (combo >= 3)  return Mathf.Min(1.5f, maxMultiplier);
+            return 1f;
+        }
+
         public void BreakCombo()
         {
             if (CurrentCombo == 0) return;

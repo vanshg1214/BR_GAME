@@ -5,24 +5,36 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MenuScene.unity
     guid: 9e7aa044ae893a14bb4e1894e1a79ca5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Games/PopStrikeVR/Scenes/PoPStrikeVRMenu.unity
     guid: df5c92db853ae044381a6761c1fccefe
-  - enabled: 0
+  - enabled: 1
     path: Assets/Games/PopStrikeVR/Scenes/PopStrikeVRGameScene.unity
     guid: accafa1606fff034aaf01597532d2a28
-  - enabled: 0
+  - enabled: 1
     path: Assets/Games/PopStrikeVR/Scenes/PopStrikeVRMorn_Scene.unity
     guid: a2e79ed57191b92499f2d051c8fa103d
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Games/ArcRoll/Scenes/AR_MenuScene.unity
+    guid: e300af1b097835e489871c1727a4f1fa
+  - enabled: 1
     path: Assets/Games/ArcRoll/Scenes/AR_GameScene.unity
     guid: c22679b894c356b44aaf60944a1b0010
+  - enabled: 1
+    path: Assets/Games/ArcRoll/Scenes/AR_GameScene_new.unity
+    guid: 31f251d201a8cb147b845633569729c8
+  - enabled: 1
+    path: Assets/Games/VolleyBall/Scenes/Menu Scene.unity
+    guid: a41414759816f114184390e82bf8bdfd
+  - enabled: 1
+    path: Assets/Games/VolleyBall/Scenes/GameScene.unity
+    guid: 66743bea65ea8de4cbb00dc99e58bd6c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e694aaed6facc894d87a686f04cdacde, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8b315f7f60d05dc45ab2d2c1016955fb, type: 2}
