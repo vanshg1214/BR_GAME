@@ -158,6 +158,13 @@ namespace ArcRoll.Gameplay
             else Debug.LogWarning("[Ball] Camera.main is NULL! Cannot automatically ignore player collisions.");
         }
 
+        private void OnDestroy()
+        {
+            if (hoverJoint != null) Destroy(hoverJoint);
+            if (hoverAnchor != null) Destroy(hoverAnchor);
+            if (spawnedRomRing != null) Destroy(spawnedRomRing);
+        }
+
         private void FixedUpdate()
         {
             if (!isTravelingToTarget)

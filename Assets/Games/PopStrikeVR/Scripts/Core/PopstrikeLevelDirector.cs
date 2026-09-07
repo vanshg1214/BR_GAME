@@ -150,7 +150,7 @@ namespace PopstrikeVR.Core
             }
 
             // Fallback (for developer scene testing without a menu): Start directly with inspector defaults
-            StartSession(activeHandMode, "Easy", sessionDuration);
+            StartSession(activeHandMode, "Medium", sessionDuration);
         }
 
         /// <summary>

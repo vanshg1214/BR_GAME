@@ -25,7 +25,34 @@ namespace PopstrikeVR.Core
             float safeDist = PopstrikeVR.Gameplay.WorkspaceMapper.Instance != null ? PopstrikeVR.Gameplay.WorkspaceMapper.Instance.MinSafeDistance : 0.08f;
             EnforceNoOverlap(row.ComputedWorldPositions, safeDist);
 
+            // Prevent self-intersecting/overlapping tubes for Trace and Slash by sorting their sequence linearly
+            if (row.TaskType == BalloonTaskType.Green_Trace || row.TaskType == BalloonTaskType.Blue_Slash)
+            {
+                SortPositionsForNonIntersectingPath(row.ComputedWorldPositions);
+            }
+
             return row;
+        }
+
+        private static void SortPositionsForNonIntersectingPath(List<Vector3> positions)
+        {
+            if (positions.Count <= 2) return;
+
+            // Randomly choose a linear flow direction for the tube
+            // 0 = Left->Right, 1 = Right->Left, 2 = Bottom->Top, 3 = Top->Bottom
+            int sortType = Random.Range(0, 4); 
+            
+            positions.Sort((a, b) => 
+            {
+                switch (sortType)
+                {
+                    case 0: return a.x.CompareTo(b.x);
+                    case 1: return b.x.CompareTo(a.x);
+                    case 2: return a.y.CompareTo(b.y);
+                    case 3: return b.y.CompareTo(a.y);
+                    default: return 0;
+                }
+            });
         }
 
         private static BalloonTaskType SelectRandomTaskType(BalloonSpawnChances chances)
