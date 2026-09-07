@@ -1,0 +1,31 @@
+{
+  "rounds": [
+    { "durationInMinutes": 2.0 },
+    { "durationInMinutes": 2.0 }
+  ],
+  "breaks": [
+    { "durationInMinutes": 1.0 }
+  ],
+  "characters": {
+    "standard": 60,
+    "fake": 10,
+    "dog": 15,
+    "bird": 10,
+    "heavy": 5,
+    "treasure": 0
+  },
+  "azimuths": {
+    "center_0_15": 40,
+    "left_15_45": 30,
+    "right_15_45": 30
+  },
+  "distances": {
+    "near": 35,
+    "mid": 40,
+    "far": 25
+  },
+  "elevations": {
+    "bird_15_30": 50,
+    "bird_30_45": 50
+  }
+}

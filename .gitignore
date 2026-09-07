@@ -105,7 +105,7 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
-/Assets/Games/
+/Assets/Games/*
 /Assets/Games.meta
 /Assets/Resources/PerformanceTestRunInfo.json
 /Assets/Resources/PerformanceTestRunInfo.json.meta
@@ -117,4 +117,22 @@ InitTestScene*.unity*
 
 .vscode/
 
-Assets/Games/PopStrikeVR/Planning Docs/
+# Ignore all planning docs
+**/PlanningDocs/
+**/Planning Docs/
+**/*PlanningDocs*
+**/*Planning Docs*
+**/*.md
+
+# The Games folder is ignored by default, but we explicitly include specific games
+/Assets/Games/*
+/Assets/Games.meta
+
+!/Assets/Games/ArcRoll/
+!/Assets/Games/ArcRoll.meta
+!/Assets/Games/WAM/
+!/Assets/Games/WAM.meta
+!/Assets/Games/PopStrikeVR/
+!/Assets/Games/PopStrikeVR.meta
+!/Assets/Games/VolleyBall/
+!/Assets/Games/VolleyBall.meta

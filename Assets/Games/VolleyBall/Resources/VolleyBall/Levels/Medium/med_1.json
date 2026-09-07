@@ -1,0 +1,22 @@
+{
+  "rounds": [
+    { "pointsToWin": 5 },
+    { "pointsToWin": 5 },
+    { "pointsToWin": 5 }
+  ],
+  "breaks": [
+    { "durationInMinutes": 0.25 },
+    { "durationInMinutes": 0.25 }
+  ],
+  "targetSpawnChances": {
+    "azimuth0to30": 10,
+    "azimuth30to60": 50,
+    "azimuth60to90": 40,
+    "elevationNeg45toNeg15": 30,
+    "elevationNeg15to15": 20,
+    "elevation15to45": 50,
+    "distance0to0_2": 5,
+    "distance0_2to0_4": 15,
+    "distance0_4to0_6": 80
+  }
+}

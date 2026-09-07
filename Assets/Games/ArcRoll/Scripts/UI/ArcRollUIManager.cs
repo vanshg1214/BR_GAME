@@ -37,6 +37,10 @@ namespace ArcRoll.UI
         public static ArcRollUIManager Instance { get; private set; }
         private bool isBreakActive = false;
 
+        // When a phase timer is active, the UI timer shows that value instead of the GameManager total.
+        private bool isPhaseTimerActive = false;
+        private float phaseTimeRemaining = 0f;
+
         private void Awake()
         {
             if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -73,6 +77,11 @@ namespace ArcRoll.UI
                 ArcRollGameManager.Instance.OnTimeUpdated += HandleTimeUpdated;
                 HandleTimeUpdated(ArcRollGameManager.Instance.timeRemaining);
             }
+        }
+
+        private void Update()
+        {
+            // Phase timer ticking is now driven explicitly by ArcRollLevelDirector.cs
         }
 
         private void OnDestroy()
@@ -181,6 +190,9 @@ namespace ArcRoll.UI
 
         private void HandleTimeUpdated(float timeRemaining)
         {
+            // Phase timer is active — it controls the display directly, so skip the GameManager update.
+            if (isPhaseTimerActive) return;
+
             if (timerText != null)
             {
                 int minutes = Mathf.FloorToInt(timeRemaining / 60f);
@@ -218,11 +230,47 @@ namespace ArcRoll.UI
             if (streakText != null) streakText.text = streak.ToString();
         }
 
+        // ── Phase Timer (per-round / per-break) ───────────────────────────────
+        /// <summary>
+        /// Starts a local countdown for the current phase (round or break).
+        /// Shows only the time remaining — break/round labels are shown separately in the streakText area.
+        /// </summary>
+        public void SetPhaseTimerActive(bool active)
+        {
+            isPhaseTimerActive = active;
+            if (!active && ArcRollGameManager.Instance != null)
+            {
+                // Fall back to displaying GameManager total time when phase timer is off
+                HandleTimeUpdated(ArcRollGameManager.Instance.timeRemaining);
+            }
+        }
+
+        public void UpdatePhaseTimerDisplay(float remainingSeconds)
+        {
+            phaseTimeRemaining = remainingSeconds;
+            RefreshPhaseTimerDisplay();
+        }
+
+        private void RefreshPhaseTimerDisplay()
+        {
+            if (timerText == null) return;
+            int minutes = Mathf.FloorToInt(phaseTimeRemaining / 60f);
+            int seconds = Mathf.FloorToInt(phaseTimeRemaining % 60f);
+            timerText.text = $"{minutes:00}:{seconds:00}";
+            timerText.color = (phaseTimeRemaining <= 10f && phaseTimeRemaining > 0f) ? Color.red : Color.white;
+        }
+
         public void SetBreakText(string text)
         {
             isBreakActive = true;
             if (streakText != null) 
+            {
                 streakText.text = text;
+                if (gameObject.activeInHierarchy)
+                {
+                    StartCoroutine(PunchTextScale(streakText, popScaleMultiplier, popDuration));
+                }
+            }
         }
 
         public void EndBreakText()

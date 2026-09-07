@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7dea36e23b2cf4e943ab5637b0027f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArcRoll.Gameplay.Helpers.AutoGrabInteractable
-  enableAutoGrab: 0
+  enableAutoGrab: 1
   grabDistance: 0.2
   snapPoint: {fileID: 4909176833266608011}
   throwThresholdSpeed: 1.7

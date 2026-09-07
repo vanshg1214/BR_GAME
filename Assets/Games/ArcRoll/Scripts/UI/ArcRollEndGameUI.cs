@@ -204,6 +204,8 @@ namespace ArcRoll.UI
 
             int totalThrows = successful + errors;
             float accuracyPercent = totalThrows > 0 ? ((float)successful / totalThrows) * 100f : 0f;
+            // Clamp to 0-100 to handle any edge cases
+            accuracyPercent = Mathf.Clamp(accuracyPercent, 0f, 100f);
 
             // Calculate dynamic streak goal based on difficulty
             int targetStreak = 5; // Default Medium

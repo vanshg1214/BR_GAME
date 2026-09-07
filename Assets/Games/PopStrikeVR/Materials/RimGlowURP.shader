@@ -25,6 +25,14 @@ Shader "PopStrikeVR/RimGlowURP"
             #pragma vertex vert
             #pragma fragment frag
 
+            // ---------------------------------------------------------------
+            // VR STEREO FIX: These two pragmas enable GPU instancing which is
+            // REQUIRED for Single Pass Instanced rendering on Meta Quest.
+            // Without them, the shader only renders into one eye.
+            // ---------------------------------------------------------------
+            #pragma multi_compile_instancing
+            #pragma instancing_options renderingLayer
+
             // Include URP Core HLSL libraries
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
@@ -32,6 +40,8 @@ Shader "PopStrikeVR/RimGlowURP"
             {
                 float4 positionOS : POSITION;
                 float3 normalOS   : NORMAL;
+                // VR FIX: Required input semantic for stereo eye index
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             struct Varyings
@@ -39,6 +49,8 @@ Shader "PopStrikeVR/RimGlowURP"
                 float4 positionHCS : SV_POSITION;
                 float3 normalWS    : TEXCOORD0;
                 float3 viewDirWS   : TEXCOORD1;
+                // VR FIX: Required output semantic to pass eye index to fragment shader
+                UNITY_VERTEX_OUTPUT_STEREO
             };
 
             CBUFFER_START(UnityPerMaterial)
@@ -50,6 +62,12 @@ Shader "PopStrikeVR/RimGlowURP"
             Varyings vert(Attributes IN)
             {
                 Varyings OUT;
+
+                // VR FIX: Initialize instance ID from vertex input and transfer stereo eye
+                // index from input struct to output struct so the fragment shader knows
+                // which eye it's rendering into.
+                UNITY_SETUP_INSTANCE_ID(IN);
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
                 
                 // Convert Object space to Clip space for rendering
                 OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz);
@@ -66,6 +84,10 @@ Shader "PopStrikeVR/RimGlowURP"
 
             half4 frag(Varyings IN) : SV_Target
             {
+                // VR FIX: Apply the stereo eye index in the fragment shader so it
+                // correctly samples textures / transforms for the current eye.
+                UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(IN);
+
                 float3 n = normalize(IN.normalWS);
                 float3 v = normalize(IN.viewDirWS);
                 

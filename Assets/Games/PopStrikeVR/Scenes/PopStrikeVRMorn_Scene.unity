@@ -2366,8 +2366,10 @@ MonoBehaviour:
   activeHandMode: 0
   patientProfile: {fileID: 11400000, guid: affce4b6c3626a64782acd2b9dea5b6d, type: 2}
   sessionConfig: {fileID: 11400000, guid: 4148c36d97caf5c4ba1c32ee81669922, type: 2}
-  levelSubFolder: PopStrikeVR/Easy
-  jsonFileName: level1.json
+  easyLevelConfig: {fileID: 4900000, guid: 0f14f7d9668a34743ab6b0da15e031bd, type: 3}
+  mediumLevelConfig: {fileID: 4900000, guid: e55c177f0a879f542baa703e7a05196b, type: 3}
+  hardLevelConfig: {fileID: 4900000, guid: c7310eeb503017e4db334bc93fb1deaf, type: 3}
+  externalLevelUrl: 
   timeBetweenTasks: 10
   delayBetweenWaves: 1
   randomizeTaskOrder: 0

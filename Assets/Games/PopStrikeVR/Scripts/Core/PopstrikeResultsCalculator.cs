@@ -34,7 +34,7 @@ namespace PopstrikeVR.Core
         /// Calculates the final score and displays the results UI.
         /// </summary>
         public void CalculateAndShowResults(
-            string levelSubFolder, 
+            string difficulty, 
             SessionDuration sessionDuration, 
             int totalWavesSpawned, 
             int totalWavesMissed, 
@@ -42,9 +42,6 @@ namespace PopstrikeVR.Core
             int theoreticalMaxScore)
         {
             Debug.Log("[PopstrikeResultsCalculator] Session Complete! Computing Results...");
-            
-            // --- Determine difficulty ---
-            string difficulty = levelSubFolder.Contains("Medium") ? "Medium" : levelSubFolder.Contains("Hard") ? "Hard" : "Easy";
             
             int maxCombo = PopstrikeVR.Gameplay.ComboManager.Instance != null ? 
                 PopstrikeVR.Gameplay.ComboManager.Instance.HighestCombo : 0;

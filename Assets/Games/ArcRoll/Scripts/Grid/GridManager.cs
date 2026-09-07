@@ -19,6 +19,13 @@ namespace ArcRoll.Grid
         [SerializeField] private float row1Height = 1.5f;  // Mid Hoop
         [SerializeField] private float row2Height = 2.5f;  // High Hoop
 
+        // ── Public Accessors for LevelDirector ────────────────────────────────
+        public float ArcRadius => arcRadius;
+        public float[] ColumnAngles => columnAngles;
+        public float Row0Height => row0Height;
+        public float Row1Height => row1Height;
+        public float Row2Height => row2Height;
+
         [Header("Editor Preview")]
         [Tooltip("Assign your basketball hoop prefab here to preview it.")]
         public GameObject previewBasketballPrefab;

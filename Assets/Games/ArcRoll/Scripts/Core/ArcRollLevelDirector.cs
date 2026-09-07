@@ -17,8 +17,13 @@ namespace ArcRoll.Core
     public class ArcRollLevelDirector : MonoBehaviour
     {
         [Header("Level Data")]
-        [Tooltip("Name of the JSON file inside the StreamingAssets folder")]
-        [SerializeField] private string levelFileName = "levelConfig.json";
+        [Tooltip("Optional URL/Path to download a JSON Level Config. If empty or invalid, falls back to TextAssets.")]
+        [SerializeField] private string externalLevelUrl = "";
+        
+        [Tooltip("Assign the JSON TextAssets for each difficulty level.")]
+        [SerializeField] private TextAsset easyLevelConfig;
+        [SerializeField] private TextAsset mediumLevelConfig;
+        [SerializeField] private TextAsset hardLevelConfig;
 
         [Header("Dependencies")]
         [SerializeField] private GridManager gridManager;
@@ -148,9 +153,15 @@ namespace ArcRoll.Core
         {
             if (activeProfile == null) return;
 
-            // 1. Read raw profile data with a fallback
+            // 1. Read raw profile data.
+            // Abduction: Must be positive. Fallback to 45 if not calibrated.
             float rawAbduction = activeProfile.maxAbduction > 5f ? activeProfile.maxAbduction : 45f;
-            float rawAdduction = activeProfile.maxAdduction > 5f ? activeProfile.maxAdduction : 45f;
+
+            // Adduction: Can legitimately be negative (patient can't cross midline at all).
+            // Use Mathf.Abs to get the angular magnitude, then clamp to 0 minimum.
+            // Only fallback to 45f if the value is essentially uncalibrated (between -1 and 1).
+            float absAdduction = Mathf.Abs(activeProfile.maxAdduction);
+            float rawAdduction = absAdduction > 1f ? absAdduction : 45f;
 
             // 2. HARD CLAMPS for VR Playability
             // Abduction > 90 means the ring is behind their ear (invisible).
@@ -175,7 +186,8 @@ namespace ArcRoll.Core
             if (totalSweep >= 90f) calculatedRomAngles.Add(maxAngle / 2f);
             calculatedRomAngles.Add(maxAngle);
             
-            Debug.Log($"[ArcRollLevelDirector] Calculated {calculatedRomAngles.Count} discrete ROM angles: {string.Join(", ", calculatedRomAngles)}");
+            Debug.Log($"[ArcRollLevelDirector] ROM → absAdduction={absAdduction:F1} rawAdduction={rawAdduction:F1} finalAdduction={finalAdduction:F1} | finalAbduction={finalAbduction:F1}");
+            Debug.Log($"[ArcRollLevelDirector] Safe angle range: {minAngle:F1}° to {maxAngle:F1}° | Angles: {string.Join(", ", calculatedRomAngles)}");
         }
 
         // ── Level Loading ─────────────────────────────────────────────────────
@@ -190,26 +202,65 @@ namespace ArcRoll.Core
                 rightCannon?.AimAtTarget(playerHead.position);
             }
 
-            yield return StartCoroutine(LoadJSONConfigFromStreamingAssets(levelFileName));
+            bool loadedExternal = false;
+            if (!string.IsNullOrEmpty(externalLevelUrl))
+            {
+                string loadPath = externalLevelUrl;
+                // If it's a local file path and doesn't have a protocol, prepend file://
+                if (!loadPath.Contains("://"))
+                {
+                    loadPath = "file:///" + loadPath.Replace("\\", "/");
+                }
+
+                using (UnityWebRequest www = UnityWebRequest.Get(loadPath))
+                {
+                    yield return www.SendWebRequest();
+                    if (www.result == UnityWebRequest.Result.Success)
+                    {
+                        string jsonText = www.downloadHandler.text;
+                        try
+                        {
+                            currentLevelConfig = JsonUtility.FromJson<LevelConfig>(jsonText);
+                            if (currentLevelConfig != null && currentLevelConfig.rounds != null && currentLevelConfig.rounds.Count > 0)
+                            {
+                                loadedExternal = true;
+                                Debug.Log("[ArcRollLevelDirector] Successfully loaded external JSON config from: " + externalLevelUrl);
+                            }
+                        }
+                        catch (System.Exception e)
+                        {
+                            Debug.LogWarning($"[ArcRollLevelDirector] Failed to parse external JSON: {e.Message}. Falling back to TextAssets.");
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"[ArcRollLevelDirector] Failed to download external JSON: {www.error}. Falling back to TextAssets.");
+                    }
+                }
+            }
+
+            if (!loadedExternal)
+            {
+                LoadLevelConfigFromTextAsset();
+            }
 
             if (currentLevelConfig != null && currentLevelConfig.rounds != null && currentLevelConfig.rounds.Count > 0)
             {
-                // Calculate Total Session Time for GameManager
-                float totalMinutes = 0f;
-                foreach (var r in currentLevelConfig.rounds) totalMinutes += r.durationInMinutes;
-                if (currentLevelConfig.breaks != null)
-                {
-                    foreach (var b in currentLevelConfig.breaks) totalMinutes += b.durationInMinutes;
-                }
+                // gameDuration = rounds ONLY (breaks are paused, so they don't eat into the countdown).
+                float roundsOnlyMinutes = 0f;
+                foreach (var r in currentLevelConfig.rounds) roundsOnlyMinutes += r.durationInMinutes;
                 
                 if (ArcRollGameManager.Instance != null)
                 {
-                    ArcRollGameManager.Instance.gameDuration = totalMinutes * 60f;
+                    ArcRollGameManager.Instance.gameDuration = roundsOnlyMinutes * 60f;
                     ArcRollGameManager.Instance.StartGame();
+                    ArcRollGameManager.Instance.PauseGame(); // Pause countdown during intro
                 }
 
                 // Short intro pause before the very first ball
                 yield return new WaitForSeconds(3.0f);
+                
+                ArcRollGameManager.Instance?.ResumeGame();
                 levelStarted = true;
                 
                 StartCoroutine(ProceduralGameLoop());
@@ -235,54 +286,33 @@ namespace ArcRoll.Core
         }
 
         // ── JSON Parsing & Procedural Loop ────────────────────────────────────
-        private IEnumerator LoadJSONConfigFromStreamingAssets(string fileName)
+        private void LoadLevelConfigFromTextAsset()
         {
-            if (fileName.EndsWith(".csv", System.StringComparison.OrdinalIgnoreCase))
-            {
-                Debug.LogWarning($"[ArcRollLevelDirector] Inspector had legacy filename '{fileName}'. Forcing to 'levelConfig.json'.");
-                fileName = "levelConfig.json";
-            }
+            string diff = ArcRoll.UI.ArcRollMenuManager.Difficulty;
+            TextAsset selectedConfig = mediumLevelConfig; // Default fallback
 
-            string filePath = Path.Combine(Application.streamingAssetsPath, "ArcRoll", fileName);
-            string jsonText = "";
+            if (diff == "Easy" && easyLevelConfig != null) selectedConfig = easyLevelConfig;
+            else if (diff == "Hard" && hardLevelConfig != null) selectedConfig = hardLevelConfig;
+            else if (mediumLevelConfig != null) selectedConfig = mediumLevelConfig;
 
-            if (filePath.Contains("://") || filePath.Contains(":///"))
+            if (selectedConfig == null)
             {
-                using (UnityWebRequest www = UnityWebRequest.Get(filePath))
-                {
-                    yield return www.SendWebRequest();
-                    if (www.result == UnityWebRequest.Result.Success)
-                        jsonText = www.downloadHandler.text;
-                    else
-                    {
-                        Debug.LogWarning($"[ArcRollLevelDirector] Failed to load JSON {fileName}: {www.error}. Trying default levelConfig.json");
-                        string fallbackPath = Path.Combine(Application.streamingAssetsPath, "ArcRoll", "levelConfig.json");
-                        using (UnityWebRequest www2 = UnityWebRequest.Get(fallbackPath))
-                        {
-                            yield return www2.SendWebRequest();
-                            if (www2.result == UnityWebRequest.Result.Success) jsonText = www2.downloadHandler.text;
-                        }
-                    }
-                }
-            }
-            else
-            {
-                if (File.Exists(filePath)) jsonText = File.ReadAllText(filePath);
-                else
-                {
-                    Debug.LogWarning($"[ArcRollLevelDirector] JSON not found at: {filePath}. Trying default levelConfig.json");
-                    string fallbackPath = Path.Combine(Application.streamingAssetsPath, "ArcRoll", "levelConfig.json");
-                    if (File.Exists(fallbackPath)) jsonText = File.ReadAllText(fallbackPath);
-                }
-            }
-
-            if (string.IsNullOrEmpty(jsonText))
-            {
-                Debug.LogError("[ArcRollLevelDirector] No JSON found at all! Using hardcoded fallback.");
+                Debug.LogError($"[ArcRollLevelDirector] No TextAsset config assigned for difficulty '{diff}'! Using hardcoded fallback.");
                 currentLevelConfig = new LevelConfig();
                 currentLevelConfig.rounds = new List<RoundConfig> { new RoundConfig { durationInMinutes = 3f } };
                 currentLevelConfig.spawnChances = new SpawnChances { targets = new TargetChances { hoop = 100f }, floorObstacles = new FloorObstacleChances(), aerialObstacles = new AerialObstacleChances() };
-                yield break;
+                return;
+            }
+
+            string jsonText = selectedConfig.text;
+
+            if (string.IsNullOrEmpty(jsonText))
+            {
+                Debug.LogError("[ArcRollLevelDirector] Assigned TextAsset is empty! Using hardcoded fallback.");
+                currentLevelConfig = new LevelConfig();
+                currentLevelConfig.rounds = new List<RoundConfig> { new RoundConfig { durationInMinutes = 3f } };
+                currentLevelConfig.spawnChances = new SpawnChances { targets = new TargetChances { hoop = 100f }, floorObstacles = new FloorObstacleChances(), aerialObstacles = new AerialObstacleChances() };
+                return;
             }
 
             try
@@ -301,15 +331,21 @@ namespace ArcRoll.Core
         private IEnumerator ProceduralGameLoop()
         {
             readyForNextShot = true; // Kick off the chain
+            var ui = ArcRoll.UI.ArcRollUIManager.Instance;
 
             for (int r = 0; r < currentLevelConfig.rounds.Count; r++)
             {
                 float roundDurationSecs = currentLevelConfig.rounds[r].durationInMinutes * 60f;
                 float elapsed = 0f;
 
+                // ── ROUND PHASE ──────────────────────────────────────────────
+                ui?.SetPhaseTimerActive(true);
+
                 while (elapsed < roundDurationSecs && !levelFinished)
                 {
                     if (ArcRollGameManager.Instance != null && !ArcRollGameManager.Instance.isGameActive) yield break;
+
+                    ui?.UpdatePhaseTimerDisplay(Mathf.Max(0, roundDurationSecs - elapsed));
 
                     if (readyForNextShot)
                     {
@@ -325,12 +361,17 @@ namespace ArcRoll.Core
                     yield return null;
                 }
 
+                ui?.SetPhaseTimerActive(false);
+
                 // Handle Break if not the last round
                 if (r < currentLevelConfig.rounds.Count - 1 && currentLevelConfig.breaks != null && r < currentLevelConfig.breaks.Count)
                 {
                     // ── BREAK PHASE ──────────────────────────────────────────
                     isInBreak = true;
                     readyForNextShot = false;
+
+                    // Pause the GameManager countdown — breaks don't consume play time.
+                    ArcRollGameManager.Instance?.PauseGame();
 
                     // Despawn ungrabbed balls/targets to keep the room clean during the break
                     if (ballQueueManager != null)
@@ -348,36 +389,55 @@ namespace ArcRoll.Core
 
                     float breakSecs = currentLevelConfig.breaks[r].durationInMinutes * 60f;
                     float breakElapsed = 0f;
+                    int lastCountDown = -1;
 
-                    if (ArcRoll.UI.ArcRollUIManager.Instance != null)
-                        ArcRoll.UI.ArcRollUIManager.Instance.SetBreakText("BREAK");
+                    ui?.SetBreakText("BREAK");
+                    ui?.SetPhaseTimerActive(true);
 
-                    while (breakElapsed < breakSecs && !levelFinished)
+                    while (breakElapsed < breakSecs)
                     {
-                        if (ArcRollGameManager.Instance != null && !ArcRollGameManager.Instance.isGameActive) yield break;
+                        float remaining = Mathf.Max(0, breakSecs - breakElapsed);
+                        ui?.UpdatePhaseTimerDisplay(remaining);
+
+                        // Show countdown in the streak text during the last 3 seconds.
+                        // We start at < 4.0f because 3.9s displays as "00:03" on the timer.
+                        if (remaining < 4.0f)
+                        {
+                            int displayCount = Mathf.FloorToInt(remaining); // Exactly matches timer floor logic
+                            if (displayCount != lastCountDown && displayCount >= 1)
+                            {
+                                lastCountDown = displayCount;
+                                ui?.SetBreakText(displayCount.ToString());
+                            }
+                        }
+
                         breakElapsed += Time.deltaTime;
                         yield return null;
                     }
 
-                    // ── 3-2-1 COUNTDOWN (after break, before next round) ─────
-                    for (int count = 3; count >= 1; count--)
-                    {
-                        if (ArcRoll.UI.ArcRollUIManager.Instance != null)
-                            ArcRoll.UI.ArcRollUIManager.Instance.SetBreakText(count.ToString());
-                        yield return new WaitForSeconds(1f);
-                    }
+                    ui?.SetPhaseTimerActive(false);
 
                     // ── RESET & RESUME ────────────────────────────────────────
+                    // NOTE: We deliberately do NOT reset the score or total counters here.
+                    // highestStreak, successfulThrows, and totalErrors all persist across rounds
+                    // so the end-game stats are cumulative for the entire session.
+                    // We only reset the current streak chain (combo multiplier) so the player
+                    // starts the next round fresh without a hangover streak from the previous one.
                     ArcRoll.Core.ArcRollScoreManager.Instance?.ResetStreak();
                     isInBreak = false;
                     readyForNextShot = true;
 
-                    if (ArcRoll.UI.ArcRollUIManager.Instance != null)
-                        ArcRoll.UI.ArcRollUIManager.Instance.EndBreakText();
+                    // Resume the GameManager countdown for the next round.
+                    ArcRollGameManager.Instance?.ResumeGame();
+
+                    ui?.EndBreakText();
                 }
             }
 
+            // All rounds complete — explicitly end the game.
             levelFinished = true;
+            ui?.SetPhaseTimerActive(false);
+            ArcRollGameManager.Instance?.EndGame();
         }
 
         private string PickProceduralTarget()
@@ -435,16 +495,47 @@ namespace ArcRoll.Core
             }
 
             // ====================================================================
-            // 1. CALCULATE THE FINAL GOAL (Procedural Position)
+            // 1. CALCULATE THE FINAL GOAL (Grid-Clamped to ROM)
             // ====================================================================
             int logicalRow = (targetType == "pins" || targetType == "canpyramid") ? 0 : UnityEngine.Random.Range(1, 3);
             
-            int numAngles = calculatedRomAngles.Count;
-            int angleIndex = numAngles > 0 ? UnityEngine.Random.Range(0, numAngles) : 0;
-            float selectedAngle = numAngles > 0 ? calculatedRomAngles[angleIndex] : 0f;
+            int numCols = gridManager.ColumnAngles.Length;
+            int randomCol = UnityEngine.Random.Range(0, numCols);
 
-            int mappedCol = numAngles > 1 ? Mathf.RoundToInt(((float)angleIndex / (numAngles - 1)) * 4f) : 2;
+            float minRomAngle = calculatedRomAngles.Count > 0 ? calculatedRomAngles[0] : -60f;
+            float maxRomAngle = calculatedRomAngles.Count > 0 ? calculatedRomAngles[calculatedRomAngles.Count - 1] : 60f;
+
+            int mappedCol = randomCol;
+            float colAngle = gridManager.ColumnAngles[mappedCol];
             
+            // Clamp to nearest grid column inside the ROM if the random pick is outside
+            if (colAngle < minRomAngle)
+            {
+                float minDiff = float.MaxValue;
+                for (int i = 0; i < numCols; i++)
+                {
+                    if (gridManager.ColumnAngles[i] >= minRomAngle)
+                    {
+                        float diff = Mathf.Abs(gridManager.ColumnAngles[i] - minRomAngle);
+                        if (diff < minDiff) { minDiff = diff; mappedCol = i; }
+                    }
+                }
+            }
+            else if (colAngle > maxRomAngle)
+            {
+                float minDiff = float.MaxValue;
+                for (int i = 0; i < numCols; i++)
+                {
+                    if (gridManager.ColumnAngles[i] <= maxRomAngle)
+                    {
+                        float diff = Mathf.Abs(gridManager.ColumnAngles[i] - maxRomAngle);
+                        if (diff < minDiff) { minDiff = diff; mappedCol = i; }
+                    }
+                }
+            }
+
+            // The target and the catch ring will share this perfectly aligned angle
+            float selectedAngle = gridManager.ColumnAngles[mappedCol];
             Vector3 finalGoalPos = gridManager.GetWorldPosition(logicalRow, mappedCol);
 
             GameObject floorObj = GameObject.FindGameObjectWithTag("Floor");

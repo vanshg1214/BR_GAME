@@ -59,13 +59,24 @@ namespace ArcRoll.Core
             Debug.Log("ArcRoll Game Started");
         }
 
+        /// <summary>Freeze the countdown during a break. Game is still "active" for score tracking.</summary>
+        public void PauseGame()
+        {
+            isGameActive = false;
+        }
+
+        /// <summary>Resume the countdown after a break.</summary>
+        public void ResumeGame()
+        {
+            isGameActive = true;
+        }
+
         private void Update()
         {
             if (!isGameActive) return;
             
             timeRemaining = Mathf.Max(0, timeRemaining - Time.deltaTime);
-            if (timeRemaining == 0) EndGame();
-            
+            // Do NOT auto-end here — LevelDirector calls EndGame() explicitly when all rounds finish.
             OnTimeUpdated?.Invoke(timeRemaining);
         }
 

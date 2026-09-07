@@ -118,8 +118,11 @@ namespace PopstrikeVR.UI
         {
             if (timerText != null)
             {
-                int minutes = Mathf.FloorToInt(remainingSeconds / 60f);
-                int seconds = Mathf.FloorToInt(remainingSeconds % 60f);
+                // Round up so that 59.9 seconds shows as 1:00 instead of dropping to 0:59 instantly.
+                // This keeps it perfectly synced with the center-screen 'CeilToInt' countdown.
+                int totalSeconds = Mathf.CeilToInt(remainingSeconds);
+                int minutes = Mathf.FloorToInt(totalSeconds / 60f);
+                int seconds = totalSeconds % 60;
                 timerText.text = $"{minutes:00}:{seconds:00}";
             }
         }

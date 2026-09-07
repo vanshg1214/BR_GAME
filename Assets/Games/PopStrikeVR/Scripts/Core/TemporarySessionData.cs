@@ -23,7 +23,7 @@ namespace PopstrikeVR.Core
     public static class TemporarySessionData
     {
         public static HandTrackingMode HandMode = HandTrackingMode.BothHands;
-        public static string Difficulty = "Easy"; // "Easy", "Medium", "Hard"
+        public static string Difficulty = "Medium"; // "Easy", "Medium", "Hard"
         public static SessionDuration Duration = SessionDuration.ThreeMinutes;
         public static string JsonFileName = "level1.json"; // Used as fallback or single-level mode
         public static string LevelSubFolder = "PopStrikeVR"; // The exact StreamingAssets subfolder — preserved across scene reloads

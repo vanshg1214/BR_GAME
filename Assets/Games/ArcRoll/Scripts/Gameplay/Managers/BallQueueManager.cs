@@ -195,11 +195,11 @@ namespace ArcRoll.Gameplay
 
             // Don't fire if:
             // (a) A ball/frisbee is already sitting at the rest position waiting to be grabbed
-            // (b) We're already at the max ball cap
+            // (b) We're already at the max ball cap, OR we strictly want 0 old balls in the scene!
             // (c) No shots are queued
             // (d) The previous target is still visible/cleaning up
             if (isWaitingForGrab) return;
-            if (activeBalls.Count + activeFrisbees.Count >= maxBallsInScene) return;
+            if (activeBalls.Count > 0 || activeFrisbees.Count > 0) return; // Strict clean scene rule
             if (shotQueue.Count == 0) return;
             if (levelDirector != null && !levelDirector.IsTargetDestroyed) return;
 

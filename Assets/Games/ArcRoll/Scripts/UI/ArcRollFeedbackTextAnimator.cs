@@ -88,6 +88,8 @@ namespace ArcRoll.UI
             {
                 _rectTransform = _textMesh.rectTransform;
                 _originalAnchoredPosition = _rectTransform.anchoredPosition;
+                // Force X to 0 to ensure it holds perfectly straight in front of the headset!
+                _originalAnchoredPosition.x = 0f;
                 _originalColor = _textMesh.color;
                 _originalFontStyle = _textMesh.fontStyle;
             }

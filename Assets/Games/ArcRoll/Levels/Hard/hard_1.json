@@ -1,0 +1,31 @@
+{
+  "rounds": [
+    { "durationInMinutes": 1.0 },
+    { "durationInMinutes": 1.0 }
+  ],
+  "breaks": [
+    { "durationInMinutes": 0.25 }
+  ],
+  "spawnChances": {
+    "targets": {
+      "hoop": 25.0,
+      "pins": 25.0,
+      "balloon": 25.0,
+      "canPyramid": 25.0
+    },
+    "floorObstacles": {
+      "none": 20.0,
+      "sliding": 20.0,
+      "rumble": 15.0,
+      "speedbump": 15.0,
+      "swinging": 15.0,
+      "gate": 15.0
+    },
+    "aerialObstacles": {
+      "none": 20.0,
+      "sideways": 25.0,
+      "updown": 25.0,
+      "wavy": 30.0
+    }
+  }
+}

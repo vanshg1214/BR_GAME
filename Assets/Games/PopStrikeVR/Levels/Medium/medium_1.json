@@ -1,0 +1,16 @@
+{
+  "rounds": [
+    { "durationInMinutes": 1.0 },
+    { "durationInMinutes": 1.0 }
+  ],
+  "breaks": [
+    { "durationInMinutes": 0.25 }
+  ],
+  "spawnChances": {
+    "orangePunch": 0.5,
+    "blueSlash": 0.3,
+    "greenTrace": 0.2,
+    "tmtA": 0.0,
+    "tmtB": 0.0
+  }
+}

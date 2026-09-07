@@ -22,11 +22,14 @@ namespace PopstrikeVR.Core
         public PatientProfileSO patientProfile;
         public SessionConfigSO sessionConfig;
         
-        [Tooltip("The subdirectory path under StreamingAssets (e.g. PopStrikeVR/Easy)")]
-        public string levelSubFolder = "PopStrikeVR/Easy";
-        
-        [Tooltip("Name of the JSON file located in the subdirectory")]
-        public string jsonFileName = "level1.json";
+        [Header("Level Config Fallbacks (Manual Assignment)")]
+        [SerializeField] private TextAsset easyLevelConfig;
+        [SerializeField] private TextAsset mediumLevelConfig;
+        [SerializeField] private TextAsset hardLevelConfig;
+
+        [Header("Cloud Configuration")]
+        [Tooltip("Optional URL to dynamically fetch the JSON level data. (e.g. https://api.mygame.com/level1.json)")]
+        [SerializeField] private string externalLevelUrl;
 
         [Header("Timing")]
         [Tooltip("How much time the player has to figure out the puzzle before it times out.")]
@@ -71,6 +74,7 @@ namespace PopstrikeVR.Core
         private float sessionDurationSeconds = 180f;
         private bool isGameActive = false;
         private float timeRemaining = 0f;
+        private float currentPhaseEndTime = 0f;
 
         private void Awake()
         {
@@ -86,12 +90,8 @@ namespace PopstrikeVR.Core
         {
             if (isGameActive)
             {
-                timeRemaining = sessionDurationSeconds - (Time.time - gameStartTime);
-                if (timeRemaining <= 0f)
-                {
-                    timeRemaining = 0f;
-                    EndSession();
-                }
+                timeRemaining = currentPhaseEndTime - Time.time;
+                if (timeRemaining < 0f) timeRemaining = 0f;
 
                 if (PopstrikeVR.UI.PopstrikeHUDController.Instance != null)
                 {
@@ -117,7 +117,8 @@ namespace PopstrikeVR.Core
 
             if (TryGetComponent<PopstrikeResultsCalculator>(out var calc))
             {
-                calc.CalculateAndShowResults(levelSubFolder, sessionDuration, totalWavesSpawned, totalWavesMissed, totalErrors, TheoreticalMaxScore);
+                // We no longer pass levelSubFolder to results since it was removed, passing Difficulty instead.
+                calc.CalculateAndShowResults(TemporarySessionData.Difficulty, sessionDuration, totalWavesSpawned, totalWavesMissed, totalErrors, TheoreticalMaxScore);
             }
             else
             {
@@ -149,7 +150,7 @@ namespace PopstrikeVR.Core
             }
 
             // Fallback (for developer scene testing without a menu): Start directly with inspector defaults
-            StartSession(activeHandMode, levelSubFolder.Replace("PopStrikeVR/", ""), sessionDuration);
+            StartSession(activeHandMode, "Easy", sessionDuration);
         }
 
         /// <summary>
@@ -159,7 +160,7 @@ namespace PopstrikeVR.Core
         {
             activeHandMode = handMode;
             sessionDuration = duration;
-            levelSubFolder = "PopStrikeVR/" + difficulty;
+            TemporarySessionData.Difficulty = difficulty;
             
             // --- DIFFICULTY TIMING LOGIC ---
             if (difficulty.Equals("Easy", System.StringComparison.OrdinalIgnoreCase))
@@ -182,43 +183,27 @@ namespace PopstrikeVR.Core
             if (!TemporarySessionData.IsConfigured)
             {
                 // DEVELOPER FALLBACK: Played directly from the scene without the Menu
-                jsonFileName = "try_level.json";
-                levelSubFolder = "PopStrikeVR"; // try_level.json is NOT inside the Easy/Medium folders!
                 randomizeTaskOrder = false;
-                TemporarySessionData.JsonFileName = jsonFileName;
-                TemporarySessionData.LevelSubFolder = levelSubFolder; // Save so Next Level works
-                Debug.Log($"[LevelDirector] DEVELOPER MODE: Bypassed Menu, loading {jsonFileName} from {levelSubFolder}");
+                Debug.Log($"[LevelDirector] DEVELOPER MODE: Bypassed Menu, loading fallback TextAsset for {TemporarySessionData.Difficulty}");
             }
             else if (TemporarySessionData.IsRetry)
             {
-                jsonFileName = TemporarySessionData.JsonFileName;
-                levelSubFolder = TemporarySessionData.LevelSubFolder; // Restore exact path
                 randomizeTaskOrder = (TemporarySessionData.CurrentLevelIndex > 1);
-                Debug.Log($"[LevelDirector] RETRY TRIGGERED. Reloading exactly {jsonFileName} for Level {TemporarySessionData.CurrentLevelIndex}");
+                Debug.Log($"[LevelDirector] RETRY TRIGGERED. Reloading exactly Level {TemporarySessionData.CurrentLevelIndex}");
                 TemporarySessionData.IsRetry = false; // Reset the flag after consuming it
             }
             else if (TemporarySessionData.CurrentLevelIndex == 1)
             {
-                // Level 1 is always exactly level1.json and never shuffled.
-                jsonFileName = "level1.json";
+                // Level 1 is never shuffled.
                 randomizeTaskOrder = false; 
-                TemporarySessionData.JsonFileName = jsonFileName; // Cache it
-                TemporarySessionData.LevelSubFolder = levelSubFolder; // Save the subfolder too
-                Debug.Log($"[LevelDirector] Selected {jsonFileName} for Level 1 (Strict Authored Order)");
+                Debug.Log($"[LevelDirector] Selected Level 1 (Strict Authored Order)");
             }
             else
             {
-                // Level 2+ reuses the exact same JSON configuration indefinitely.
+                // Level 2+ reuses the exact same configuration indefinitely.
                 // Because the coordinates are procedurally generated, the same JSON produces infinite unique levels!
-                jsonFileName = TemporarySessionData.JsonFileName;
-                levelSubFolder = TemporarySessionData.LevelSubFolder; // CRITICAL: Restore the exact folder so path is correct
-                
-                // Safety fallback if it was somehow lost
-                if (string.IsNullOrEmpty(jsonFileName)) jsonFileName = "try_level.json";
-                if (string.IsNullOrEmpty(levelSubFolder)) levelSubFolder = "PopStrikeVR";
-
                 randomizeTaskOrder = true; // Always randomize tasks for subsequent levels
-                Debug.Log($"[LevelDirector] Reusing {levelSubFolder}/{jsonFileName} for Level {TemporarySessionData.CurrentLevelIndex} (Procedurally Shuffled for infinite levels)");
+                Debug.Log($"[LevelDirector] Reusing configuration for Level {TemporarySessionData.CurrentLevelIndex} (Procedurally Shuffled for infinite levels)");
             }
 
             StartCoroutine(InitSessionSequence());
@@ -292,35 +277,62 @@ namespace PopstrikeVR.Core
                 PopstrikeVR.Interaction.GestureDetector.Instance.SetPatientProfile(patientProfile);
             }
 
-            string path = System.IO.Path.Combine(Application.streamingAssetsPath, levelSubFolder, jsonFileName);
             string jsonContent = "";
+            bool externalLoadSuccess = false;
 
-#if UNITY_ANDROID && !UNITY_EDITOR
-            // On Android, StreamingAssets are locked inside the APK, so we MUST use UnityWebRequest
-            using (UnityEngine.Networking.UnityWebRequest www = UnityEngine.Networking.UnityWebRequest.Get(path))
+            if (!string.IsNullOrEmpty(externalLevelUrl))
             {
-                yield return www.SendWebRequest();
-                if (www.result == UnityEngine.Networking.UnityWebRequest.Result.Success)
+                string urlToLoad = externalLevelUrl;
+                // If it looks like a local absolute path without a protocol, add file:///
+                if (!urlToLoad.StartsWith("http") && !urlToLoad.StartsWith("file://"))
                 {
-                    jsonContent = www.downloadHandler.text;
+                    urlToLoad = "file:///" + urlToLoad.Replace("\\", "/");
+                }
+
+                Debug.Log($"[LevelDirector] Attempting to fetch cloud JSON config from: {urlToLoad}");
+                using (UnityEngine.Networking.UnityWebRequest www = UnityEngine.Networking.UnityWebRequest.Get(urlToLoad))
+                {
+                    yield return www.SendWebRequest();
+                    if (www.result == UnityEngine.Networking.UnityWebRequest.Result.Success)
+                    {
+                        jsonContent = www.downloadHandler.text;
+                        externalLoadSuccess = true;
+                        Debug.Log("[LevelDirector] Successfully fetched cloud JSON config.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"[LevelDirector] Failed to fetch external JSON config ({www.error}). Falling back to manual assignment.");
+                    }
+                }
+            }
+
+            // FALLBACK TO TEXTASSET
+            if (!externalLoadSuccess)
+            {
+                TextAsset fallbackAsset = null;
+                string diff = TemporarySessionData.Difficulty;
+                
+                if (diff.Equals("Easy", System.StringComparison.OrdinalIgnoreCase)) fallbackAsset = easyLevelConfig;
+                else if (diff.Equals("Medium", System.StringComparison.OrdinalIgnoreCase)) fallbackAsset = mediumLevelConfig;
+                else if (diff.Equals("Hard", System.StringComparison.OrdinalIgnoreCase)) fallbackAsset = hardLevelConfig;
+
+                if (fallbackAsset == null)
+                {
+                    // Ultimate fallback
+                    fallbackAsset = easyLevelConfig;
+                    Debug.LogWarning("[LevelDirector] Primary fallback TextAsset was null! Defaulting to easyLevelConfig.");
+                }
+
+                if (fallbackAsset != null)
+                {
+                    jsonContent = fallbackAsset.text;
+                    Debug.Log($"[LevelDirector] Loaded fallback TextAsset for difficulty: {diff}");
                 }
                 else
                 {
-                    Debug.LogError($"[LevelDirector] Failed to load JSON from StreamingAssets: {www.error}");
+                    Debug.LogError("[LevelDirector] CRITICAL ERROR: All fallbacks failed. No TextAsset assigned for level config.");
                 }
             }
-#else
-            // In the Editor, standard System.IO works fine
-            if (System.IO.File.Exists(path))
-            {
-                jsonContent = System.IO.File.ReadAllText(path);
-            }
-            else
-            {
-                Debug.LogError($"[LevelDirector] File not found: {path}");
-            }
-            yield return null; // Yield one frame just to be safe
-#endif
 
             currentLevelConfig = JSONLevelParser.ParseLevelJSON(jsonContent);
             
@@ -328,9 +340,12 @@ namespace PopstrikeVR.Core
             {
                 Debug.Log($"[LevelDirector] Successfully loaded procedural config. Starting Game Loop...");
                 
-                // Calculate total duration from JSON rounds/breaks to pre-populate the HUD timer
+                float firstRoundSeconds = 180f;
+                // Calculate total duration from JSON rounds/breaks for the results calculator
                 if (currentLevelConfig.rounds != null && currentLevelConfig.rounds.Count > 0)
                 {
+                    firstRoundSeconds = currentLevelConfig.rounds[0].durationInMinutes * 60f;
+                    
                     float totalMinutes = 0f;
                     foreach (var r in currentLevelConfig.rounds) totalMinutes += r.durationInMinutes;
                     if (currentLevelConfig.breaks != null)
@@ -347,7 +362,8 @@ namespace PopstrikeVR.Core
                 
                 if (PopstrikeVR.UI.PopstrikeHUDController.Instance != null)
                 {
-                    PopstrikeVR.UI.PopstrikeHUDController.Instance.UpdateTimerUI(sessionDurationSeconds);
+                    // Prepopulate HUD with the first round's duration
+                    PopstrikeVR.UI.PopstrikeHUDController.Instance.UpdateTimerUI(firstRoundSeconds);
                 }
 
                 StartCoroutine(GameLoop());
@@ -452,6 +468,7 @@ namespace PopstrikeVR.Core
 
                     float roundDurationSeconds = currentLevelConfig.rounds[roundIndex].durationInMinutes * 60f;
                     float roundStartTime = Time.time; // Local timer for this specific round
+                    currentPhaseEndTime = Time.time + roundDurationSeconds;
 
                     while (isGameActive && Time.time - roundStartTime < roundDurationSeconds)
                     {
@@ -667,6 +684,8 @@ namespace PopstrikeVR.Core
                                 levelAnnouncementText.text = "BREAK";
                             }
 
+                            currentPhaseEndTime = Time.time + breakDurationSeconds;
+
                             while (isGameActive && Time.time - breakStartTime < breakDurationSeconds)
                             {
                                 float remainingSeconds = breakDurationSeconds - (Time.time - breakStartTime);
@@ -679,7 +698,7 @@ namespace PopstrikeVR.Core
                                         levelAnnouncementText.text = "BREAK";
                                 }
 
-                                // Global Update() handles the HUD Timer now, so we just wait!
+                                // Global Update() handles the HUD Timer syncing with currentPhaseEndTime
                                 yield return null;
                             }
 

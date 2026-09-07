@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using PopstrikeVR.Data;
-using Newtonsoft.Json;
 
 namespace PopstrikeVR.Core
 {
@@ -69,7 +68,7 @@ namespace PopstrikeVR.Core
 
             try
             {
-                return JsonConvert.DeserializeObject<PopstrikeLevelJSON>(jsonContent);
+                return JsonUtility.FromJson<PopstrikeLevelJSON>(jsonContent);
             }
             catch (Exception e)
             {

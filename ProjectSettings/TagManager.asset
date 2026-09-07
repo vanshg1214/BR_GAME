@@ -10,6 +10,27 @@ TagManager:
   - Floor
   - Frisbee
   - Net
+  - QDSUIPrimaryButton
+  - QDSUITextSecondaryInvertedColor
+  - QDSUIAccentColor
+  - QDSUITextInvertedColor
+  - QDSUISecondaryButton
+  - QDSUIIcon
+  - QDSUIDestructiveButton
+  - QDSUISharedThemeColor
+  - QDSUIBorderlessButton
+  - QDSUIBackplate
+  - QDSUIBackplateGradient
+  - QDSUIToggleButton
+  - QDSUITextSecondaryColor
+  - QDSUITooltip
+  - QDSUIToggleBorderlessButton
+  - QDSUISection
+  - QDSUITextInputField
+  - QDSUILineDrawing
+  - QDSUIToggleSwitch
+  - QDSUIToggleCheckboxRadio
+  - QDSUIToggleThumbnail
   layers:
   - Default
   - TransparentFX
